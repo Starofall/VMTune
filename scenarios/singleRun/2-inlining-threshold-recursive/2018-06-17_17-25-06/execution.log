@@ -1,0 +1,438 @@
+
+> Do VMTouch Prepare
+           Files: 8977
+     Directories: 1322
+   Touched Pages: 241452 (943M)
+         Elapsed: 0.79372 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-1-Inlining-threshold-recursive
+> ExecStrategy   | Step
+> Steps Created  | Count: 84
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 100}
+> Statistics     | 1/84 took 31390ms - remaining ~2605sec
+> FullState      | {'passedTime': 30346}
+> ResultValue    | 30346
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 120}
+> Statistics     | 2/84 took 31607ms - remaining ~2591sec
+> FullState      | {'passedTime': 30562}
+> ResultValue    | 30562
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 140}
+> Statistics     | 3/84 took 31618ms - remaining ~2561sec
+> FullState      | {'passedTime': 30576}
+> ResultValue    | 30576
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 160}
+> Statistics     | 4/84 took 31678ms - remaining ~2534sec
+> FullState      | {'passedTime': 30631}
+> ResultValue    | 30631
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 180}
+> Statistics     | 5/84 took 31629ms - remaining ~2498sec
+> FullState      | {'passedTime': 30577}
+> ResultValue    | 30577
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 200}
+> Statistics     | 6/84 took 31568ms - remaining ~2462sec
+> FullState      | {'passedTime': 30520}
+> ResultValue    | 30520
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 220}
+> Statistics     | 7/84 took 31606ms - remaining ~2433sec
+> FullState      | {'passedTime': 30559}
+> ResultValue    | 30559
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 240}
+> Statistics     | 8/84 took 31559ms - remaining ~2398sec
+> FullState      | {'passedTime': 30518}
+> ResultValue    | 30518
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 260}
+> Statistics     | 9/84 took 31048ms - remaining ~2328sec
+> FullState      | {'passedTime': 30004}
+> ResultValue    | 30004
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 280}
+> Statistics     | 10/84 took 31063ms - remaining ~2298sec
+> FullState      | {'passedTime': 30024}
+> ResultValue    | 30024
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 300}
+> Statistics     | 11/84 took 31060ms - remaining ~2267sec
+> FullState      | {'passedTime': 30012}
+> ResultValue    | 30012
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 320}
+> Statistics     | 12/84 took 31026ms - remaining ~2233sec
+> FullState      | {'passedTime': 29974}
+> ResultValue    | 29974
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 340}
+> Statistics     | 13/84 took 31055ms - remaining ~2204sec
+> FullState      | {'passedTime': 30012}
+> ResultValue    | 30012
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 360}
+> Statistics     | 14/84 took 31107ms - remaining ~2177sec
+> FullState      | {'passedTime': 30062}
+> ResultValue    | 30062
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 380}
+> Statistics     | 15/84 took 31009ms - remaining ~2139sec
+> FullState      | {'passedTime': 29967}
+> ResultValue    | 29967
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 400}
+> Statistics     | 16/84 took 31061ms - remaining ~2112sec
+> FullState      | {'passedTime': 30017}
+> ResultValue    | 30017
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 420}
+> Statistics     | 17/84 took 31009ms - remaining ~2077sec
+> FullState      | {'passedTime': 29969}
+> ResultValue    | 29969
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 440}
+> Statistics     | 18/84 took 30716ms - remaining ~2027sec
+> FullState      | {'passedTime': 29668}
+> ResultValue    | 29668
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 460}
+> Statistics     | 19/84 took 30980ms - remaining ~2013sec
+> FullState      | {'passedTime': 29929}
+> ResultValue    | 29929
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 480}
+> Statistics     | 20/84 took 31013ms - remaining ~1984sec
+> FullState      | {'passedTime': 29967}
+> ResultValue    | 29967
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 500}
+> Statistics     | 21/84 took 31034ms - remaining ~1955sec
+> FullState      | {'passedTime': 29945}
+> ResultValue    | 29945
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 100}
+> Statistics     | 22/84 took 31588ms - remaining ~1958sec
+> FullState      | {'passedTime': 30542}
+> ResultValue    | 30542
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 120}
+> Statistics     | 23/84 took 31610ms - remaining ~1928sec
+> FullState      | {'passedTime': 30568}
+> ResultValue    | 30568
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 140}
+> Statistics     | 24/84 took 31615ms - remaining ~1896sec
+> FullState      | {'passedTime': 30569}
+> ResultValue    | 30569
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 160}
+> Statistics     | 25/84 took 31647ms - remaining ~1867sec
+> FullState      | {'passedTime': 30596}
+> ResultValue    | 30596
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 180}
+> Statistics     | 26/84 took 31396ms - remaining ~1820sec
+> FullState      | {'passedTime': 30346}
+> ResultValue    | 30346
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 200}
+> Statistics     | 27/84 took 31495ms - remaining ~1795sec
+> FullState      | {'passedTime': 30446}
+> ResultValue    | 30446
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 220}
+> Statistics     | 28/84 took 31558ms - remaining ~1767sec
+> FullState      | {'passedTime': 30516}
+> ResultValue    | 30516
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 240}
+> Statistics     | 29/84 took 31557ms - remaining ~1735sec
+> FullState      | {'passedTime': 30510}
+> ResultValue    | 30510
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 260}
+> Statistics     | 30/84 took 31023ms - remaining ~1675sec
+> FullState      | {'passedTime': 29977}
+> ResultValue    | 29977
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 280}
+> Statistics     | 31/84 took 31070ms - remaining ~1646sec
+> FullState      | {'passedTime': 30028}
+> ResultValue    | 30028
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 300}
+> Statistics     | 32/84 took 31030ms - remaining ~1613sec
+> FullState      | {'passedTime': 29981}
+> ResultValue    | 29981
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 320}
+> Statistics     | 33/84 took 31067ms - remaining ~1584sec
+> FullState      | {'passedTime': 30024}
+> ResultValue    | 30024
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 340}
+> Statistics     | 34/84 took 31012ms - remaining ~1550sec
+> FullState      | {'passedTime': 29965}
+> ResultValue    | 29965
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 360}
+> Statistics     | 35/84 took 31056ms - remaining ~1521sec
+> FullState      | {'passedTime': 30014}
+> ResultValue    | 30014
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 380}
+> Statistics     | 36/84 took 31031ms - remaining ~1489sec
+> FullState      | {'passedTime': 29980}
+> ResultValue    | 29980
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 400}
+> Statistics     | 37/84 took 30997ms - remaining ~1456sec
+> FullState      | {'passedTime': 29957}
+> ResultValue    | 29957
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 420}
+> Statistics     | 38/84 took 30992ms - remaining ~1425sec
+> FullState      | {'passedTime': 29950}
+> ResultValue    | 29950
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 440}
+> Statistics     | 39/84 took 30975ms - remaining ~1393sec
+> FullState      | {'passedTime': 29923}
+> ResultValue    | 29923
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 460}
+> Statistics     | 40/84 took 31104ms - remaining ~1368sec
+> FullState      | {'passedTime': 30049}
+> ResultValue    | 30049
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 480}
+> Statistics     | 41/84 took 31042ms - remaining ~1334sec
+> FullState      | {'passedTime': 29997}
+> ResultValue    | 29997
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 500}
+> Statistics     | 42/84 took 30979ms - remaining ~1301sec
+> FullState      | {'passedTime': 29929}
+> ResultValue    | 29929
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 100}
+> Statistics     | 43/84 took 31582ms - remaining ~1294sec
+> FullState      | {'passedTime': 30540}
+> ResultValue    | 30540
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 120}
+> Statistics     | 44/84 took 31345ms - remaining ~1253sec
+> FullState      | {'passedTime': 30298}
+> ResultValue    | 30298
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 140}
+> Statistics     | 45/84 took 31663ms - remaining ~1234sec
+> FullState      | {'passedTime': 30617}
+> ResultValue    | 30617
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 160}
+> Statistics     | 46/84 took 31606ms - remaining ~1201sec
+> FullState      | {'passedTime': 30558}
+> ResultValue    | 30558
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 180}
+> Statistics     | 47/84 took 31590ms - remaining ~1168sec
+> FullState      | {'passedTime': 30540}
+> ResultValue    | 30540
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 200}
+> Statistics     | 48/84 took 31352ms - remaining ~1128sec
+> FullState      | {'passedTime': 30303}
+> ResultValue    | 30303
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 220}
+> Statistics     | 49/84 took 31271ms - remaining ~1094sec
+> FullState      | {'passedTime': 30223}
+> ResultValue    | 30223
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 240}
+> Statistics     | 50/84 took 31560ms - remaining ~1073sec
+> FullState      | {'passedTime': 30514}
+> ResultValue    | 30514
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 260}
+> Statistics     | 51/84 took 31050ms - remaining ~1024sec
+> FullState      | {'passedTime': 29999}
+> ResultValue    | 29999
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 280}
+> Statistics     | 52/84 took 31017ms - remaining ~992sec
+> FullState      | {'passedTime': 29972}
+> ResultValue    | 29972
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 300}
+> Statistics     | 53/84 took 31044ms - remaining ~962sec
+> FullState      | {'passedTime': 29993}
+> ResultValue    | 29993
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 320}
+> Statistics     | 54/84 took 31083ms - remaining ~932sec
+> FullState      | {'passedTime': 30034}
+> ResultValue    | 30034
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 340}
+> Statistics     | 55/84 took 31062ms - remaining ~900sec
+> FullState      | {'passedTime': 30015}
+> ResultValue    | 30015
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 360}
+> Statistics     | 56/84 took 31036ms - remaining ~869sec
+> FullState      | {'passedTime': 29990}
+> ResultValue    | 29990
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 380}
+> Statistics     | 57/84 took 31147ms - remaining ~840sec
+> FullState      | {'passedTime': 30103}
+> ResultValue    | 30103
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 400}
+> Statistics     | 58/84 took 30748ms - remaining ~799sec
+> FullState      | {'passedTime': 29701}
+> ResultValue    | 29701
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 420}
+> Statistics     | 59/84 took 31002ms - remaining ~775sec
+> FullState      | {'passedTime': 29955}
+> ResultValue    | 29955
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 440}
+> Statistics     | 60/84 took 30988ms - remaining ~743sec
+> FullState      | {'passedTime': 29938}
+> ResultValue    | 29938
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 460}
+> Statistics     | 61/84 took 30947ms - remaining ~711sec
+> FullState      | {'passedTime': 29895}
+> ResultValue    | 29895
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 480}
+> Statistics     | 62/84 took 31003ms - remaining ~682sec
+> FullState      | {'passedTime': 29954}
+> ResultValue    | 29954
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 500}
+> Statistics     | 63/84 took 30744ms - remaining ~645sec
+> FullState      | {'passedTime': 29691}
+> ResultValue    | 29691
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 100}
+> Statistics     | 64/84 took 31370ms - remaining ~627sec
+> FullState      | {'passedTime': 30326}
+> ResultValue    | 30326
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 120}
+> Statistics     | 65/84 took 31595ms - remaining ~600sec
+> FullState      | {'passedTime': 30548}
+> ResultValue    | 30548
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 140}
+> Statistics     | 66/84 took 31609ms - remaining ~568sec
+> FullState      | {'passedTime': 30563}
+> ResultValue    | 30563
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 160}
+> Statistics     | 67/84 took 31582ms - remaining ~536sec
+> FullState      | {'passedTime': 30536}
+> ResultValue    | 30536
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 180}
+> Statistics     | 68/84 took 31456ms - remaining ~503sec
+> FullState      | {'passedTime': 30401}
+> ResultValue    | 30401
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 200}
+> Statistics     | 69/84 took 31550ms - remaining ~473sec
+> FullState      | {'passedTime': 30502}
+> ResultValue    | 30502
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 220}
+> Statistics     | 70/84 took 31530ms - remaining ~441sec
+> FullState      | {'passedTime': 30484}
+> ResultValue    | 30484
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 240}
+> Statistics     | 71/84 took 31568ms - remaining ~410sec
+> FullState      | {'passedTime': 30527}
+> ResultValue    | 30527
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 260}
+> Statistics     | 72/84 took 30791ms - remaining ~369sec
+> FullState      | {'passedTime': 29745}
+> ResultValue    | 29745
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 280}
+> Statistics     | 73/84 took 31142ms - remaining ~342sec
+> FullState      | {'passedTime': 30098}
+> ResultValue    | 30098
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 300}
+> Statistics     | 74/84 took 31032ms - remaining ~310sec
+> FullState      | {'passedTime': 29989}
+> ResultValue    | 29989
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 320}
+> Statistics     | 75/84 took 31035ms - remaining ~279sec
+> FullState      | {'passedTime': 29987}
+> ResultValue    | 29987
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 340}
+> Statistics     | 76/84 took 31003ms - remaining ~248sec
+> FullState      | {'passedTime': 29954}
+> ResultValue    | 29954
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 360}
+> Statistics     | 77/84 took 31028ms - remaining ~217sec
+> FullState      | {'passedTime': 29983}
+> ResultValue    | 29983
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 380}
+> Statistics     | 78/84 took 30739ms - remaining ~184sec
+> FullState      | {'passedTime': 29694}
+> ResultValue    | 29694
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 400}
+> Statistics     | 79/84 took 31030ms - remaining ~155sec
+> FullState      | {'passedTime': 29985}
+> ResultValue    | 29985
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 420}
+> Statistics     | 80/84 took 30982ms - remaining ~123sec
+> FullState      | {'passedTime': 29931}
+> ResultValue    | 29931
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 440}
+> Statistics     | 81/84 took 30445ms - remaining ~91sec
+> FullState      | {'passedTime': 29393}
+> ResultValue    | 29393
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 460}
+> Statistics     | 82/84 took 30749ms - remaining ~61sec
+> FullState      | {'passedTime': 29706}
+> ResultValue    | 29706
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 480}
+> Statistics     | 83/84 took 30980ms - remaining ~30sec
+> FullState      | {'passedTime': 29932}
+> ResultValue    | 29932
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 500}
+> Statistics     | 84/84 took 30737ms - remaining ~0sec
+> FullState      | {'passedTime': 29697}
+> ResultValue    | 29697
+>
+> Finished workflow
+######################################
+> Reporting on   | SingleRun-1-Inlining-threshold-recursive
+> Found 2 knobs, creating heat map...
+> Plot saved at scenarios/singleRun/2-inlining-threshold-recursive/2018-06-17_17-25-06/heatmap.png

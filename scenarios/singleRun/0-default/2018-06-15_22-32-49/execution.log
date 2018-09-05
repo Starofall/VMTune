@@ -1,0 +1,114 @@
+
+> Do VMTouch Prepare
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Default
+> ExecStrategy   | Step
+> Steps Created  | Count: 20
+>
+> KnobValues     | {'irrelevant': 1}
+> Statistics     | 1/20 took 10474ms - remaining ~199sec
+> FullState      | {'passedTime': 9871}
+> ResultValue    | 9871
+>
+> KnobValues     | {'irrelevant': 2}
+> Statistics     | 2/20 took 10349ms - remaining ~186sec
+> FullState      | {'passedTime': 9757}
+> ResultValue    | 9757
+>
+> KnobValues     | {'irrelevant': 3}
+> Statistics     | 3/20 took 10161ms - remaining ~172sec
+> FullState      | {'passedTime': 9570}
+> ResultValue    | 9570
+>
+> KnobValues     | {'irrelevant': 4}
+> Statistics     | 4/20 took 10288ms - remaining ~164sec
+> FullState      | {'passedTime': 9593}
+> ResultValue    | 9593
+>
+> KnobValues     | {'irrelevant': 5}
+> Statistics     | 5/20 took 10287ms - remaining ~154sec
+> FullState      | {'passedTime': 9688}
+> ResultValue    | 9688
+>
+> KnobValues     | {'irrelevant': 6}
+> Statistics     | 6/20 took 11135ms - remaining ~155sec
+> FullState      | {'passedTime': 10526}
+> ResultValue    | 10526
+>
+> KnobValues     | {'irrelevant': 7}
+> Statistics     | 7/20 took 10467ms - remaining ~136sec
+> FullState      | {'passedTime': 9797}
+> ResultValue    | 9797
+>
+> KnobValues     | {'irrelevant': 8}
+> Statistics     | 8/20 took 11949ms - remaining ~143sec
+> FullState      | {'passedTime': 11275}
+> ResultValue    | 11275
+>
+> KnobValues     | {'irrelevant': 9}
+> Statistics     | 9/20 took 10855ms - remaining ~119sec
+> FullState      | {'passedTime': 9950}
+> ResultValue    | 9950
+>
+> KnobValues     | {'irrelevant': 10}
+> Statistics     | 10/20 took 10265ms - remaining ~102sec
+> FullState      | {'passedTime': 9671}
+> ResultValue    | 9671
+>
+> KnobValues     | {'irrelevant': 11}
+> Statistics     | 11/20 took 10096ms - remaining ~90sec
+> FullState      | {'passedTime': 9506}
+> ResultValue    | 9506
+>
+> KnobValues     | {'irrelevant': 12}
+> Statistics     | 12/20 took 10173ms - remaining ~81sec
+> FullState      | {'passedTime': 9542}
+> ResultValue    | 9542
+>
+> KnobValues     | {'irrelevant': 13}
+> Statistics     | 13/20 took 10128ms - remaining ~70sec
+> FullState      | {'passedTime': 9529}
+> ResultValue    | 9529
+>
+> KnobValues     | {'irrelevant': 14}
+> Statistics     | 14/20 took 10033ms - remaining ~60sec
+> FullState      | {'passedTime': 9439}
+> ResultValue    | 9439
+>
+> KnobValues     | {'irrelevant': 15}
+> Statistics     | 15/20 took 10137ms - remaining ~50sec
+> FullState      | {'passedTime': 9548}
+> ResultValue    | 9548
+>
+> KnobValues     | {'irrelevant': 16}
+> Statistics     | 16/20 took 10744ms - remaining ~42sec
+> FullState      | {'passedTime': 10097}
+> ResultValue    | 10097
+>
+> KnobValues     | {'irrelevant': 17}
+> Statistics     | 17/20 took 10799ms - remaining ~32sec
+> FullState      | {'passedTime': 10207}
+> ResultValue    | 10207
+>
+> KnobValues     | {'irrelevant': 18}
+> Statistics     | 18/20 took 10480ms - remaining ~20sec
+> FullState      | {'passedTime': 9797}
+> ResultValue    | 9797
+>
+> KnobValues     | {'irrelevant': 19}
+> Statistics     | 19/20 took 10365ms - remaining ~10sec
+> FullState      | {'passedTime': 9719}
+> ResultValue    | 9719
+>
+> KnobValues     | {'irrelevant': 20}
+> Statistics     | 20/20 took 10646ms - remaining ~0sec
+> FullState      | {'passedTime': 10049}
+> ResultValue    | 10049
+>
+> Finished workflow
+######################################
+> Reporting on   | SingleRun-0-Default
+> Found 1 knob, creating scatter plot...
+> Plot saved at scenarios/singleRun/0-default/2018-06-15_22-32-49/scatter_plot.png

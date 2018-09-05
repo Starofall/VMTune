@@ -1,0 +1,473 @@
+
+> Do VMTouch Prepare
+           Files: 9119
+     Directories: 1379
+   Touched Pages: 241954 (945M)
+         Elapsed: 0.80035 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-2b-Inlining-size
+> ExecStrategy   | Step
+> Steps Created  | Count: 91
+>
+> KnobValues     | {'inlineSmallCode': 500}
+> Statistics     | 1/91 took 30734ms - remaining ~2766sec
+> FullState      | {'passedTime': 29693}
+> ResultValue    | 29693
+>
+> KnobValues     | {'inlineSmallCode': 550}
+> Statistics     | 2/91 took 30604ms - remaining ~2723sec
+> FullState      | {'passedTime': 29565}
+> ResultValue    | 29565
+>
+> KnobValues     | {'inlineSmallCode': 600}
+> Statistics     | 3/91 took 30670ms - remaining ~2698sec
+> FullState      | {'passedTime': 29632}
+> ResultValue    | 29632
+>
+> KnobValues     | {'inlineSmallCode': 650}
+> Statistics     | 4/91 took 31255ms - remaining ~2719sec
+> FullState      | {'passedTime': 30212}
+> ResultValue    | 30212
+>
+> KnobValues     | {'inlineSmallCode': 700}
+> Statistics     | 5/91 took 30853ms - remaining ~2653sec
+> FullState      | {'passedTime': 29820}
+> ResultValue    | 29820
+>
+> KnobValues     | {'inlineSmallCode': 750}
+> Statistics     | 6/91 took 31257ms - remaining ~2656sec
+> FullState      | {'passedTime': 30218}
+> ResultValue    | 30218
+>
+> KnobValues     | {'inlineSmallCode': 800}
+> Statistics     | 7/91 took 31275ms - remaining ~2627sec
+> FullState      | {'passedTime': 30236}
+> ResultValue    | 30236
+>
+> KnobValues     | {'inlineSmallCode': 850}
+> Statistics     | 8/91 took 31193ms - remaining ~2589sec
+> FullState      | {'passedTime': 30153}
+> ResultValue    | 30153
+>
+> KnobValues     | {'inlineSmallCode': 900}
+> Statistics     | 9/91 took 31195ms - remaining ~2557sec
+> FullState      | {'passedTime': 30164}
+> ResultValue    | 30164
+>
+> KnobValues     | {'inlineSmallCode': 950}
+> Statistics     | 10/91 took 31640ms - remaining ~2562sec
+> FullState      | {'passedTime': 30593}
+> ResultValue    | 30593
+>
+> KnobValues     | {'inlineSmallCode': 1000}
+> Statistics     | 11/91 took 31644ms - remaining ~2531sec
+> FullState      | {'passedTime': 30605}
+> ResultValue    | 30605
+>
+> KnobValues     | {'inlineSmallCode': 1050}
+> Statistics     | 12/91 took 31450ms - remaining ~2484sec
+> FullState      | {'passedTime': 30407}
+> ResultValue    | 30407
+>
+> KnobValues     | {'inlineSmallCode': 1100}
+> Statistics     | 13/91 took 31461ms - remaining ~2453sec
+> FullState      | {'passedTime': 30421}
+> ResultValue    | 30421
+>
+> KnobValues     | {'inlineSmallCode': 1150}
+> Statistics     | 14/91 took 31469ms - remaining ~2423sec
+> FullState      | {'passedTime': 30428}
+> ResultValue    | 30428
+>
+> KnobValues     | {'inlineSmallCode': 1200}
+> Statistics     | 15/91 took 31474ms - remaining ~2392sec
+> FullState      | {'passedTime': 30430}
+> ResultValue    | 30430
+>
+> KnobValues     | {'inlineSmallCode': 1250}
+> Statistics     | 16/91 took 31474ms - remaining ~2360sec
+> FullState      | {'passedTime': 30436}
+> ResultValue    | 30436
+>
+> KnobValues     | {'inlineSmallCode': 1300}
+> Statistics     | 17/91 took 32096ms - remaining ~2375sec
+> FullState      | {'passedTime': 31056}
+> ResultValue    | 31056
+>
+> KnobValues     | {'inlineSmallCode': 1350}
+> Statistics     | 18/91 took 32117ms - remaining ~2344sec
+> FullState      | {'passedTime': 31072}
+> ResultValue    | 31072
+>
+> KnobValues     | {'inlineSmallCode': 1400}
+> Statistics     | 19/91 took 31872ms - remaining ~2294sec
+> FullState      | {'passedTime': 30824}
+> ResultValue    | 30824
+>
+> KnobValues     | {'inlineSmallCode': 1450}
+> Statistics     | 20/91 took 31548ms - remaining ~2239sec
+> FullState      | {'passedTime': 30512}
+> ResultValue    | 30512
+>
+> KnobValues     | {'inlineSmallCode': 1500}
+> Statistics     | 21/91 took 31569ms - remaining ~2209sec
+> FullState      | {'passedTime': 30531}
+> ResultValue    | 30531
+>
+> KnobValues     | {'inlineSmallCode': 1550}
+> Statistics     | 22/91 took 31545ms - remaining ~2176sec
+> FullState      | {'passedTime': 30498}
+> ResultValue    | 30498
+>
+> KnobValues     | {'inlineSmallCode': 1600}
+> Statistics     | 23/91 took 31564ms - remaining ~2146sec
+> FullState      | {'passedTime': 30522}
+> ResultValue    | 30522
+>
+> KnobValues     | {'inlineSmallCode': 1650}
+> Statistics     | 24/91 took 31541ms - remaining ~2113sec
+> FullState      | {'passedTime': 30507}
+> ResultValue    | 30507
+>
+> KnobValues     | {'inlineSmallCode': 1700}
+> Statistics     | 25/91 took 31576ms - remaining ~2084sec
+> FullState      | {'passedTime': 30535}
+> ResultValue    | 30535
+>
+> KnobValues     | {'inlineSmallCode': 1750}
+> Statistics     | 26/91 took 31298ms - remaining ~2034sec
+> FullState      | {'passedTime': 30250}
+> ResultValue    | 30250
+>
+> KnobValues     | {'inlineSmallCode': 1800}
+> Statistics     | 27/91 took 31320ms - remaining ~2004sec
+> FullState      | {'passedTime': 30276}
+> ResultValue    | 30276
+>
+> KnobValues     | {'inlineSmallCode': 1850}
+> Statistics     | 28/91 took 31571ms - remaining ~1988sec
+> FullState      | {'passedTime': 30532}
+> ResultValue    | 30532
+>
+> KnobValues     | {'inlineSmallCode': 1900}
+> Statistics     | 29/91 took 31598ms - remaining ~1959sec
+> FullState      | {'passedTime': 30555}
+> ResultValue    | 30555
+>
+> KnobValues     | {'inlineSmallCode': 1950}
+> Statistics     | 30/91 took 31557ms - remaining ~1924sec
+> FullState      | {'passedTime': 30516}
+> ResultValue    | 30516
+>
+> KnobValues     | {'inlineSmallCode': 2000}
+> Statistics     | 31/91 took 31561ms - remaining ~1893sec
+> FullState      | {'passedTime': 30519}
+> ResultValue    | 30519
+>
+> KnobValues     | {'inlineSmallCode': 2050}
+> Statistics     | 32/91 took 31576ms - remaining ~1862sec
+> FullState      | {'passedTime': 30539}
+> ResultValue    | 30539
+>
+> KnobValues     | {'inlineSmallCode': 2100}
+> Statistics     | 33/91 took 31594ms - remaining ~1832sec
+> FullState      | {'passedTime': 30557}
+> ResultValue    | 30557
+>
+> KnobValues     | {'inlineSmallCode': 2150}
+> Statistics     | 34/91 took 31381ms - remaining ~1788sec
+> FullState      | {'passedTime': 30333}
+> ResultValue    | 30333
+>
+> KnobValues     | {'inlineSmallCode': 2200}
+> Statistics     | 35/91 took 31577ms - remaining ~1768sec
+> FullState      | {'passedTime': 30535}
+> ResultValue    | 30535
+>
+> KnobValues     | {'inlineSmallCode': 2250}
+> Statistics     | 36/91 took 31475ms - remaining ~1731sec
+> FullState      | {'passedTime': 30433}
+> ResultValue    | 30433
+>
+> KnobValues     | {'inlineSmallCode': 2300}
+> Statistics     | 37/91 took 32299ms - remaining ~1744sec
+> FullState      | {'passedTime': 31260}
+> ResultValue    | 31260
+>
+> KnobValues     | {'inlineSmallCode': 2350}
+> Statistics     | 38/91 took 32063ms - remaining ~1699sec
+> FullState      | {'passedTime': 31021}
+> ResultValue    | 31021
+>
+> KnobValues     | {'inlineSmallCode': 2400}
+> Statistics     | 39/91 took 32335ms - remaining ~1681sec
+> FullState      | {'passedTime': 31298}
+> ResultValue    | 31298
+>
+> KnobValues     | {'inlineSmallCode': 2450}
+> Statistics     | 40/91 took 32039ms - remaining ~1633sec
+> FullState      | {'passedTime': 30997}
+> ResultValue    | 30997
+>
+> KnobValues     | {'inlineSmallCode': 2500}
+> Statistics     | 41/91 took 32286ms - remaining ~1614sec
+> FullState      | {'passedTime': 31240}
+> ResultValue    | 31240
+>
+> KnobValues     | {'inlineSmallCode': 2550}
+> Statistics     | 42/91 took 32240ms - remaining ~1579sec
+> FullState      | {'passedTime': 31202}
+> ResultValue    | 31202
+>
+> KnobValues     | {'inlineSmallCode': 2600}
+> Statistics     | 43/91 took 32275ms - remaining ~1549sec
+> FullState      | {'passedTime': 31226}
+> ResultValue    | 31226
+>
+> KnobValues     | {'inlineSmallCode': 2650}
+> Statistics     | 44/91 took 32051ms - remaining ~1506sec
+> FullState      | {'passedTime': 31007}
+> ResultValue    | 31007
+>
+> KnobValues     | {'inlineSmallCode': 2700}
+> Statistics     | 45/91 took 31907ms - remaining ~1467sec
+> FullState      | {'passedTime': 30863}
+> ResultValue    | 30863
+>
+> KnobValues     | {'inlineSmallCode': 2750}
+> Statistics     | 46/91 took 32190ms - remaining ~1448sec
+> FullState      | {'passedTime': 31147}
+> ResultValue    | 31147
+>
+> KnobValues     | {'inlineSmallCode': 2800}
+> Statistics     | 47/91 took 32321ms - remaining ~1422sec
+> FullState      | {'passedTime': 31285}
+> ResultValue    | 31285
+>
+> KnobValues     | {'inlineSmallCode': 2850}
+> Statistics     | 48/91 took 32327ms - remaining ~1390sec
+> FullState      | {'passedTime': 31286}
+> ResultValue    | 31286
+>
+> KnobValues     | {'inlineSmallCode': 2900}
+> Statistics     | 49/91 took 32285ms - remaining ~1355sec
+> FullState      | {'passedTime': 31244}
+> ResultValue    | 31244
+>
+> KnobValues     | {'inlineSmallCode': 2950}
+> Statistics     | 50/91 took 31986ms - remaining ~1311sec
+> FullState      | {'passedTime': 30937}
+> ResultValue    | 30937
+>
+> KnobValues     | {'inlineSmallCode': 3000}
+> Statistics     | 51/91 took 32292ms - remaining ~1291sec
+> FullState      | {'passedTime': 31248}
+> ResultValue    | 31248
+>
+> KnobValues     | {'inlineSmallCode': 3050}
+> Statistics     | 52/91 took 32282ms - remaining ~1258sec
+> FullState      | {'passedTime': 31245}
+> ResultValue    | 31245
+>
+> KnobValues     | {'inlineSmallCode': 3100}
+> Statistics     | 53/91 took 31969ms - remaining ~1214sec
+> FullState      | {'passedTime': 30923}
+> ResultValue    | 30923
+>
+> KnobValues     | {'inlineSmallCode': 3150}
+> Statistics     | 54/91 took 32265ms - remaining ~1193sec
+> FullState      | {'passedTime': 31228}
+> ResultValue    | 31228
+>
+> KnobValues     | {'inlineSmallCode': 3200}
+> Statistics     | 55/91 took 32232ms - remaining ~1160sec
+> FullState      | {'passedTime': 31189}
+> ResultValue    | 31189
+>
+> KnobValues     | {'inlineSmallCode': 3250}
+> Statistics     | 56/91 took 32186ms - remaining ~1126sec
+> FullState      | {'passedTime': 31144}
+> ResultValue    | 31144
+>
+> KnobValues     | {'inlineSmallCode': 3300}
+> Statistics     | 57/91 took 32211ms - remaining ~1095sec
+> FullState      | {'passedTime': 31171}
+> ResultValue    | 31171
+>
+> KnobValues     | {'inlineSmallCode': 3350}
+> Statistics     | 58/91 took 32326ms - remaining ~1066sec
+> FullState      | {'passedTime': 31286}
+> ResultValue    | 31286
+>
+> KnobValues     | {'inlineSmallCode': 3400}
+> Statistics     | 59/91 took 32383ms - remaining ~1036sec
+> FullState      | {'passedTime': 31342}
+> ResultValue    | 31342
+>
+> KnobValues     | {'inlineSmallCode': 3450}
+> Statistics     | 60/91 took 32290ms - remaining ~1000sec
+> FullState      | {'passedTime': 31253}
+> ResultValue    | 31253
+>
+> KnobValues     | {'inlineSmallCode': 3500}
+> Statistics     | 61/91 took 32286ms - remaining ~968sec
+> FullState      | {'passedTime': 31237}
+> ResultValue    | 31237
+>
+> KnobValues     | {'inlineSmallCode': 3550}
+> Statistics     | 62/91 took 32286ms - remaining ~936sec
+> FullState      | {'passedTime': 31246}
+> ResultValue    | 31246
+>
+> KnobValues     | {'inlineSmallCode': 3600}
+> Statistics     | 63/91 took 32275ms - remaining ~903sec
+> FullState      | {'passedTime': 31232}
+> ResultValue    | 31232
+>
+> KnobValues     | {'inlineSmallCode': 3650}
+> Statistics     | 64/91 took 32265ms - remaining ~871sec
+> FullState      | {'passedTime': 31224}
+> ResultValue    | 31224
+>
+> KnobValues     | {'inlineSmallCode': 3700}
+> Statistics     | 65/91 took 32316ms - remaining ~840sec
+> FullState      | {'passedTime': 31279}
+> ResultValue    | 31279
+>
+> KnobValues     | {'inlineSmallCode': 3750}
+> Statistics     | 66/91 took 32322ms - remaining ~808sec
+> FullState      | {'passedTime': 31279}
+> ResultValue    | 31279
+>
+> KnobValues     | {'inlineSmallCode': 3800}
+> Statistics     | 67/91 took 31995ms - remaining ~767sec
+> FullState      | {'passedTime': 30957}
+> ResultValue    | 30957
+>
+> KnobValues     | {'inlineSmallCode': 3850}
+> Statistics     | 68/91 took 32263ms - remaining ~742sec
+> FullState      | {'passedTime': 31221}
+> ResultValue    | 31221
+>
+> KnobValues     | {'inlineSmallCode': 3900}
+> Statistics     | 69/91 took 31985ms - remaining ~703sec
+> FullState      | {'passedTime': 30925}
+> ResultValue    | 30925
+>
+> KnobValues     | {'inlineSmallCode': 3950}
+> Statistics     | 70/91 took 32278ms - remaining ~677sec
+> FullState      | {'passedTime': 31236}
+> ResultValue    | 31236
+>
+> KnobValues     | {'inlineSmallCode': 4000}
+> Statistics     | 71/91 took 31984ms - remaining ~639sec
+> FullState      | {'passedTime': 30944}
+> ResultValue    | 30944
+>
+> KnobValues     | {'inlineSmallCode': 4050}
+> Statistics     | 72/91 took 32266ms - remaining ~613sec
+> FullState      | {'passedTime': 31224}
+> ResultValue    | 31224
+>
+> KnobValues     | {'inlineSmallCode': 4100}
+> Statistics     | 73/91 took 32286ms - remaining ~581sec
+> FullState      | {'passedTime': 31245}
+> ResultValue    | 31245
+>
+> KnobValues     | {'inlineSmallCode': 4150}
+> Statistics     | 74/91 took 32270ms - remaining ~548sec
+> FullState      | {'passedTime': 31229}
+> ResultValue    | 31229
+>
+> KnobValues     | {'inlineSmallCode': 4200}
+> Statistics     | 75/91 took 32259ms - remaining ~516sec
+> FullState      | {'passedTime': 31217}
+> ResultValue    | 31217
+>
+> KnobValues     | {'inlineSmallCode': 4250}
+> Statistics     | 76/91 took 32273ms - remaining ~484sec
+> FullState      | {'passedTime': 31233}
+> ResultValue    | 31233
+>
+> KnobValues     | {'inlineSmallCode': 4300}
+> Statistics     | 77/91 took 32256ms - remaining ~451sec
+> FullState      | {'passedTime': 31217}
+> ResultValue    | 31217
+>
+> KnobValues     | {'inlineSmallCode': 4350}
+> Statistics     | 78/91 took 32276ms - remaining ~419sec
+> FullState      | {'passedTime': 31239}
+> ResultValue    | 31239
+>
+> KnobValues     | {'inlineSmallCode': 4400}
+> Statistics     | 79/91 took 32248ms - remaining ~386sec
+> FullState      | {'passedTime': 31206}
+> ResultValue    | 31206
+>
+> KnobValues     | {'inlineSmallCode': 4450}
+> Statistics     | 80/91 took 32016ms - remaining ~352sec
+> FullState      | {'passedTime': 30975}
+> ResultValue    | 30975
+>
+> KnobValues     | {'inlineSmallCode': 4500}
+> Statistics     | 81/91 took 32008ms - remaining ~320sec
+> FullState      | {'passedTime': 30968}
+> ResultValue    | 30968
+>
+> KnobValues     | {'inlineSmallCode': 4550}
+> Statistics     | 82/91 took 32311ms - remaining ~290sec
+> FullState      | {'passedTime': 31275}
+> ResultValue    | 31275
+>
+> KnobValues     | {'inlineSmallCode': 4600}
+> Statistics     | 83/91 took 32240ms - remaining ~257sec
+> FullState      | {'passedTime': 31199}
+> ResultValue    | 31199
+>
+> KnobValues     | {'inlineSmallCode': 4650}
+> Statistics     | 84/91 took 32592ms - remaining ~228sec
+> FullState      | {'passedTime': 31552}
+> ResultValue    | 31552
+>
+> KnobValues     | {'inlineSmallCode': 4700}
+> Statistics     | 85/91 took 32435ms - remaining ~194sec
+> FullState      | {'passedTime': 31393}
+> ResultValue    | 31393
+>
+> KnobValues     | {'inlineSmallCode': 4750}
+> Statistics     | 86/91 took 32325ms - remaining ~161sec
+> FullState      | {'passedTime': 31278}
+> ResultValue    | 31278
+>
+> KnobValues     | {'inlineSmallCode': 4800}
+> Statistics     | 87/91 took 32646ms - remaining ~130sec
+> FullState      | {'passedTime': 31604}
+> ResultValue    | 31604
+>
+> KnobValues     | {'inlineSmallCode': 4850}
+> Statistics     | 88/91 took 32606ms - remaining ~97sec
+> FullState      | {'passedTime': 31565}
+> ResultValue    | 31565
+>
+> KnobValues     | {'inlineSmallCode': 4900}
+> Statistics     | 89/91 took 32642ms - remaining ~65sec
+> FullState      | {'passedTime': 31605}
+> ResultValue    | 31605
+>
+> KnobValues     | {'inlineSmallCode': 4950}
+> Statistics     | 90/91 took 32890ms - remaining ~32sec
+> FullState      | {'passedTime': 31849}
+> ResultValue    | 31849
+>
+> KnobValues     | {'inlineSmallCode': 5000}
+> Statistics     | 91/91 took 32887ms - remaining ~0sec
+> FullState      | {'passedTime': 31850}
+> ResultValue    | 31850
+>
+> Finished workflow
+######################################
+> Reporting on   | SingleRun-2b-Inlining-size
+> Found 1 knob, creating scatter plot...
+> Plot saved at scenarios/singleRun/1c-inlining-size/2018-06-19_01-46-20/scatter_plot.png

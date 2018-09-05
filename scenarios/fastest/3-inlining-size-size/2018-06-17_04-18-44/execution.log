@@ -1,0 +1,668 @@
+
+> Do VMTouch Prepare
+           Files: 8964
+     Directories: 1319
+   Touched Pages: 241355 (942M)
+         Elapsed: 0.78967 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Inlining-size-size
+> ExecStrategy   | Step
+> Steps Created  | Count: 130
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 150}
+> Statistics     | 1/130 took 283738ms - remaining ~36602sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 200}
+> Statistics     | 2/130 took 282651ms - remaining ~36179sec
+> FullState      | {'minimumWarmupTime': 864}
+> ResultValue    | 864
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 250}
+> Statistics     | 3/130 took 283393ms - remaining ~35990sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 300}
+> Statistics     | 4/130 took 284358ms - remaining ~35829sec
+> FullState      | {'minimumWarmupTime': 865}
+> ResultValue    | 865
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 350}
+> Statistics     | 5/130 took 284623ms - remaining ~35577sec
+> FullState      | {'minimumWarmupTime': 865}
+> ResultValue    | 865
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 400}
+> Statistics     | 6/130 took 284884ms - remaining ~35325sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 450}
+> Statistics     | 7/130 took 285344ms - remaining ~35097sec
+> FullState      | {'minimumWarmupTime': 865}
+> ResultValue    | 865
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 500}
+> Statistics     | 8/130 took 286075ms - remaining ~34901sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 550}
+> Statistics     | 9/130 took 285993ms - remaining ~34605sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 600}
+> Statistics     | 10/130 took 287278ms - remaining ~34473sec
+> FullState      | {'minimumWarmupTime': 869}
+> ResultValue    | 869
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 650}
+> Statistics     | 11/130 took 285284ms - remaining ~33948sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 700}
+> Statistics     | 12/130 took 285239ms - remaining ~33658sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 10, 'freqInlineSize': 750}
+> Statistics     | 13/130 took 286002ms - remaining ~33462sec
+> FullState      | {'minimumWarmupTime': 865}
+> ResultValue    | 865
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 150}
+> Statistics     | 14/130 took 284551ms - remaining ~33007sec
+> FullState      | {'minimumWarmupTime': 868}
+> ResultValue    | 868
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 200}
+> Statistics     | 15/130 took 284166ms - remaining ~32679sec
+> FullState      | {'minimumWarmupTime': 868}
+> ResultValue    | 868
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 250}
+> Statistics     | 16/130 took 285314ms - remaining ~32525sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 300}
+> Statistics     | 17/130 took 285653ms - remaining ~32278sec
+> FullState      | {'minimumWarmupTime': 868}
+> ResultValue    | 868
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 350}
+> Statistics     | 18/130 took 286400ms - remaining ~32076sec
+> FullState      | {'minimumWarmupTime': 869}
+> ResultValue    | 869
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 400}
+> Statistics     | 19/130 took 286750ms - remaining ~31829sec
+> FullState      | {'minimumWarmupTime': 869}
+> ResultValue    | 869
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 450}
+> Statistics     | 20/130 took 286057ms - remaining ~31466sec
+> FullState      | {'minimumWarmupTime': 867}
+> ResultValue    | 867
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 500}
+> Statistics     | 21/130 took 286167ms - remaining ~31192sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 550}
+> Statistics     | 22/130 took 286604ms - remaining ~30953sec
+> FullState      | {'minimumWarmupTime': 868}
+> ResultValue    | 868
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 600}
+> Statistics     | 23/130 took 283248ms - remaining ~30307sec
+> FullState      | {'minimumWarmupTime': 856}
+> ResultValue    | 856
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 650}
+> Statistics     | 24/130 took 284575ms - remaining ~30164sec
+> FullState      | {'minimumWarmupTime': 860}
+> ResultValue    | 860
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 700}
+> Statistics     | 25/130 took 282696ms - remaining ~29683sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 20, 'freqInlineSize': 750}
+> Statistics     | 26/130 took 284910ms - remaining ~29630sec
+> FullState      | {'minimumWarmupTime': 861}
+> ResultValue    | 861
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 150}
+> Statistics     | 27/130 took 286813ms - remaining ~29541sec
+> FullState      | {'minimumWarmupTime': 868}
+> ResultValue    | 868
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 200}
+> Statistics     | 28/130 took 283588ms - remaining ~28925sec
+> FullState      | {'minimumWarmupTime': 862}
+> ResultValue    | 862
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 250}
+> Statistics     | 29/130 took 284350ms - remaining ~28719sec
+> FullState      | {'minimumWarmupTime': 861}
+> ResultValue    | 861
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 300}
+> Statistics     | 30/130 took 285507ms - remaining ~28550sec
+> FullState      | {'minimumWarmupTime': 862}
+> ResultValue    | 862
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 350}
+> Statistics     | 31/130 took 285354ms - remaining ~28250sec
+> FullState      | {'minimumWarmupTime': 862}
+> ResultValue    | 862
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 400}
+> Statistics     | 32/130 took 396999ms - remaining ~38905sec
+> FullState      | {'minimumWarmupTime': 861}
+> ResultValue    | 861
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 450}
+> Statistics     | 33/130 took 286101ms - remaining ~27751sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 500}
+> Statistics     | 34/130 took 286244ms - remaining ~27479sec
+> FullState      | {'minimumWarmupTime': 861}
+> ResultValue    | 861
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 550}
+> Statistics     | 35/130 took 287202ms - remaining ~27284sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 600}
+> Statistics     | 36/130 took 274828ms - remaining ~25833sec
+> FullState      | {'minimumWarmupTime': 825}
+> ResultValue    | 825
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 650}
+> Statistics     | 37/130 took 273962ms - remaining ~25478sec
+> FullState      | {'minimumWarmupTime': 822}
+> ResultValue    | 822
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 700}
+> Statistics     | 38/130 took 274045ms - remaining ~25212sec
+> FullState      | {'minimumWarmupTime': 823}
+> ResultValue    | 823
+>
+> KnobValues     | {'maxInlineSize': 30, 'freqInlineSize': 750}
+> Statistics     | 39/130 took 273316ms - remaining ~24871sec
+> FullState      | {'minimumWarmupTime': 821}
+> ResultValue    | 821
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 150}
+> Statistics     | 40/130 took 284939ms - remaining ~25644sec
+> FullState      | {'minimumWarmupTime': 865}
+> ResultValue    | 865
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 200}
+> Statistics     | 41/130 took 282911ms - remaining ~25179sec
+> FullState      | {'minimumWarmupTime': 856}
+> ResultValue    | 856
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 250}
+> Statistics     | 42/130 took 282809ms - remaining ~24887sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 300}
+> Statistics     | 43/130 took 283187ms - remaining ~24637sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 350}
+> Statistics     | 44/130 took 329137ms - remaining ~28305sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 400}
+> Statistics     | 45/130 took 328984ms - remaining ~27963sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 450}
+> Statistics     | 46/130 took 327668ms - remaining ~27524sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 500}
+> Statistics     | 47/130 took 330348ms - remaining ~27418sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 550}
+> Statistics     | 48/130 took 329833ms - remaining ~27046sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 600}
+> Statistics     | 49/130 took 316546ms - remaining ~25640sec
+> FullState      | {'minimumWarmupTime': 812}
+> ResultValue    | 812
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 650}
+> Statistics     | 50/130 took 320497ms - remaining ~25639sec
+> FullState      | {'minimumWarmupTime': 824}
+> ResultValue    | 824
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 700}
+> Statistics     | 51/130 took 316615ms - remaining ~25012sec
+> FullState      | {'minimumWarmupTime': 813}
+> ResultValue    | 813
+>
+> KnobValues     | {'maxInlineSize': 40, 'freqInlineSize': 750}
+> Statistics     | 52/130 took 315469ms - remaining ~24606sec
+> FullState      | {'minimumWarmupTime': 810}
+> ResultValue    | 810
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 150}
+> Statistics     | 53/130 took 286380ms - remaining ~22051sec
+> FullState      | {'minimumWarmupTime': 867}
+> ResultValue    | 867
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 200}
+> Statistics     | 54/130 took 281982ms - remaining ~21430sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 250}
+> Statistics     | 55/130 took 283296ms - remaining ~21247sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 300}
+> Statistics     | 56/130 took 283541ms - remaining ~20982sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 350}
+> Statistics     | 57/130 took 328440ms - remaining ~23976sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 400}
+> Statistics     | 58/130 took 329463ms - remaining ~23721sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 450}
+> Statistics     | 59/130 took 328394ms - remaining ~23315sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 500}
+> Statistics     | 60/130 took 330112ms - remaining ~23107sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 550}
+> Statistics     | 61/130 took 329367ms - remaining ~22726sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 600}
+> Statistics     | 62/130 took 316160ms - remaining ~21498sec
+> FullState      | {'minimumWarmupTime': 810}
+> ResultValue    | 810
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 650}
+> Statistics     | 63/130 took 317440ms - remaining ~21268sec
+> FullState      | {'minimumWarmupTime': 815}
+> ResultValue    | 815
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 700}
+> Statistics     | 64/130 took 315447ms - remaining ~20819sec
+> FullState      | {'minimumWarmupTime': 808}
+> ResultValue    | 808
+>
+> KnobValues     | {'maxInlineSize': 50, 'freqInlineSize': 750}
+> Statistics     | 65/130 took 317218ms - remaining ~20619sec
+> FullState      | {'minimumWarmupTime': 813}
+> ResultValue    | 813
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 150}
+> Statistics     | 66/130 took 287852ms - remaining ~18422sec
+> FullState      | {'minimumWarmupTime': 867}
+> ResultValue    | 867
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 200}
+> Statistics     | 67/130 took 284330ms - remaining ~17912sec
+> FullState      | {'minimumWarmupTime': 857}
+> ResultValue    | 857
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 250}
+> Statistics     | 68/130 took 284380ms - remaining ~17631sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 300}
+> Statistics     | 69/130 took 284421ms - remaining ~17349sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 350}
+> Statistics     | 70/130 took 329756ms - remaining ~19785sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 400}
+> Statistics     | 71/130 took 331513ms - remaining ~19559sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 450}
+> Statistics     | 72/130 took 331613ms - remaining ~19233sec
+> FullState      | {'minimumWarmupTime': 857}
+> ResultValue    | 857
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 500}
+> Statistics     | 73/130 took 330890ms - remaining ~18860sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 550}
+> Statistics     | 74/130 took 331178ms - remaining ~18545sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 600}
+> Statistics     | 75/130 took 318209ms - remaining ~17501sec
+> FullState      | {'minimumWarmupTime': 812}
+> ResultValue    | 812
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 650}
+> Statistics     | 76/130 took 317470ms - remaining ~17143sec
+> FullState      | {'minimumWarmupTime': 810}
+> ResultValue    | 810
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 700}
+> Statistics     | 77/130 took 317663ms - remaining ~16836sec
+> FullState      | {'minimumWarmupTime': 810}
+> ResultValue    | 810
+>
+> KnobValues     | {'maxInlineSize': 60, 'freqInlineSize': 750}
+> Statistics     | 78/130 took 317574ms - remaining ~16513sec
+> FullState      | {'minimumWarmupTime': 810}
+> ResultValue    | 810
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 150}
+> Statistics     | 79/130 took 292941ms - remaining ~14939sec
+> FullState      | {'minimumWarmupTime': 879}
+> ResultValue    | 879
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 200}
+> Statistics     | 80/130 took 287668ms - remaining ~14383sec
+> FullState      | {'minimumWarmupTime': 864}
+> ResultValue    | 864
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 250}
+> Statistics     | 81/130 took 285697ms - remaining ~13999sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 300}
+> Statistics     | 82/130 took 285242ms - remaining ~13691sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 350}
+> Statistics     | 83/130 took 332679ms - remaining ~15635sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 400}
+> Statistics     | 84/130 took 331056ms - remaining ~15228sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 450}
+> Statistics     | 85/130 took 330134ms - remaining ~14856sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 500}
+> Statistics     | 86/130 took 334722ms - remaining ~14727sec
+> FullState      | {'minimumWarmupTime': 863}
+> ResultValue    | 863
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 550}
+> Statistics     | 87/130 took 331198ms - remaining ~14241sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 600}
+> Statistics     | 88/130 took 318387ms - remaining ~13372sec
+> FullState      | {'minimumWarmupTime': 811}
+> ResultValue    | 811
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 650}
+> Statistics     | 89/130 took 316875ms - remaining ~12991sec
+> FullState      | {'minimumWarmupTime': 809}
+> ResultValue    | 809
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 700}
+> Statistics     | 90/130 took 317854ms - remaining ~12714sec
+> FullState      | {'minimumWarmupTime': 809}
+> ResultValue    | 809
+>
+> KnobValues     | {'maxInlineSize': 70, 'freqInlineSize': 750}
+> Statistics     | 91/130 took 318559ms - remaining ~12423sec
+> FullState      | {'minimumWarmupTime': 811}
+> ResultValue    | 811
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 150}
+> Statistics     | 92/130 took 289383ms - remaining ~10996sec
+> FullState      | {'minimumWarmupTime': 866}
+> ResultValue    | 866
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 200}
+> Statistics     | 93/130 took 286598ms - remaining ~10604sec
+> FullState      | {'minimumWarmupTime': 857}
+> ResultValue    | 857
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 250}
+> Statistics     | 94/130 took 287257ms - remaining ~10341sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 300}
+> Statistics     | 95/130 took 287987ms - remaining ~10079sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 350}
+> Statistics     | 96/130 took 331116ms - remaining ~11257sec
+> FullState      | {'minimumWarmupTime': 857}
+> ResultValue    | 857
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 400}
+> Statistics     | 97/130 took 331136ms - remaining ~10927sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 450}
+> Statistics     | 98/130 took 333913ms - remaining ~10685sec
+> FullState      | {'minimumWarmupTime': 858}
+> ResultValue    | 858
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 500}
+> Statistics     | 99/130 took 331116ms - remaining ~10264sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 550}
+> Statistics     | 100/130 took 332492ms - remaining ~9974sec
+> FullState      | {'minimumWarmupTime': 857}
+> ResultValue    | 857
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 600}
+> Statistics     | 101/130 took 319737ms - remaining ~9272sec
+> FullState      | {'minimumWarmupTime': 812}
+> ResultValue    | 812
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 650}
+> Statistics     | 102/130 took 318994ms - remaining ~8931sec
+> FullState      | {'minimumWarmupTime': 813}
+> ResultValue    | 813
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 700}
+> Statistics     | 103/130 took 319592ms - remaining ~8628sec
+> FullState      | {'minimumWarmupTime': 809}
+> ResultValue    | 809
+>
+> KnobValues     | {'maxInlineSize': 80, 'freqInlineSize': 750}
+> Statistics     | 104/130 took 318429ms - remaining ~8279sec
+> FullState      | {'minimumWarmupTime': 813}
+> ResultValue    | 813
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 150}
+> Statistics     | 105/130 took 291389ms - remaining ~7284sec
+> FullState      | {'minimumWarmupTime': 867}
+> ResultValue    | 867
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 200}
+> Statistics     | 106/130 took 287178ms - remaining ~6892sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 250}
+> Statistics     | 107/130 took 288846ms - remaining ~6643sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 300}
+> Statistics     | 108/130 took 289486ms - remaining ~6368sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 350}
+> Statistics     | 109/130 took 332565ms - remaining ~6983sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 400}
+> Statistics     | 110/130 took 332407ms - remaining ~6648sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 450}
+> Statistics     | 111/130 took 332127ms - remaining ~6310sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 500}
+> Statistics     | 112/130 took 332187ms - remaining ~5979sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 550}
+> Statistics     | 113/130 took 333243ms - remaining ~5665sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 600}
+> Statistics     | 114/130 took 320223ms - remaining ~5123sec
+> FullState      | {'minimumWarmupTime': 812}
+> ResultValue    | 812
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 650}
+> Statistics     | 115/130 took 319002ms - remaining ~4785sec
+> FullState      | {'minimumWarmupTime': 809}
+> ResultValue    | 809
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 700}
+> Statistics     | 116/130 took 319014ms - remaining ~4466sec
+> FullState      | {'minimumWarmupTime': 808}
+> ResultValue    | 808
+>
+> KnobValues     | {'maxInlineSize': 90, 'freqInlineSize': 750}
+> Statistics     | 117/130 took 320213ms - remaining ~4162sec
+> FullState      | {'minimumWarmupTime': 813}
+> ResultValue    | 813
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 150}
+> Statistics     | 118/130 took 295517ms - remaining ~3546sec
+> FullState      | {'minimumWarmupTime': 869}
+> ResultValue    | 869
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 200}
+> Statistics     | 119/130 took 290909ms - remaining ~3199sec
+> FullState      | {'minimumWarmupTime': 857}
+> ResultValue    | 857
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 250}
+> Statistics     | 120/130 took 290730ms - remaining ~2907sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 300}
+> Statistics     | 121/130 took 291256ms - remaining ~2621sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 350}
+> Statistics     | 122/130 took 333114ms - remaining ~2664sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 400}
+> Statistics     | 123/130 took 333906ms - remaining ~2337sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 450}
+> Statistics     | 124/130 took 334264ms - remaining ~2005sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 500}
+> Statistics     | 125/130 took 334819ms - remaining ~1674sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 550}
+> Statistics     | 126/130 took 335020ms - remaining ~1340sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 600}
+> Statistics     | 127/130 took 321699ms - remaining ~965sec
+> FullState      | {'minimumWarmupTime': 809}
+> ResultValue    | 809
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 650}
+> Statistics     | 128/130 took 322219ms - remaining ~644sec
+> FullState      | {'minimumWarmupTime': 812}
+> ResultValue    | 812
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 700}
+> Statistics     | 129/130 took 325009ms - remaining ~325sec
+> FullState      | {'minimumWarmupTime': 812}
+> ResultValue    | 812
+>
+> KnobValues     | {'maxInlineSize': 100, 'freqInlineSize': 750}
+> Statistics     | 130/130 took 321438ms - remaining ~0sec
+> FullState      | {'minimumWarmupTime': 809}
+> ResultValue    | 809
+>
+> Finished workflow
+######################################
+> Reporting on   | Fastest-1-Inlining-size-size
+> Found 2 knobs, creating heat map...
+> Plot saved at scenarios/fastest/3-inlining-size-size/2018-06-17_04-18-44/heatmap.png

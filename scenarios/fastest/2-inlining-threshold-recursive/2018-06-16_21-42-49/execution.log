@@ -1,0 +1,438 @@
+
+> Do VMTouch Prepare
+           Files: 8959
+     Directories: 1318
+   Touched Pages: 241337 (942M)
+         Elapsed: 0.78476 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Inlining-threshold-recursive
+> ExecStrategy   | Step
+> Steps Created  | Count: 84
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 100}
+> Statistics     | 1/84 took 282409ms - remaining ~23439sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 120}
+> Statistics     | 2/84 took 282063ms - remaining ~23129sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 140}
+> Statistics     | 3/84 took 282144ms - remaining ~22853sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 160}
+> Statistics     | 4/84 took 282208ms - remaining ~22576sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 180}
+> Statistics     | 5/84 took 282377ms - remaining ~22307sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 200}
+> Statistics     | 6/84 took 282740ms - remaining ~22053sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 220}
+> Statistics     | 7/84 took 283467ms - remaining ~21826sec
+> FullState      | {'minimumWarmupTime': 855}
+> ResultValue    | 855
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 240}
+> Statistics     | 8/84 took 282199ms - remaining ~21447sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 260}
+> Statistics     | 9/84 took 282804ms - remaining ~21210sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 280}
+> Statistics     | 10/84 took 282839ms - remaining ~20930sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 300}
+> Statistics     | 11/84 took 282398ms - remaining ~20615sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 320}
+> Statistics     | 12/84 took 282945ms - remaining ~20372sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 340}
+> Statistics     | 13/84 took 283090ms - remaining ~20099sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 360}
+> Statistics     | 14/84 took 282272ms - remaining ~19759sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 380}
+> Statistics     | 15/84 took 283277ms - remaining ~19546sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 400}
+> Statistics     | 16/84 took 282657ms - remaining ~19220sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 420}
+> Statistics     | 17/84 took 282158ms - remaining ~18904sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 440}
+> Statistics     | 18/84 took 282410ms - remaining ~18639sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 460}
+> Statistics     | 19/84 took 282484ms - remaining ~18361sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 480}
+> Statistics     | 20/84 took 282399ms - remaining ~18073sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 0, 'minInliningThreshold': 500}
+> Statistics     | 21/84 took 282296ms - remaining ~17784sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 100}
+> Statistics     | 22/84 took 282376ms - remaining ~17507sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 120}
+> Statistics     | 23/84 took 282635ms - remaining ~17240sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 140}
+> Statistics     | 24/84 took 282513ms - remaining ~16950sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 160}
+> Statistics     | 25/84 took 282610ms - remaining ~16673sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 180}
+> Statistics     | 26/84 took 282163ms - remaining ~16365sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 200}
+> Statistics     | 27/84 took 282871ms - remaining ~16123sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 220}
+> Statistics     | 28/84 took 283309ms - remaining ~15865sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 240}
+> Statistics     | 29/84 took 283062ms - remaining ~15568sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 260}
+> Statistics     | 30/84 took 283286ms - remaining ~15297sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 280}
+> Statistics     | 31/84 took 282993ms - remaining ~14998sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 300}
+> Statistics     | 32/84 took 282896ms - remaining ~14710sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 320}
+> Statistics     | 33/84 took 282917ms - remaining ~14428sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 340}
+> Statistics     | 34/84 took 282605ms - remaining ~14130sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 360}
+> Statistics     | 35/84 took 282547ms - remaining ~13844sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 380}
+> Statistics     | 36/84 took 282542ms - remaining ~13562sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 400}
+> Statistics     | 37/84 took 283330ms - remaining ~13316sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 420}
+> Statistics     | 38/84 took 282966ms - remaining ~13016sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 440}
+> Statistics     | 39/84 took 282601ms - remaining ~12717sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 460}
+> Statistics     | 40/84 took 282387ms - remaining ~12425sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 480}
+> Statistics     | 41/84 took 282338ms - remaining ~12140sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 1, 'minInliningThreshold': 500}
+> Statistics     | 42/84 took 282593ms - remaining ~11868sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 100}
+> Statistics     | 43/84 took 282441ms - remaining ~11580sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 120}
+> Statistics     | 44/84 took 282423ms - remaining ~11296sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 140}
+> Statistics     | 45/84 took 282531ms - remaining ~11018sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 160}
+> Statistics     | 46/84 took 282694ms - remaining ~10742sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 180}
+> Statistics     | 47/84 took 282208ms - remaining ~10441sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 200}
+> Statistics     | 48/84 took 283008ms - remaining ~10188sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 220}
+> Statistics     | 49/84 took 283075ms - remaining ~9907sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 240}
+> Statistics     | 50/84 took 283146ms - remaining ~9626sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 260}
+> Statistics     | 51/84 took 283575ms - remaining ~9357sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 280}
+> Statistics     | 52/84 took 283096ms - remaining ~9059sec
+> FullState      | {'minimumWarmupTime': 854}
+> ResultValue    | 854
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 300}
+> Statistics     | 53/84 took 282762ms - remaining ~8765sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 320}
+> Statistics     | 54/84 took 282450ms - remaining ~8473sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 340}
+> Statistics     | 55/84 took 282203ms - remaining ~8183sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 360}
+> Statistics     | 56/84 took 282054ms - remaining ~7897sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 380}
+> Statistics     | 57/84 took 282915ms - remaining ~7638sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 400}
+> Statistics     | 58/84 took 282476ms - remaining ~7344sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 420}
+> Statistics     | 59/84 took 283016ms - remaining ~7075sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 440}
+> Statistics     | 60/84 took 282416ms - remaining ~6777sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 460}
+> Statistics     | 61/84 took 282952ms - remaining ~6507sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 480}
+> Statistics     | 62/84 took 282635ms - remaining ~6217sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 2, 'minInliningThreshold': 500}
+> Statistics     | 63/84 took 282717ms - remaining ~5937sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 100}
+> Statistics     | 64/84 took 282465ms - remaining ~5649sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 120}
+> Statistics     | 65/84 took 282476ms - remaining ~5367sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 140}
+> Statistics     | 66/84 took 282898ms - remaining ~5092sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 160}
+> Statistics     | 67/84 took 282413ms - remaining ~4801sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 180}
+> Statistics     | 68/84 took 282552ms - remaining ~4520sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 200}
+> Statistics     | 69/84 took 282400ms - remaining ~4236sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 220}
+> Statistics     | 70/84 took 283307ms - remaining ~3966sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 240}
+> Statistics     | 71/84 took 283214ms - remaining ~3681sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 260}
+> Statistics     | 72/84 took 283301ms - remaining ~3399sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 280}
+> Statistics     | 73/84 took 283244ms - remaining ~3115sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 300}
+> Statistics     | 74/84 took 282941ms - remaining ~2829sec
+> FullState      | {'minimumWarmupTime': 853}
+> ResultValue    | 853
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 320}
+> Statistics     | 75/84 took 282589ms - remaining ~2543sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 340}
+> Statistics     | 76/84 took 282521ms - remaining ~2260sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 360}
+> Statistics     | 77/84 took 282483ms - remaining ~1977sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 380}
+> Statistics     | 78/84 took 288369ms - remaining ~1730sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 400}
+> Statistics     | 79/84 took 282416ms - remaining ~1412sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 420}
+> Statistics     | 80/84 took 282474ms - remaining ~1129sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 440}
+> Statistics     | 81/84 took 282494ms - remaining ~847sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 460}
+> Statistics     | 82/84 took 282428ms - remaining ~564sec
+> FullState      | {'minimumWarmupTime': 850}
+> ResultValue    | 850
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 480}
+> Statistics     | 83/84 took 282765ms - remaining ~282sec
+> FullState      | {'minimumWarmupTime': 851}
+> ResultValue    | 851
+>
+> KnobValues     | {'maxRecursiveInlineLevel': 3, 'minInliningThreshold': 500}
+> Statistics     | 84/84 took 283399ms - remaining ~0sec
+> FullState      | {'minimumWarmupTime': 852}
+> ResultValue    | 852
+>
+> Finished workflow
+######################################
+> Reporting on   | Fastest-1-Inlining-threshold-recursive
+> Found 2 knobs, creating heat map...
+> Plot saved at scenarios/fastest/2-inlining-threshold-recursive/2018-06-16_21-42-49/heatmap.png

@@ -2,7 +2,7 @@
 
 echo "<<<INSTALL DEPENDENCIES>>>"
 apt update
-apt-get install -y -q python-pip python2.7-dev python-tk
+apt-get install -y -q python-pip python2.7-dev python-tk build-essential
 python -m pip install --upgrade pip
 echo "Pip ... OK"
 apt-get purge -y -q python-numpy

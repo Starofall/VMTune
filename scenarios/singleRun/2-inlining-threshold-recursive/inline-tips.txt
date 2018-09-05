@@ -1,0 +1,10 @@
+https://stackoverflow.com/questions/18737774/hotspot-jit-inlining-strategy-top-down-or-down-top
+
+
+The MaxInlineSize affects compilations of methods executed at least one time but less than MinInliningThreshold
+times only. For methods executed more than MinInliningThreshold there is a different setting -XX:FreqInlineSize=…
+having a far bigger (platform dependent) default value. Hotspots are still inlined regardless of the MaxInlineSize.
+You may test it by running an application with -XX:+UnlockDiagnosticVMOptions -XX:+PrintInlining -XX:MaxInlineSize=0.
+It will still report inlining of hot spots (these with the comment “(hot)”). Only methods formerly reported as
+inlined with the comment “executed < MinInliningThreshold times” might then get the comment to “too big”.
+If you set down the FreqInlineSize you might receive comments like “hot method too big”.
