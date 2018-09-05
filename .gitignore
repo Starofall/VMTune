@@ -1,0 +1,10 @@
+.idea/**
+scratch/**
+graalvm/**
+**/scratch/**
+*.pyc
+scalabench.jar
+test-output/**
+nohup.out
+db.json
+venv/**

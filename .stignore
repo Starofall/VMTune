@@ -1,0 +1,4 @@
+graalvm/**
+*graalvm*/**
+*.tar.gz
+scalabench.jar
