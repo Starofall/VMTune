@@ -4,10 +4,10 @@ name = "SingleRun-0-Baseline"
 
 execution_strategy = {
     "ignore_first_n_results": 0,
-    "sample_size": 1,
+    "sample_size": 5,
     "type": "step_explorer",
     "knobs": {
-        "compileThreshold": ([0, 40000], 200)
+        "compileThreshold": ([500, 40000], 500)
     }
 }
 
