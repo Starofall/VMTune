@@ -1,5 +1,5 @@
 name = "SingleRun-0-Baseline"
-# Testing 10 times the same thing just to see if sampleSize is enough to get reliable min values
+# Testing 100 times the same thing just to see if sampleSize is enough to get reliable min values
 # details here: https://docs.oracle.com/javase/8/embedded/develop-apps-platforms/codecache.htm
 
 execution_strategy = {
@@ -7,7 +7,7 @@ execution_strategy = {
     "sample_size": 1,
     "type": "step_explorer",
     "knobs": {
-        "irrelevant": ([1, 30], 1)
+        "irrelevant": ([1, 100], 1)
     }
 }
 
@@ -38,11 +38,10 @@ currentConfiguration = {
     "graalCompilerEnabled": 1, # default true
     "graalBootstrapEnabled": 0, # default false
     "compileHugeMethodsEnabled": 0,  # default false
-    "aggressiveOptEnabled": 0,  # default false
     "codeFlushingEnabled": 1, # default true
     "counterDecayEnabled": 1, # default true
     "tieredCompilationEnabled": 1,  # default true
-    "backgroundCompilationEnabled": 0,  # default is on, but introduces multi-threading variance
+    "backgroundCompilationEnabled": 1,  # default is on, but introduces multi-threading variance
     "loopMaxUnroll": 16,  # 10-20 default 16
     "loopMinUnroll": 4,  # 2-10 default 4
     "loopUnrollLimit": 60,  # 40-80 default 60
@@ -54,12 +53,6 @@ currentConfiguration = {
     "maxInlineLevel": 9,  # 5-15 default 9 Maximum number of nested calls that are inlined
     "compileThreshold": 10000,  # 2000-50000 default 10000
     "onStackReplacePercentage": 933,  # 144-993  # method invocations (percentage of CompileThreshold) before compiling
-    "tier4CompileThreshold": 15000,  # 5000-50000
-    "tier4InvocationThreshold": 5000,  #
-    "tier4MinInvocationThreshold": 600,  #
-    "tier3CompileThreshold": 2000,  # 5000-50000
-    "tier3InvocationThreshold": 200,  #
-    "tier3MinInvocationThreshold": 100,  #
 }
 
 
