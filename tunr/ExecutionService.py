@@ -89,25 +89,12 @@ def __buildOptionString(config):
     javaOptions = javaOptions + " -XX:MaxRecursiveInlineLevel=" + str(config["maxRecursiveInlineLevel"]) + " "
     javaOptions = javaOptions + " -XX:CompileThreshold=" + str(config["compileThreshold"]) + " "
     javaOptions = javaOptions + " -XX:OnStackReplacePercentage=" + str(config["onStackReplacePercentage"]) + " "
-    javaOptions = javaOptions + " -XX:Tier4BackEdgeThreshold=" + str(config["tier4BackEdgeThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier4CompileThreshold=" + str(config["tier4CompileThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier4InvocationThreshold=" + str(config["tier4InvocationThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier4MinInvocationThreshold=" + str(config["tier4MinInvocationThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier3BackEdgeThreshold=" + str(config["tier3BackEdgeThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier3CompileThreshold=" + str(config["tier3CompileThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier3InvocationThreshold=" + str(config["tier3InvocationThreshold"]) + " "
-    javaOptions = javaOptions + " -XX:Tier3MinInvocationThreshold=" + str(config["tier3MinInvocationThreshold"]) + " "
     javaOptions = javaOptions + " -XX:CompileThreshold=" + str(config["compileThreshold"]) + " "
 
     if (config["compileHugeMethodsEnabled"]):
         javaOptions = javaOptions + " -XX:-DontCompileHugeMethods "
     else:
         javaOptions = javaOptions + " -XX:+DontCompileHugeMethods "
-
-    if (config["aggressiveOptEnabled"]):
-        javaOptions = javaOptions + " -XX:+AggressiveOpts "
-    else:
-        javaOptions = javaOptions + " -XX:-AggressiveOpts "
 
     if (config["codeFlushingEnabled"]):
         javaOptions = javaOptions + " -XX:+UseCodeCacheFlushing "

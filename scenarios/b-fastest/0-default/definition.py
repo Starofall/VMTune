@@ -40,7 +40,6 @@ currentConfiguration = {
     "graalCompilerEnabled": 0,
     "graalBootstrapEnabled": 0,
     "compileHugeMethodsEnabled": 0,
-    "aggressiveOptEnabled": 0,
     "codeFlushingEnabled": 1,
     "counterDecayEnabled": 1,
     "tieredCompilationEnabled": 1,  #
@@ -56,14 +55,6 @@ currentConfiguration = {
     "maxInlineLevel": 9,  # 5-15 Maximum number of nested calls that are inlined
     "compileThreshold": 10000,  # 2000-50000
     "onStackReplacePercentage": 933,  # 144-993  # method invocations (percentage of CompileThreshold) before compiling
-    "tier4BackEdgeThreshold": 40000,  #
-    "tier4CompileThreshold": 15000,  # 5000-50000
-    "tier4InvocationThreshold": 5000,  #
-    "tier4MinInvocationThreshold": 600,  #
-    "tier3BackEdgeThreshold": 60000,  #
-    "tier3CompileThreshold": 2000,  # 5000-50000
-    "tier3InvocationThreshold": 200,  #
-    "tier3MinInvocationThreshold": 100,  #
 }
 
 
