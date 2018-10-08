@@ -1,6 +1,6 @@
 from colorama import Fore
 
-from skopt import gp_minimize
+from skopt import gp_minimize, forest_minimize, gbrt_minimize
 from rtxlib import info, error
 from rtxlib.execution import experimentFunction
 
@@ -24,8 +24,16 @@ def start_self_optimizer_strategy(wf):
         range_tuples += [(knobs[key][0], knobs[key][1])]
     # we give the minimization function a callback to execute
     # it uses the return value (it tries to minimize it) to select new knobs to test
-    optimizer_result = gp_minimize(lambda opti_values: self_optimizer_execution(wf, opti_values, variables),
+    optimizer_result = None
+    if optimizer_method == "gauss":
+        optimizer_result = gp_minimize(lambda opti_values: self_optimizer_execution(wf, opti_values, variables),
                                    range_tuples, n_calls=wf.totalExperiments, n_random_starts=optimizer_random_starts)
+    if optimizer_method == "forest":
+        optimizer_result = forest_minimize(lambda opti_values: self_optimizer_execution(wf, opti_values, variables),
+                                       range_tuples, n_calls=wf.totalExperiments, n_random_starts=optimizer_random_starts)
+    if optimizer_method == "boostedTrees":
+        optimizer_result = gbrt_minimize(lambda opti_values: self_optimizer_execution(wf, opti_values, variables),
+                                       range_tuples, n_calls=wf.totalExperiments, n_random_starts=optimizer_random_starts)
     # optimizer is done, print results
     info(">")
     info("> OptimalResult  | Knobs:  " + str(recreate_knob_from_optimizer_values(variables, optimizer_result.x)))
