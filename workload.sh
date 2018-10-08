@@ -1,1 +1,1 @@
-python start.py start scenarios/a-singleRun/1-baseline-no-jvmci
+python start.py start scenarios/a-singleRun/2-compiledThreshold
