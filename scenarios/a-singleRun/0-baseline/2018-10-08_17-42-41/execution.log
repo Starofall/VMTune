@@ -1,0 +1,68 @@
+
+> Do VMTouch Prepare
+           Files: 9537
+     Directories: 1367
+   Touched Pages: 256706 (1002M)
+         Elapsed: 0.84139 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | Step
+> Steps Created  | Count: 10
+>
+> KnobValues     | {'irrelevant': 1}
+> Statistics     | 1/10 took 47562ms - remaining ~428sec
+> FullState      | {'passedTime': 39674}
+> ResultValue    | 39674
+>
+> KnobValues     | {'irrelevant': 2}
+> Statistics     | 2/10 took 45945ms - remaining ~367sec
+> FullState      | {'passedTime': 38215}
+> ResultValue    | 38215
+>
+> KnobValues     | {'irrelevant': 3}
+> Statistics     | 3/10 took 44920ms - remaining ~314sec
+> FullState      | {'passedTime': 37096}
+> ResultValue    | 37096
+>
+> KnobValues     | {'irrelevant': 4}
+> Statistics     | 4/10 took 45348ms - remaining ~272sec
+> FullState      | {'passedTime': 37950}
+> ResultValue    | 37950
+>
+> KnobValues     | {'irrelevant': 5}
+> Statistics     | 5/10 took 46637ms - remaining ~233sec
+> FullState      | {'passedTime': 38645}
+> ResultValue    | 38645
+>
+> KnobValues     | {'irrelevant': 6}
+> Statistics     | 6/10 took 46241ms - remaining ~184sec
+> FullState      | {'passedTime': 38494}
+> ResultValue    | 38494
+>
+> KnobValues     | {'irrelevant': 7}
+> Statistics     | 7/10 took 46451ms - remaining ~139sec
+> FullState      | {'passedTime': 38696}
+> ResultValue    | 38696
+>
+> KnobValues     | {'irrelevant': 8}
+> Statistics     | 8/10 took 43867ms - remaining ~87sec
+> FullState      | {'passedTime': 36588}
+> ResultValue    | 36588
+>
+> KnobValues     | {'irrelevant': 9}
+> Statistics     | 9/10 took 46727ms - remaining ~46sec
+> FullState      | {'passedTime': 38506}
+> ResultValue    | 38506
+>
+> KnobValues     | {'irrelevant': 10}
+> Statistics     | 10/10 took 46736ms - remaining ~0sec
+> FullState      | {'passedTime': 38925}
+> ResultValue    | 38925
+>
+> Finished workflow
+######################################
+> Reporting on   | SingleRun-0-Baseline
+> Found 1 knob, creating scatter plot...
+> Plot saved at scenarios/a-singleRun/0-baseline/2018-10-08_17-42-41/scatter_plot.png
