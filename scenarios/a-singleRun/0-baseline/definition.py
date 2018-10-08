@@ -7,14 +7,12 @@ execution_strategy = {
     "sample_size": 1,
     "type": "step_explorer",
     "knobs": {
-        "irrelevant": ([1, 10], 1)
+        "irrelevant": ([1, 30], 1)
     }
 }
 
-
 def evaluator(resultState, wf):
     return resultState["passedTime"]
-
 
 def state_initializer(state, wf):
     state["passedTime"] = 999999999
@@ -31,7 +29,7 @@ currentConfiguration = {
     "scenarioIdentifier": "SingleRun",
     "scenarioCommand": " -t 1 -n 1 ",
     "scalaBenchTest": "sunflow",
-    "scalaBenchSize": "default",
+    "scalaBenchSize": "small",
     "javaDir": "./graalvm/bin/java",
     "scalaBenchFile": "./scalabench.jar",
     "debugEnabled": 0,
