@@ -34,12 +34,12 @@ if [ -d "./graalvm" ]; then
    echo "GraalVM ... OK"
 else
     echo "GraalVM ... MISSING"
-    wget https://github.com/oracle/graal/releases/download/vm-1.0.0-rc3/graalvm-ce-1.0.0-rc3-linux-amd64.tar.gz
-    tar -xvzf graalvm-ce-1.0.0-rc3-linux-amd64.tar.gz
-    rm graalvm-ce-1.0.0-rc3-linux-amd64.tar.gz
+    wget https://github.com/oracle/graal/releases/download/vm-1.0.0-rc7/graalvm-ce-1.0.0-rc7-linux-amd64.tar.gz
+    tar -xvzf graalvm-ce-1.0.0-rc7-linux-amd64.tar.gz
+    rm graalvm-ce-1.0.0-rc7-linux-amd64.tar.gz
     mkdir ./graalvm
-    mv ./graalvm-ce-1.0.0-rc3/* ./graalvm/
-    rm -r ./graalvm-1.0.0-rc3
+    mv ./graalvm-ce-1.0.0-rc7/* ./graalvm/
+    rm -r ./graalvm-1.0.0-rc7
     echo "GraalVM ... INSTALLED"
 fi
 
