@@ -38,10 +38,10 @@ currentConfiguration = {
     "graalCompilerEnabled": 0, # default true
     "graalBootstrapEnabled": 0, # default false
     "compileHugeMethodsEnabled": 0,  # default false
-    "codeFlushingEnabled": 1, # default true
-    "counterDecayEnabled": 1, # default true
-    "tieredCompilationEnabled": 1,  # default true
-    "backgroundCompilationEnabled": 1,  # default is on, but introduces multi-threading variance
+    "codeFlushingEnabled": 0, # default true
+    "counterDecayEnabled": 0, # default true
+    "tieredCompilationEnabled": 0,  # default true
+    "backgroundCompilationEnabled": 0,  # default is on, but introduces multi-threading variance
     "loopMaxUnroll": 16,  # 10-20 default 16
     "loopMinUnroll": 4,  # 2-10 default 4
     "loopUnrollLimit": 60,  # 40-80 default 60
