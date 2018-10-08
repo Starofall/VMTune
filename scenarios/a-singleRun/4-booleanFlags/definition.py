@@ -7,12 +7,18 @@ execution_strategy = {
     "sample_size": 5,
     "type": "step_explorer",
     "knobs": {
-        "compileThreshold": ([500, 40000], 500)
+        "compileHugeMethodsEnabled": (0, 1),
+        "codeFlushingEnabled": (0, 1),
+        "counterDecayEnabled": (0, 1),
+        "tieredCompilationEnabled": (0, 1),
+        "backgroundCompilationEnabled": (0, 1)
     }
 }
 
+
 def evaluator(resultState, wf):
     return resultState["passedTime"]
+
 
 def state_initializer(state, wf):
     state["passedTime"] = 999999999
@@ -35,13 +41,13 @@ currentConfiguration = {
     "debugEnabled": 0,
     "codeCacheSize": "2G",
     "heapSize": "2G",
-    "graalCompilerEnabled": 0, # default true
-    "graalBootstrapEnabled": 0, # default false
+    "graalCompilerEnabled": 0,  # default true
+    "graalBootstrapEnabled": 0,  # default false
     "compileHugeMethodsEnabled": 0,  # default false
-    "codeFlushingEnabled": 1, # default true
-    "counterDecayEnabled": 1, # default true
-    "tieredCompilationEnabled": 1,  # default true
-    "backgroundCompilationEnabled": 1,  # default is on, but introduces multi-threading variance
+    "codeFlushingEnabled": 0,  # default true
+    "counterDecayEnabled": 0,  # default true
+    "tieredCompilationEnabled": 0,  # default true
+    "backgroundCompilationEnabled": 0,  # default is on, but introduces multi-threading variance
     "loopMaxUnroll": 16,  # 10-20 default 16
     "loopMinUnroll": 4,  # 2-10 default 4
     "loopUnrollLimit": 60,  # 40-80 default 60
