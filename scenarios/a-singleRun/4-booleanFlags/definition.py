@@ -7,11 +7,11 @@ execution_strategy = {
     "sample_size": 5,
     "type": "step_explorer",
     "knobs": {
-        "compileHugeMethodsEnabled": (0, 1),
-        "codeFlushingEnabled": (0, 1),
-        "counterDecayEnabled": (0, 1),
-        "tieredCompilationEnabled": (0, 1),
-        "backgroundCompilationEnabled": (0, 1)
+        "compileHugeMethodsEnabled": [(0, 1), 1],
+        "codeFlushingEnabled": [(0, 1), 1],
+        "counterDecayEnabled": [(0, 1), 1],
+        "tieredCompilationEnabled": [(0, 1), 1],
+        "backgroundCompilationEnabled": [(0, 1), 1]
     }
 }
 
