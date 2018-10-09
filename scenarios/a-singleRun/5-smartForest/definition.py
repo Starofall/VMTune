@@ -7,8 +7,8 @@ execution_strategy = {
     "sample_size": 1,
     "type": "self_optimizer",
     "optimizer_method": "forest",
-    "optimizer_iterations": 200,
-    "optimizer_random_starts": 10,
+    "optimizer_iterations": 500,
+    "optimizer_random_starts": 50,
     "knobs": {
         "loopMaxUnroll": (6, 26),  # 10-20 default 16
         "loopMinUnroll": (2, 10),  # 2-10 default 4
