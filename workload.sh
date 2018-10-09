@@ -1,1 +1,1 @@
-python start.py start scenarios/a-singleRun/2-compiledThreshold
+python start.py start scenarios/a-singleRun/4-booleanFlags
