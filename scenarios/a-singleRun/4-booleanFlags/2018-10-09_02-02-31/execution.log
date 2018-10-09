@@ -1,0 +1,177 @@
+
+> Do VMTouch Prepare
+           Files: 9735
+     Directories: 1475
+   Touched Pages: 257001 (1003M)
+         Elapsed: 0.85301 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | Step
+> Steps Created  | Count: 32
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 1/32 took 22478ms - remaining ~696sec
+> FullState      | {'passedTime': 3678}
+> ResultValue    | 3678
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 2/32 took 24418ms - remaining ~732sec
+> FullState      | {'passedTime': 3969}
+> ResultValue    | 3969
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 3/32 took 22228ms - remaining ~644sec
+> FullState      | {'passedTime': 3685}
+> ResultValue    | 3685
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 4/32 took 24401ms - remaining ~683sec
+> FullState      | {'passedTime': 3962}
+> ResultValue    | 3962
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 5/32 took 22242ms - remaining ~600sec
+> FullState      | {'passedTime': 3683}
+> ResultValue    | 3683
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 6/32 took 24168ms - remaining ~628sec
+> FullState      | {'passedTime': 3743}
+> ResultValue    | 3743
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 7/32 took 22232ms - remaining ~555sec
+> FullState      | {'passedTime': 3683}
+> ResultValue    | 3683
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 8/32 took 24400ms - remaining ~585sec
+> FullState      | {'passedTime': 3965}
+> ResultValue    | 3965
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 9/32 took 22223ms - remaining ~511sec
+> FullState      | {'passedTime': 3679}
+> ResultValue    | 3679
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 10/32 took 24191ms - remaining ~532sec
+> FullState      | {'passedTime': 3747}
+> ResultValue    | 3747
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 11/32 took 22486ms - remaining ~472sec
+> FullState      | {'passedTime': 3684}
+> ResultValue    | 3684
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 12/32 took 24406ms - remaining ~488sec
+> FullState      | {'passedTime': 3962}
+> ResultValue    | 3962
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 13/32 took 22226ms - remaining ~422sec
+> FullState      | {'passedTime': 3683}
+> ResultValue    | 3683
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 14/32 took 24395ms - remaining ~439sec
+> FullState      | {'passedTime': 3956}
+> ResultValue    | 3956
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 15/32 took 22219ms - remaining ~377sec
+> FullState      | {'passedTime': 3683}
+> ResultValue    | 3683
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 16/32 took 24402ms - remaining ~390sec
+> FullState      | {'passedTime': 3960}
+> ResultValue    | 3960
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 17/32 took 31633ms - remaining ~474sec
+> FullState      | {'passedTime': 5344}
+> ResultValue    | 5344
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 18/32 took 22880ms - remaining ~320sec
+> FullState      | {'passedTime': 3304}
+> ResultValue    | 3304
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 19/32 took 31951ms - remaining ~415sec
+> FullState      | {'passedTime': 5129}
+> ResultValue    | 5129
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 20/32 took 24169ms - remaining ~290sec
+> FullState      | {'passedTime': 3800}
+> ResultValue    | 3800
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 21/32 took 29972ms - remaining ~329sec
+> FullState      | {'passedTime': 4469}
+> ResultValue    | 4469
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 22/32 took 22368ms - remaining ~223sec
+> FullState      | {'passedTime': 3288}
+> ResultValue    | 3288
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 23/32 took 31562ms - remaining ~284sec
+> FullState      | {'passedTime': 5298}
+> ResultValue    | 5298
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 0, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 24/32 took 24391ms - remaining ~195sec
+> FullState      | {'passedTime': 3822}
+> ResultValue    | 3822
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 25/32 took 32137ms - remaining ~224sec
+> FullState      | {'passedTime': 5499}
+> ResultValue    | 5499
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 26/32 took 23367ms - remaining ~140sec
+> FullState      | {'passedTime': 3248}
+> ResultValue    | 3248
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 27/32 took 31792ms - remaining ~158sec
+> FullState      | {'passedTime': 5341}
+> ResultValue    | 5341
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 28/32 took 23517ms - remaining ~94sec
+> FullState      | {'passedTime': 3582}
+> ResultValue    | 3582
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 29/32 took 31639ms - remaining ~94sec
+> FullState      | {'passedTime': 4956}
+> ResultValue    | 4956
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 30/32 took 23884ms - remaining ~47sec
+> FullState      | {'passedTime': 3733}
+> ResultValue    | 3733
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 31/32 took 32093ms - remaining ~32sec
+> FullState      | {'passedTime': 5400}
+> ResultValue    | 5400
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'codeFlushingEnabled': 1, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 32/32 took 23989ms - remaining ~0sec
+> FullState      | {'passedTime': 3725}
+> ResultValue    | 3725
+>
+> Finished workflow
+######################################
+> Reporting on   | SingleRun-0-Baseline
+> Cannot plot these results (RTX can only plot experiments of one of two variables for now)
