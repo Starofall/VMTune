@@ -1,1 +1,1 @@
-python start.py start scenarios/a-singleRun/4-booleanFlags
+python start.py start scenarios/a-singleRun/5-smartForest
