@@ -1,0 +1,19 @@
+
+> Do VMTouch Prepare
+           Files: 9702
+     Directories: 1462
+   Touched Pages: 256968 (1003M)
+         Elapsed: 0.84066 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | Step
+> Steps Created  | Count: 80
+>
+> KnobValues     | {'compileThreshold': 500}
+> Statistics     | 1/80 took 24267ms - remaining ~1917sec
+> FullState      | {'passedTime': 3741}
+> ResultValue    | 3741
+>
+> KnobValues     | {'compileThreshold': 1000}
