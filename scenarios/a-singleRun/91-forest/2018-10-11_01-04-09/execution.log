@@ -1,0 +1,24 @@
+
+> Do VMTouch Prepare
+           Files: 9855
+     Directories: 1520
+   Touched Pages: 257261 (1004M)
+         Elapsed: 0.84512 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'minInliningThreshold': 138, 'inlineSmallCode': 1907, 'graalBootstrapEnabled': 0, 'compileThreshold': 20468, 'maxInlineLevel': 11, 'codeFlushingEnabled': 0, 'loopMinUnroll': 4, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 251, 'loopUnrollLimit': 39, 'freqInlineSize': 177, 'maxRecursiveInlineLevel': 2, 'graalCompilerEnabled': 1, 'maxInlineSize': 47, 'loopMaxUnroll': 19, 'tieredCompilationEnabled': 1}
+> Statistics     | 1/200 took 8961ms - remaining ~1783sec
+> FullState      | {'passedTime': 7531}
+> ResultValue    | 7531
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'minInliningThreshold': 172, 'inlineSmallCode': 607, 'graalBootstrapEnabled': 1, 'compileThreshold': 7689, 'maxInlineLevel': 10, 'codeFlushingEnabled': 0, 'loopMinUnroll': 2, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 661, 'loopUnrollLimit': 80, 'freqInlineSize': 283, 'maxRecursiveInlineLevel': 0, 'graalCompilerEnabled': 0, 'maxInlineSize': 99, 'loopMaxUnroll': 19, 'tieredCompilationEnabled': 1}
+> Statistics     | 2/200 took 5205ms - remaining ~1030sec
+> FullState      | {'passedTime': 3922}
+> ResultValue    | 3922
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 242, 'inlineSmallCode': 968, 'graalBootstrapEnabled': 0, 'compileThreshold': 6884, 'maxInlineLevel': 15, 'codeFlushingEnabled': 0, 'loopMinUnroll': 8, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 323, 'loopUnrollLimit': 75, 'freqInlineSize': 159, 'maxRecursiveInlineLevel': 2, 'graalCompilerEnabled': 1, 'maxInlineSize': 106, 'loopMaxUnroll': 7, 'tieredCompilationEnabled': 1}

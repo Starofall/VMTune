@@ -1,0 +1,34 @@
+
+> Do VMTouch Prepare
+           Files: 9853
+     Directories: 1519
+   Touched Pages: 257259 (1004M)
+         Elapsed: 0.88268 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 398, 'inlineSmallCode': 1501, 'graalBootstrapEnabled': 1, 'compileThreshold': 9189, 'maxInlineLevel': 7, 'codeFlushingEnabled': 0, 'loopMinUnroll': 3, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 814, 'loopUnrollLimit': 39, 'freqInlineSize': 428, 'maxRecursiveInlineLevel': 0, 'graalCompilerEnabled': 1, 'maxInlineSize': 63, 'loopMaxUnroll': 10, 'tieredCompilationEnabled': 1}
+> Statistics     | 1/200 took 108573ms - remaining ~21606sec
+> FullState      | {'passedTime': 6626}
+> ResultValue    | 6626
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'minInliningThreshold': 330, 'inlineSmallCode': 1511, 'graalBootstrapEnabled': 1, 'compileThreshold': 15431, 'maxInlineLevel': 12, 'codeFlushingEnabled': 0, 'loopMinUnroll': 2, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'onStackReplacePercentage': 853, 'loopUnrollLimit': 25, 'freqInlineSize': 155, 'maxRecursiveInlineLevel': 0, 'graalCompilerEnabled': 0, 'maxInlineSize': 39, 'loopMaxUnroll': 21, 'tieredCompilationEnabled': 1}
+> Statistics     | 2/200 took 4540ms - remaining ~898sec
+> FullState      | {'passedTime': 3616}
+> ResultValue    | 3616
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'minInliningThreshold': 142, 'inlineSmallCode': 732, 'graalBootstrapEnabled': 0, 'compileThreshold': 30133, 'maxInlineLevel': 11, 'codeFlushingEnabled': 1, 'loopMinUnroll': 9, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 410, 'loopUnrollLimit': 20, 'freqInlineSize': 301, 'maxRecursiveInlineLevel': 0, 'graalCompilerEnabled': 1, 'maxInlineSize': 114, 'loopMaxUnroll': 14, 'tieredCompilationEnabled': 1}
+> Statistics     | 3/200 took 11680ms - remaining ~2300sec
+> FullState      | {'passedTime': 9725}
+> ResultValue    | 9725
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 151, 'inlineSmallCode': 1894, 'graalBootstrapEnabled': 1, 'compileThreshold': 4306, 'maxInlineLevel': 14, 'codeFlushingEnabled': 0, 'loopMinUnroll': 5, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 159, 'loopUnrollLimit': 32, 'freqInlineSize': 267, 'maxRecursiveInlineLevel': 2, 'graalCompilerEnabled': 0, 'maxInlineSize': 49, 'loopMaxUnroll': 19, 'tieredCompilationEnabled': 1}
+> Statistics     | 4/200 took 4594ms - remaining ~900sec
+> FullState      | {'passedTime': 3625}
+> ResultValue    | 3625
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 379, 'inlineSmallCode': 1393, 'graalBootstrapEnabled': 1, 'compileThreshold': 16664, 'maxInlineLevel': 8, 'codeFlushingEnabled': 1, 'loopMinUnroll': 9, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 1, 'onStackReplacePercentage': 180, 'loopUnrollLimit': 47, 'freqInlineSize': 232, 'maxRecursiveInlineLevel': 1, 'graalCompilerEnabled': 1, 'maxInlineSize': 131, 'loopMaxUnroll': 21, 'tieredCompilationEnabled': 0}
