@@ -1,0 +1,20 @@
+
+> Do VMTouch Prepare
+           Files: 9818
+     Directories: 1502
+   Touched Pages: 257251 (1004M)
+         Elapsed: 0.83991 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | boostedTrees
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 279, 'inlineSmallCode': 1754, 'graalBootstrapEnabled': 1, 'compileThreshold': 14559, 'maxInlineLevel': 9, 'codeFlushingEnabled': 0, 'loopMinUnroll': 10, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 1, 'onStackReplacePercentage': 413, 'loopUnrollLimit': 28, 'freqInlineSize': 247, 'maxRecursiveInlineLevel': 2, 'graalCompilerEnabled': 0, 'maxInlineSize': 56, 'loopMaxUnroll': 17, 'tieredCompilationEnabled': 1}
+could not reducing data set: {'totalTime': 3.274915933609009, 'scalaBenchSize': 'small', 'minInliningThreshold': 279, 'counterDecayEnabled': 1, 'graalBootstrapEnabled': 1, 'codeCacheSize': '2G', 'maxInlineLevel': 9, 'scenarioIdentifier': 'SingleRun', 'maxInlineSize': 56, 'heapSize': '2G', 'scenarioCommand': ' -t 1 -n 1 ', 'onStackReplacePercentage': 413, 'loopUnrollLimit': 28, 'freqInlineSize': 247, 'maxRecursiveInlineLevel': 2, 'tieredCompilationEnabled': 1, 'backgroundCompilationEnabled': 0, 'warmupTimes': [], 'inlineSmallCode': 1754, 'stdErr': None, 'stdOut': None, 'compileThreshold': 14559, 'codeFlushingEnabled': 0, 'scalaBenchFile': './scalabench.jar', 'scalaBenchTest': 'sunflow', 'loopMinUnroll': 10, 'debugEnabled': 0, 'loopMaxUnroll': 17, 'javaDir': './graalvm/bin/java', 'compileHugeMethodsEnabled': 0, 'graalCompilerEnabled': 0}
+> Statistics     | 1/200 took 3282ms - remaining ~653sec
+> FullState      | {'passedTime': 999999999}
+> ResultValue    | 999999999
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 97, 'inlineSmallCode': 1849, 'graalBootstrapEnabled': 0, 'compileThreshold': 35380, 'maxInlineLevel': 15, 'codeFlushingEnabled': 1, 'loopMinUnroll': 6, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 297, 'loopUnrollLimit': 28, 'freqInlineSize': 200, 'maxRecursiveInlineLevel': 3, 'graalCompilerEnabled': 0, 'maxInlineSize': 87, 'loopMaxUnroll': 20, 'tieredCompilationEnabled': 0}
