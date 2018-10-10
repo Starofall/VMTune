@@ -1,0 +1,2 @@
+backgroundCompilationEnabled,freqInlineSize,minInliningThreshold,inlineSmallCode,graalBootstrapEnabled,compileThreshold,codeFlushingEnabled,onStackReplacePercentage,loopMinUnroll,counterDecayEnabled,maxInlineLevel,loopUnrollLimit,loopMaxUnroll,maxRecursiveInlineLevel,tieredCompilationEnabled,maxInlineSize,compileHugeMethodsEnabled,graalCompilerEnabled,result
+0,279,1754,1,14559,9,0,10,0,1,413,28,247,2,0,56,17,1,999999999

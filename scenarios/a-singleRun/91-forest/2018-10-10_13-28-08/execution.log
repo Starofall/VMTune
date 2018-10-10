@@ -1,0 +1,30 @@
+
+> Do VMTouch Prepare
+           Files: 9815
+     Directories: 1501
+   Touched Pages: 257247 (1004M)
+         Elapsed: 0.84567 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | SingleRun-0-Baseline
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'minInliningThreshold': 94, 'inlineSmallCode': 1281, 'graalBootstrapEnabled': 1, 'compileThreshold': 5132, 'maxInlineLevel': 9, 'codeFlushingEnabled': 0, 'loopMinUnroll': 3, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 307, 'loopUnrollLimit': 34, 'freqInlineSize': 193, 'maxRecursiveInlineLevel': 3, 'graalCompilerEnabled': 1, 'maxInlineSize': 67, 'loopMaxUnroll': 10, 'tieredCompilationEnabled': 1}
+could not reducing data set: {'totalTime': 80.26764011383057, 'scalaBenchSize': 'small', 'minInliningThreshold': 94, 'counterDecayEnabled': 0, 'graalBootstrapEnabled': 1, 'codeCacheSize': '2G', 'maxInlineLevel': 9, 'scenarioIdentifier': 'SingleRun', 'maxInlineSize': 67, 'heapSize': '2G', 'scenarioCommand': ' -t 1 -n 1 ', 'onStackReplacePercentage': 307, 'loopUnrollLimit': 34, 'freqInlineSize': 193, 'maxRecursiveInlineLevel': 3, 'tieredCompilationEnabled': 1, 'backgroundCompilationEnabled': 1, 'warmupTimes': [], 'inlineSmallCode': 1281, 'stdErr': None, 'stdOut': None, 'compileThreshold': 5132, 'codeFlushingEnabled': 0, 'scalaBenchFile': './scalabench.jar', 'scalaBenchTest': 'sunflow', 'loopMinUnroll': 3, 'debugEnabled': 0, 'loopMaxUnroll': 10, 'javaDir': './graalvm/bin/java', 'compileHugeMethodsEnabled': 1, 'graalCompilerEnabled': 1}
+> Statistics     | 1/200 took 80275ms - remaining ~15974sec
+> FullState      | {'passedTime': 999999999}
+> ResultValue    | 999999999
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 141, 'inlineSmallCode': 1498, 'graalBootstrapEnabled': 0, 'compileThreshold': 23678, 'maxInlineLevel': 13, 'codeFlushingEnabled': 1, 'loopMinUnroll': 5, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 735, 'loopUnrollLimit': 70, 'freqInlineSize': 174, 'maxRecursiveInlineLevel': 0, 'graalCompilerEnabled': 0, 'maxInlineSize': 60, 'loopMaxUnroll': 7, 'tieredCompilationEnabled': 0}
+> Statistics     | 2/200 took 4694ms - remaining ~929sec
+> FullState      | {'passedTime': 3955}
+> ResultValue    | 3955
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 178, 'inlineSmallCode': 1995, 'graalBootstrapEnabled': 1, 'compileThreshold': 43257, 'maxInlineLevel': 9, 'codeFlushingEnabled': 1, 'loopMinUnroll': 7, 'compileHugeMethodsEnabled': 0, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 434, 'loopUnrollLimit': 21, 'freqInlineSize': 213, 'maxRecursiveInlineLevel': 0, 'graalCompilerEnabled': 0, 'maxInlineSize': 34, 'loopMaxUnroll': 13, 'tieredCompilationEnabled': 1}
+> Statistics     | 3/200 took 4451ms - remaining ~876sec
+> FullState      | {'passedTime': 3518}
+> ResultValue    | 3518
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'minInliningThreshold': 252, 'inlineSmallCode': 1268, 'graalBootstrapEnabled': 0, 'compileThreshold': 46823, 'maxInlineLevel': 5, 'codeFlushingEnabled': 0, 'loopMinUnroll': 2, 'compileHugeMethodsEnabled': 1, 'counterDecayEnabled': 0, 'onStackReplacePercentage': 393, 'loopUnrollLimit': 75, 'freqInlineSize': 323, 'maxRecursiveInlineLevel': 1, 'graalCompilerEnabled': 1, 'maxInlineSize': 56, 'loopMaxUnroll': 11, 'tieredCompilationEnabled': 1}
