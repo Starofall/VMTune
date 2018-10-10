@@ -11,7 +11,6 @@ execution_strategy = {
     "optimizer_random_starts": 10,
     "knobs": {
         "graalCompilerEnabled": (0, 1),  # default true
-        "graalBootstrapEnabled": (0, 1),  # default false
         "compileHugeMethodsEnabled": (0, 1),  # default false
         "codeFlushingEnabled": (0, 1),  # default true
         "counterDecayEnabled": (0, 1),  # default true
