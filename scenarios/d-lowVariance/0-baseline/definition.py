@@ -5,7 +5,7 @@ execution_strategy = {
     "sample_size": 1,
     "type": "step_explorer",
     "knobs": {
-        "irrelevant": ([1, 20], 1)
+        "irrelevant": ([1, 100], 1)
     }
 }
 
@@ -35,33 +35,24 @@ currentConfiguration = {
     "debugEnabled": 0,
     "codeCacheSize": "2G",
     "heapSize": "2G",
-    "graalCompilerEnabled": 0,
-    "graalBootstrapEnabled": 0,
-    "compileHugeMethodsEnabled": 0,
-    "aggressiveOptEnabled": 0,
-    "codeFlushingEnabled": 1,
-    "counterDecayEnabled": 1,
-    "tieredCompilationEnabled": 1,  #
-    "backgroundCompilationEnabled": 0,  # default is on, but introduces multi-threading variance
-    "loopMaxUnroll": 16,  # 10-20
-    "loopMinUnroll": 4,  # 2-10
-    "loopUnrollLimit": 60,  # 40-80
-    "minInliningThreshold": 250,  # Minimum invocation count a method needs to have to be inlined
-    "inlineSmallCode": 2000,  # 500-5000
-    "maxInlineSize": 35,  # 10-150 Maximum bytecode size of a method to be inlined
-    "freqInlineSize": 325,  # 200-500
-    "maxRecursiveInlineLevel": 1,  # 0-3
-    "maxInlineLevel": 9,  # 5-15 Maximum number of nested calls that are inlined
-    "compileThreshold": 10000,  # 2000-50000
+    "graalCompilerEnabled": 1, # default true
+    "graalBootstrapEnabled": 0, # default false
+    "compileHugeMethodsEnabled": 0,  # default false
+    "codeFlushingEnabled": 1, # default true
+    "counterDecayEnabled": 1, # default true
+    "tieredCompilationEnabled": 1,  # default true
+    "backgroundCompilationEnabled": 1,  # default is on, but introduces multi-threading variance
+    "loopMaxUnroll": 16,  # 10-20 default 16
+    "loopMinUnroll": 4,  # 2-10 default 4
+    "loopUnrollLimit": 60,  # 40-80 default 60
+    "minInliningThreshold": 250,  # default 250 Minimum invocation count a method needs to have to be inlined
+    "inlineSmallCode": 2000,  # 500-5000 default 2000
+    "maxInlineSize": 35,  # 10-150 default 35 Maximum bytecode size of a method to be inlined
+    "freqInlineSize": 325,  # 200-500 default 325
+    "maxRecursiveInlineLevel": 1,  # 0-3 default 1
+    "maxInlineLevel": 9,  # 5-15 default 9 Maximum number of nested calls that are inlined
+    "compileThreshold": 10000,  # 2000-50000 default 10000
     "onStackReplacePercentage": 933,  # 144-993  # method invocations (percentage of CompileThreshold) before compiling
-    "tier4BackEdgeThreshold": 40000,  #
-    "tier4CompileThreshold": 15000,  # 5000-50000
-    "tier4InvocationThreshold": 5000,  #
-    "tier4MinInvocationThreshold": 600,  #
-    "tier3BackEdgeThreshold": 60000,  #
-    "tier3CompileThreshold": 2000,  # 5000-50000
-    "tier3InvocationThreshold": 200,  #
-    "tier3MinInvocationThreshold": 100,  #
 }
 
 
