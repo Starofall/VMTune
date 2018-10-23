@@ -1,0 +1,520 @@
+
+> Do VMTouch Prepare
+           Files: 9975
+     Directories: 1540
+   Touched Pages: 257434 (1005M)
+         Elapsed: 0.85246 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Human
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'minInliningThreshold': 257, 'codeFlushingEnabled': 0, 'loopMinUnroll': 8, 'loopUnrollLimit': 20, 'loopMaxUnroll': 45, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 1/100 took 468772ms - remaining ~46408sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 222, 'codeFlushingEnabled': 0, 'loopMinUnroll': 4, 'loopUnrollLimit': 79, 'loopMaxUnroll': 34, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 2/100 took 483053ms - remaining ~47339sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 298, 'codeFlushingEnabled': 1, 'loopMinUnroll': 33, 'loopUnrollLimit': 60, 'loopMaxUnroll': 42, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 3/100 took 1490945ms - remaining ~144621sec
+> FullState      | {'minimumWarmupTime': 1525}
+> ResultValue    | 1525
+>
+> KnobValues     | {'minInliningThreshold': 486, 'codeFlushingEnabled': 0, 'loopMinUnroll': 35, 'loopUnrollLimit': 79, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 4/100 took 1495322ms - remaining ~143550sec
+> FullState      | {'minimumWarmupTime': 1523}
+> ResultValue    | 1523
+>
+> KnobValues     | {'minInliningThreshold': 215, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 13, 'loopMaxUnroll': 8, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 5/100 took 1517322ms - remaining ~144145sec
+> FullState      | {'minimumWarmupTime': 1531}
+> ResultValue    | 1531
+>
+> KnobValues     | {'minInliningThreshold': 50, 'codeFlushingEnabled': 0, 'loopMinUnroll': 4, 'loopUnrollLimit': 73, 'loopMaxUnroll': 18, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 6/100 took 1501586ms - remaining ~141149sec
+> FullState      | {'minimumWarmupTime': 1525}
+> ResultValue    | 1525
+>
+> KnobValues     | {'minInliningThreshold': 272, 'codeFlushingEnabled': 1, 'loopMinUnroll': 16, 'loopUnrollLimit': 49, 'loopMaxUnroll': 39, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 7/100 took 466162ms - remaining ~43353sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'minInliningThreshold': 151, 'codeFlushingEnabled': 1, 'loopMinUnroll': 20, 'loopUnrollLimit': 87, 'loopMaxUnroll': 15, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 8/100 took 470593ms - remaining ~43294sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'minInliningThreshold': 377, 'codeFlushingEnabled': 0, 'loopMinUnroll': 27, 'loopUnrollLimit': 76, 'loopMaxUnroll': 44, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 9/100 took 1513852ms - remaining ~137760sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'minInliningThreshold': 276, 'codeFlushingEnabled': 1, 'loopMinUnroll': 9, 'loopUnrollLimit': 26, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 10/100 took 469444ms - remaining ~42249sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 181, 'codeFlushingEnabled': 1, 'loopMinUnroll': 29, 'loopUnrollLimit': 35, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 11/100 took 1520380ms - remaining ~135313sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'minInliningThreshold': 206, 'codeFlushingEnabled': 0, 'loopMinUnroll': 48, 'loopUnrollLimit': 93, 'loopMaxUnroll': 12, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 12/100 took 1518455ms - remaining ~133624sec
+> FullState      | {'minimumWarmupTime': 1532}
+> ResultValue    | 1532
+>
+> KnobValues     | {'minInliningThreshold': 322, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 79, 'loopMaxUnroll': 21, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 13/100 took 467533ms - remaining ~40675sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'minInliningThreshold': 132, 'codeFlushingEnabled': 1, 'loopMinUnroll': 27, 'loopUnrollLimit': 45, 'loopMaxUnroll': 16, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 14/100 took 472497ms - remaining ~40634sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 299, 'codeFlushingEnabled': 0, 'loopMinUnroll': 16, 'loopUnrollLimit': 17, 'loopMaxUnroll': 28, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 15/100 took 1504923ms - remaining ~127918sec
+> FullState      | {'minimumWarmupTime': 1527}
+> ResultValue    | 1527
+>
+> KnobValues     | {'minInliningThreshold': 39, 'codeFlushingEnabled': 0, 'loopMinUnroll': 8, 'loopUnrollLimit': 90, 'loopMaxUnroll': 20, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 16/100 took 1514205ms - remaining ~127193sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'minInliningThreshold': 164, 'codeFlushingEnabled': 0, 'loopMinUnroll': 21, 'loopUnrollLimit': 34, 'loopMaxUnroll': 18, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}
+> Statistics     | 17/100 took 1508950ms - remaining ~125242sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'minInliningThreshold': 98, 'codeFlushingEnabled': 1, 'loopMinUnroll': 19, 'loopUnrollLimit': 62, 'loopMaxUnroll': 19, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 18/100 took 473422ms - remaining ~38820sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 288, 'codeFlushingEnabled': 0, 'loopMinUnroll': 21, 'loopUnrollLimit': 42, 'loopMaxUnroll': 13, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 19/100 took 468711ms - remaining ~37965sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 366, 'codeFlushingEnabled': 1, 'loopMinUnroll': 39, 'loopUnrollLimit': 23, 'loopMaxUnroll': 39, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 0}
+> Statistics     | 20/100 took 1508469ms - remaining ~120677sec
+> FullState      | {'minimumWarmupTime': 1532}
+> ResultValue    | 1532
+>
+> KnobValues     | {'minInliningThreshold': 420, 'codeFlushingEnabled': 1, 'loopMinUnroll': 27, 'loopUnrollLimit': 92, 'loopMaxUnroll': 49, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 21/100 took 469742ms - remaining ~37109sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 278, 'codeFlushingEnabled': 1, 'loopMinUnroll': 33, 'loopUnrollLimit': 68, 'loopMaxUnroll': 21, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 22/100 took 486402ms - remaining ~37939sec
+> FullState      | {'minimumWarmupTime': 769}
+> ResultValue    | 769
+>
+> KnobValues     | {'minInliningThreshold': 457, 'codeFlushingEnabled': 1, 'loopMinUnroll': 3, 'loopUnrollLimit': 48, 'loopMaxUnroll': 36, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 23/100 took 465068ms - remaining ~35810sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'minInliningThreshold': 348, 'codeFlushingEnabled': 1, 'loopMinUnroll': 16, 'loopUnrollLimit': 72, 'loopMaxUnroll': 30, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 24/100 took 467595ms - remaining ~35537sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 283, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 48, 'loopMaxUnroll': 42, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 25/100 took 470401ms - remaining ~35280sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 323, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 91, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 26/100 took 489689ms - remaining ~36236sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 492, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 81, 'loopMaxUnroll': 6, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 27/100 took 476823ms - remaining ~34808sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 53, 'codeFlushingEnabled': 1, 'loopMinUnroll': 17, 'loopUnrollLimit': 51, 'loopMaxUnroll': 38, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 28/100 took 472832ms - remaining ~34043sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'minInliningThreshold': 348, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 78, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 29/100 took 464657ms - remaining ~32990sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'minInliningThreshold': 380, 'codeFlushingEnabled': 1, 'loopMinUnroll': 46, 'loopUnrollLimit': 81, 'loopMaxUnroll': 36, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 30/100 took 480297ms - remaining ~33620sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 320, 'codeFlushingEnabled': 1, 'loopMinUnroll': 44, 'loopUnrollLimit': 78, 'loopMaxUnroll': 22, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 31/100 took 469643ms - remaining ~32405sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 320, 'codeFlushingEnabled': 1, 'loopMinUnroll': 39, 'loopUnrollLimit': 79, 'loopMaxUnroll': 19, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 32/100 took 467420ms - remaining ~31784sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 364, 'codeFlushingEnabled': 1, 'loopMinUnroll': 44, 'loopUnrollLimit': 78, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 33/100 took 468494ms - remaining ~31389sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 408, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 75, 'loopMaxUnroll': 28, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 34/100 took 466753ms - remaining ~30805sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 351, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 67, 'loopMaxUnroll': 29, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 35/100 took 470973ms - remaining ~30613sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'minInliningThreshold': 350, 'codeFlushingEnabled': 1, 'loopMinUnroll': 39, 'loopUnrollLimit': 52, 'loopMaxUnroll': 32, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 36/100 took 470281ms - remaining ~30097sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 345, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 87, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 37/100 took 473046ms - remaining ~29801sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'minInliningThreshold': 338, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 62, 'loopMaxUnroll': 33, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 38/100 took 469547ms - remaining ~29111sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 290, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 54, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 39/100 took 474661ms - remaining ~28954sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 196, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 79, 'loopMaxUnroll': 31, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 40/100 took 469462ms - remaining ~28167sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 371, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 74, 'loopMaxUnroll': 7, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 41/100 took 465414ms - remaining ~27459sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 363, 'codeFlushingEnabled': 1, 'loopMinUnroll': 50, 'loopUnrollLimit': 78, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 42/100 took 469735ms - remaining ~27244sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 318, 'codeFlushingEnabled': 1, 'loopMinUnroll': 16, 'loopUnrollLimit': 35, 'loopMaxUnroll': 39, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 43/100 took 466141ms - remaining ~26570sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 226, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 77, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 44/100 took 461539ms - remaining ~25846sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'minInliningThreshold': 253, 'codeFlushingEnabled': 1, 'loopMinUnroll': 37, 'loopUnrollLimit': 81, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 45/100 took 475915ms - remaining ~26175sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'minInliningThreshold': 182, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 73, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 46/100 took 459696ms - remaining ~24823sec
+> FullState      | {'minimumWarmupTime': 753}
+> ResultValue    | 753
+>
+> KnobValues     | {'minInliningThreshold': 169, 'codeFlushingEnabled': 1, 'loopMinUnroll': 43, 'loopUnrollLimit': 75, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 47/100 took 467914ms - remaining ~24799sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 45, 'codeFlushingEnabled': 1, 'loopMinUnroll': 44, 'loopUnrollLimit': 69, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 48/100 took 469220ms - remaining ~24399sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 64, 'codeFlushingEnabled': 1, 'loopMinUnroll': 43, 'loopUnrollLimit': 78, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 49/100 took 468778ms - remaining ~23907sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 187, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 66, 'loopMaxUnroll': 17, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 50/100 took 471576ms - remaining ~23578sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'minInliningThreshold': 230, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 72, 'loopMaxUnroll': 30, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 51/100 took 470996ms - remaining ~23078sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'minInliningThreshold': 211, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 72, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 52/100 took 469829ms - remaining ~22551sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'minInliningThreshold': 181, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 66, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 53/100 took 474049ms - remaining ~22280sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'minInliningThreshold': 234, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 73, 'loopMaxUnroll': 27, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 54/100 took 475093ms - remaining ~21854sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 167, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 81, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 55/100 took 476531ms - remaining ~21443sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'minInliningThreshold': 169, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 55, 'loopMaxUnroll': 20, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 56/100 took 466825ms - remaining ~20540sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 142, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 78, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 57/100 took 465160ms - remaining ~20001sec
+> FullState      | {'minimumWarmupTime': 754}
+> ResultValue    | 754
+>
+> KnobValues     | {'minInliningThreshold': 195, 'codeFlushingEnabled': 0, 'loopMinUnroll': 40, 'loopUnrollLimit': 72, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 58/100 took 470531ms - remaining ~19762sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'minInliningThreshold': 162, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 83, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 59/100 took 467255ms - remaining ~19157sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'minInliningThreshold': 27, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 74, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 60/100 took 468860ms - remaining ~18754sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 189, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 76, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 61/100 took 467032ms - remaining ~18214sec
+> FullState      | {'minimumWarmupTime': 754}
+> ResultValue    | 754
+>
+> KnobValues     | {'minInliningThreshold': 188, 'codeFlushingEnabled': 0, 'loopMinUnroll': 41, 'loopUnrollLimit': 83, 'loopMaxUnroll': 22, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 62/100 took 474830ms - remaining ~18043sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 104, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 81, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 63/100 took 471085ms - remaining ~17430sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'minInliningThreshold': 158, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 94, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 64/100 took 468452ms - remaining ~16864sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 172, 'codeFlushingEnabled': 1, 'loopMinUnroll': 32, 'loopUnrollLimit': 71, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 65/100 took 465834ms - remaining ~16304sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 161, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 89, 'loopMaxUnroll': 22, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 66/100 took 463014ms - remaining ~15742sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 199, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 71, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 67/100 took 469499ms - remaining ~15493sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 164, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 84, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 68/100 took 476192ms - remaining ~15238sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'minInliningThreshold': 61, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 80, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 69/100 took 470127ms - remaining ~14573sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'minInliningThreshold': 189, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 73, 'loopMaxUnroll': 21, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 70/100 took 467460ms - remaining ~14023sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'minInliningThreshold': 133, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 72, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 71/100 took 471856ms - remaining ~13683sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'minInliningThreshold': 189, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 76, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 72/100 took 466309ms - remaining ~13056sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'minInliningThreshold': 182, 'codeFlushingEnabled': 1, 'loopMinUnroll': 44, 'loopUnrollLimit': 75, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 73/100 took 472815ms - remaining ~12766sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 218, 'codeFlushingEnabled': 1, 'loopMinUnroll': 41, 'loopUnrollLimit': 73, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 74/100 took 468638ms - remaining ~12184sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 177, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 73, 'loopMaxUnroll': 29, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 75/100 took 466331ms - remaining ~11658sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 172, 'codeFlushingEnabled': 1, 'loopMinUnroll': 43, 'loopUnrollLimit': 78, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 76/100 took 469230ms - remaining ~11261sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 230, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 79, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 77/100 took 469582ms - remaining ~10800sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 159, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 65, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 78/100 took 470122ms - remaining ~10342sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 180, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 74, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 79/100 took 467848ms - remaining ~9824sec
+> FullState      | {'minimumWarmupTime': 771}
+> ResultValue    | 771
+>
+> KnobValues     | {'minInliningThreshold': 156, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 76, 'loopMaxUnroll': 6, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 80/100 took 471453ms - remaining ~9429sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'minInliningThreshold': 123, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 75, 'loopMaxUnroll': 21, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 81/100 took 475116ms - remaining ~9027sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'minInliningThreshold': 143, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 86, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 82/100 took 472995ms - remaining ~8513sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 200, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 69, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 83/100 took 478927ms - remaining ~8141sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 143, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 86, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 84/100 took 481725ms - remaining ~7707sec
+> FullState      | {'minimumWarmupTime': 770}
+> ResultValue    | 770
+>
+> KnobValues     | {'minInliningThreshold': 158, 'codeFlushingEnabled': 1, 'loopMinUnroll': 40, 'loopUnrollLimit': 81, 'loopMaxUnroll': 26, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 85/100 took 470612ms - remaining ~7059sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 222, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 72, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 86/100 took 472737ms - remaining ~6618sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'minInliningThreshold': 182, 'codeFlushingEnabled': 0, 'loopMinUnroll': 12, 'loopUnrollLimit': 77, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+> Statistics     | 87/100 took 469976ms - remaining ~6109sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'minInliningThreshold': 160, 'codeFlushingEnabled': 0, 'loopMinUnroll': 41, 'loopUnrollLimit': 76, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 88/100 took 471158ms - remaining ~5653sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'minInliningThreshold': 28, 'codeFlushingEnabled': 0, 'loopMinUnroll': 44, 'loopUnrollLimit': 77, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 89/100 took 488226ms - remaining ~5370sec
+> FullState      | {'minimumWarmupTime': 770}
+> ResultValue    | 770
+>
+> KnobValues     | {'minInliningThreshold': 183, 'codeFlushingEnabled': 0, 'loopMinUnroll': 41, 'loopUnrollLimit': 74, 'loopMaxUnroll': 49, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 90/100 took 474337ms - remaining ~4743sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 133, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 64, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 91/100 took 473791ms - remaining ~4264sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'minInliningThreshold': 190, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 78, 'loopMaxUnroll': 31, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 92/100 took 475303ms - remaining ~3802sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'minInliningThreshold': 137, 'codeFlushingEnabled': 0, 'loopMinUnroll': 37, 'loopUnrollLimit': 76, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 93/100 took 465220ms - remaining ~3256sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'minInliningThreshold': 324, 'codeFlushingEnabled': 0, 'loopMinUnroll': 42, 'loopUnrollLimit': 73, 'loopMaxUnroll': 23, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 94/100 took 482538ms - remaining ~2895sec
+> FullState      | {'minimumWarmupTime': 778}
+> ResultValue    | 778
+>
+> KnobValues     | {'minInliningThreshold': 170, 'codeFlushingEnabled': 0, 'loopMinUnroll': 43, 'loopUnrollLimit': 67, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 95/100 took 463766ms - remaining ~2318sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'minInliningThreshold': 172, 'codeFlushingEnabled': 0, 'loopMinUnroll': 48, 'loopUnrollLimit': 66, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 96/100 took 472647ms - remaining ~1890sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'minInliningThreshold': 164, 'codeFlushingEnabled': 0, 'loopMinUnroll': 48, 'loopUnrollLimit': 49, 'loopMaxUnroll': 24, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 97/100 took 473865ms - remaining ~1421sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'minInliningThreshold': 170, 'codeFlushingEnabled': 0, 'loopMinUnroll': 44, 'loopUnrollLimit': 59, 'loopMaxUnroll': 22, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 98/100 took 469568ms - remaining ~939sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'minInliningThreshold': 172, 'codeFlushingEnabled': 0, 'loopMinUnroll': 47, 'loopUnrollLimit': 69, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 99/100 took 464812ms - remaining ~464sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'minInliningThreshold': 197, 'codeFlushingEnabled': 0, 'loopMinUnroll': 45, 'loopUnrollLimit': 60, 'loopMaxUnroll': 22, 'compileHugeMethodsEnabled': 1, 'tieredCompilationEnabled': 1}
+> Statistics     | 100/100 took 463886ms - remaining ~0sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> OptimalResult  | Knobs:  {'minInliningThreshold': 182, 'codeFlushingEnabled': 1, 'loopMinUnroll': 42, 'loopUnrollLimit': 73, 'loopMaxUnroll': 25, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 1}
+>                | Result: 753
+>
+> Finished workflow
+######################################
+> Reporting on   | Fastest-1-Human
+> Cannot plot these results (RTX can only plot experiments of one of two variables for now)
