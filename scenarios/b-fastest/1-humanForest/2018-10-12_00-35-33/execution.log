@@ -1,0 +1,2520 @@
+
+> Do VMTouch Prepare
+           Files: 9955
+     Directories: 1534
+   Touched Pages: 257370 (1005M)
+         Elapsed: 0.8491 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Human
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 28000, 'maxInlineSize': 79, 'freqInlineSize': 2907, 'counterDecayEnabled': 1}
+> Statistics     | 1/500 took 1637827ms - remaining ~817275sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 2401, 'maxInlineSize': 82, 'freqInlineSize': 475, 'counterDecayEnabled': 0}
+> Statistics     | 2/500 took 2232967ms - remaining ~1112017sec
+> FullState      | {'minimumWarmupTime': 1520}
+> ResultValue    | 1520
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 15543, 'maxInlineSize': 125, 'freqInlineSize': 3232, 'counterDecayEnabled': 1}
+> Statistics     | 3/500 took 1736064ms - remaining ~862823sec
+> FullState      | {'minimumWarmupTime': 1538}
+> ResultValue    | 1538
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 4065, 'maxInlineSize': 98, 'freqInlineSize': 522, 'counterDecayEnabled': 1}
+> Statistics     | 4/500 took 2205783ms - remaining ~1094068sec
+> FullState      | {'minimumWarmupTime': 1678}
+> ResultValue    | 1678
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 38770, 'maxInlineSize': 114, 'freqInlineSize': 183, 'counterDecayEnabled': 1}
+> Statistics     | 5/500 took 1556470ms - remaining ~770452sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 18307, 'maxInlineSize': 31, 'freqInlineSize': 2965, 'counterDecayEnabled': 0}
+> Statistics     | 6/500 took 1716707ms - remaining ~848053sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 994, 'maxInlineSize': 43, 'freqInlineSize': 1555, 'counterDecayEnabled': 0}
+> Statistics     | 7/500 took 2792010ms - remaining ~1376460sec
+> FullState      | {'minimumWarmupTime': 1540}
+> ResultValue    | 1540
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 6082, 'maxInlineSize': 58, 'freqInlineSize': 3414, 'counterDecayEnabled': 0}
+> Statistics     | 8/500 took 2076366ms - remaining ~1021572sec
+> FullState      | {'minimumWarmupTime': 1525}
+> ResultValue    | 1525
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 4334, 'maxInlineSize': 10, 'freqInlineSize': 4321, 'counterDecayEnabled': 0}
+> Statistics     | 9/500 took 2242698ms - remaining ~1101164sec
+> FullState      | {'minimumWarmupTime': 1679}
+> ResultValue    | 1679
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21187, 'maxInlineSize': 107, 'freqInlineSize': 4232, 'counterDecayEnabled': 1}
+> Statistics     | 10/500 took 1830349ms - remaining ~896871sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 35398, 'maxInlineSize': 82, 'freqInlineSize': 2029, 'counterDecayEnabled': 0}
+> Statistics     | 11/500 took 1766852ms - remaining ~863990sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 21248, 'maxInlineSize': 49, 'freqInlineSize': 766, 'counterDecayEnabled': 0}
+> Statistics     | 12/500 took 1704302ms - remaining ~831699sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 24435, 'maxInlineSize': 20, 'freqInlineSize': 4507, 'counterDecayEnabled': 0}
+> Statistics     | 13/500 took 1857450ms - remaining ~904578sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 35886, 'maxInlineSize': 51, 'freqInlineSize': 4085, 'counterDecayEnabled': 1}
+> Statistics     | 14/500 took 1701044ms - remaining ~826707sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 29821, 'maxInlineSize': 102, 'freqInlineSize': 561, 'counterDecayEnabled': 0}
+> Statistics     | 15/500 took 1694609ms - remaining ~821885sec
+> FullState      | {'minimumWarmupTime': 1537}
+> ResultValue    | 1537
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 24034, 'maxInlineSize': 123, 'freqInlineSize': 4470, 'counterDecayEnabled': 0}
+> Statistics     | 16/500 took 1895058ms - remaining ~917208sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 20922, 'maxInlineSize': 35, 'freqInlineSize': 2036, 'counterDecayEnabled': 0}
+> Statistics     | 17/500 took 1709513ms - remaining ~825694sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21983, 'maxInlineSize': 32, 'freqInlineSize': 2728, 'counterDecayEnabled': 0}
+> Statistics     | 18/500 took 1876333ms - remaining ~904392sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 38984, 'maxInlineSize': 67, 'freqInlineSize': 1055, 'counterDecayEnabled': 1}
+> Statistics     | 19/500 took 1676877ms - remaining ~806577sec
+> FullState      | {'minimumWarmupTime': 783}
+> ResultValue    | 783
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 24124, 'maxInlineSize': 29, 'freqInlineSize': 3844, 'counterDecayEnabled': 1}
+> Statistics     | 20/500 took 1788656ms - remaining ~858554sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 15487, 'maxInlineSize': 137, 'freqInlineSize': 2318, 'counterDecayEnabled': 0}
+> Statistics     | 21/500 took 1959892ms - remaining ~938788sec
+> FullState      | {'minimumWarmupTime': 1524}
+> ResultValue    | 1524
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 19584, 'maxInlineSize': 61, 'freqInlineSize': 3043, 'counterDecayEnabled': 1}
+> Statistics     | 22/500 took 1679624ms - remaining ~802860sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 25712, 'maxInlineSize': 144, 'freqInlineSize': 3288, 'counterDecayEnabled': 0}
+> Statistics     | 23/500 took 1838508ms - remaining ~876968sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 23384, 'maxInlineSize': 29, 'freqInlineSize': 487, 'counterDecayEnabled': 0}
+> Statistics     | 24/500 took 1851615ms - remaining ~881368sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 12645, 'maxInlineSize': 91, 'freqInlineSize': 2718, 'counterDecayEnabled': 1}
+> Statistics     | 25/500 took 1944438ms - remaining ~923608sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 30595, 'maxInlineSize': 67, 'freqInlineSize': 407, 'counterDecayEnabled': 1}
+> Statistics     | 26/500 took 1741238ms - remaining ~825346sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 15941, 'maxInlineSize': 120, 'freqInlineSize': 1395, 'counterDecayEnabled': 1}
+> Statistics     | 27/500 took 1920990ms - remaining ~908628sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17419, 'maxInlineSize': 81, 'freqInlineSize': 4814, 'counterDecayEnabled': 0}
+> Statistics     | 28/500 took 1959978ms - remaining ~925109sec
+> FullState      | {'minimumWarmupTime': 1522}
+> ResultValue    | 1522
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 28581, 'maxInlineSize': 150, 'freqInlineSize': 2008, 'counterDecayEnabled': 1}
+> Statistics     | 29/500 took 1630043ms - remaining ~767750sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 5817, 'maxInlineSize': 22, 'freqInlineSize': 1340, 'counterDecayEnabled': 1}
+> Statistics     | 30/500 took 1782293ms - remaining ~837677sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 23694, 'maxInlineSize': 143, 'freqInlineSize': 1620, 'counterDecayEnabled': 0}
+> Statistics     | 31/500 took 1846218ms - remaining ~865876sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 11538, 'maxInlineSize': 74, 'freqInlineSize': 3678, 'counterDecayEnabled': 1}
+> Statistics     | 32/500 took 1733296ms - remaining ~811182sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 12364, 'maxInlineSize': 79, 'freqInlineSize': 2733, 'counterDecayEnabled': 1}
+> Statistics     | 33/500 took 1947554ms - remaining ~909507sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17381, 'maxInlineSize': 128, 'freqInlineSize': 210, 'counterDecayEnabled': 1}
+> Statistics     | 34/500 took 1879372ms - remaining ~875787sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 3029, 'maxInlineSize': 67, 'freqInlineSize': 4410, 'counterDecayEnabled': 1}
+> Statistics     | 35/500 took 2257542ms - remaining ~1049757sec
+> FullState      | {'minimumWarmupTime': 1689}
+> ResultValue    | 1689
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 18387, 'maxInlineSize': 146, 'freqInlineSize': 1794, 'counterDecayEnabled': 1}
+> Statistics     | 36/500 took 1711508ms - remaining ~794139sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 28903, 'maxInlineSize': 117, 'freqInlineSize': 730, 'counterDecayEnabled': 1}
+> Statistics     | 37/500 took 1750109ms - remaining ~810300sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 28335, 'maxInlineSize': 40, 'freqInlineSize': 1163, 'counterDecayEnabled': 1}
+> Statistics     | 38/500 took 1657373ms - remaining ~765706sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 45998, 'maxInlineSize': 95, 'freqInlineSize': 3160, 'counterDecayEnabled': 1}
+> Statistics     | 39/500 took 1605010ms - remaining ~739909sec
+> FullState      | {'minimumWarmupTime': 773}
+> ResultValue    | 773
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 6894, 'maxInlineSize': 131, 'freqInlineSize': 3036, 'counterDecayEnabled': 1}
+> Statistics     | 40/500 took 2043696ms - remaining ~940100sec
+> FullState      | {'minimumWarmupTime': 1519}
+> ResultValue    | 1519
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 5953, 'maxInlineSize': 111, 'freqInlineSize': 3891, 'counterDecayEnabled': 1}
+> Statistics     | 41/500 took 2076150ms - remaining ~952952sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 13518, 'maxInlineSize': 15, 'freqInlineSize': 3488, 'counterDecayEnabled': 1}
+> Statistics     | 42/500 took 1731268ms - remaining ~792920sec
+> FullState      | {'minimumWarmupTime': 1532}
+> ResultValue    | 1532
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 8343, 'maxInlineSize': 41, 'freqInlineSize': 2416, 'counterDecayEnabled': 0}
+> Statistics     | 43/500 took 1777463ms - remaining ~812300sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 18851, 'maxInlineSize': 43, 'freqInlineSize': 2415, 'counterDecayEnabled': 0}
+> Statistics     | 44/500 took 1717019ms - remaining ~782960sec
+> FullState      | {'minimumWarmupTime': 1539}
+> ResultValue    | 1539
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 31518, 'maxInlineSize': 117, 'freqInlineSize': 3175, 'counterDecayEnabled': 1}
+> Statistics     | 45/500 took 1630214ms - remaining ~741747sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 11091, 'maxInlineSize': 93, 'freqInlineSize': 2573, 'counterDecayEnabled': 1}
+> Statistics     | 46/500 took 1767116ms - remaining ~802270sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 20858, 'maxInlineSize': 47, 'freqInlineSize': 4338, 'counterDecayEnabled': 1}
+> Statistics     | 47/500 took 1857081ms - remaining ~841257sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 10579, 'maxInlineSize': 139, 'freqInlineSize': 2068, 'counterDecayEnabled': 0}
+> Statistics     | 48/500 took 1963380ms - remaining ~887447sec
+> FullState      | {'minimumWarmupTime': 1506}
+> ResultValue    | 1506
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 30261, 'maxInlineSize': 71, 'freqInlineSize': 2054, 'counterDecayEnabled': 1}
+> Statistics     | 49/500 took 1628025ms - remaining ~734239sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 45464, 'maxInlineSize': 46, 'freqInlineSize': 2597, 'counterDecayEnabled': 1}
+> Statistics     | 50/500 took 1488581ms - remaining ~669861sec
+> FullState      | {'minimumWarmupTime': 773}
+> ResultValue    | 773
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 22780, 'maxInlineSize': 22, 'freqInlineSize': 4609, 'counterDecayEnabled': 0}
+> Statistics     | 51/500 took 1849993ms - remaining ~830646sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21390, 'maxInlineSize': 10, 'freqInlineSize': 2057, 'counterDecayEnabled': 0}
+> Statistics     | 52/500 took 1904026ms - remaining ~853003sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21444, 'maxInlineSize': 15, 'freqInlineSize': 4883, 'counterDecayEnabled': 0}
+> Statistics     | 53/500 took 1873657ms - remaining ~837524sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19990, 'maxInlineSize': 10, 'freqInlineSize': 4102, 'counterDecayEnabled': 0}
+> Statistics     | 54/500 took 1941037ms - remaining ~865702sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 20275, 'maxInlineSize': 10, 'freqInlineSize': 4765, 'counterDecayEnabled': 0}
+> Statistics     | 55/500 took 1922721ms - remaining ~855610sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18578, 'maxInlineSize': 14, 'freqInlineSize': 3372, 'counterDecayEnabled': 1}
+> Statistics     | 56/500 took 1884116ms - remaining ~836547sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21427, 'maxInlineSize': 67, 'freqInlineSize': 4686, 'counterDecayEnabled': 0}
+> Statistics     | 57/500 took 1893758ms - remaining ~838934sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19241, 'maxInlineSize': 10, 'freqInlineSize': 3515, 'counterDecayEnabled': 0}
+> Statistics     | 58/500 took 1918586ms - remaining ~848015sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17292, 'maxInlineSize': 12, 'freqInlineSize': 4879, 'counterDecayEnabled': 1}
+> Statistics     | 59/500 took 1918943ms - remaining ~846253sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 15993, 'maxInlineSize': 15, 'freqInlineSize': 4433, 'counterDecayEnabled': 1}
+> Statistics     | 60/500 took 1918916ms - remaining ~844323sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19134, 'maxInlineSize': 16, 'freqInlineSize': 4727, 'counterDecayEnabled': 0}
+> Statistics     | 61/500 took 1927544ms - remaining ~846191sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18182, 'maxInlineSize': 14, 'freqInlineSize': 3451, 'counterDecayEnabled': 0}
+> Statistics     | 62/500 took 1936390ms - remaining ~848138sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17665, 'maxInlineSize': 10, 'freqInlineSize': 4868, 'counterDecayEnabled': 0}
+> Statistics     | 63/500 took 1940345ms - remaining ~847930sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17675, 'maxInlineSize': 14, 'freqInlineSize': 4579, 'counterDecayEnabled': 0}
+> Statistics     | 64/500 took 1922416ms - remaining ~838173sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17093, 'maxInlineSize': 14, 'freqInlineSize': 1302, 'counterDecayEnabled': 0}
+> Statistics     | 65/500 took 1960444ms - remaining ~852793sec
+> FullState      | {'minimumWarmupTime': 1536}
+> ResultValue    | 1536
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18674, 'maxInlineSize': 29, 'freqInlineSize': 2758, 'counterDecayEnabled': 0}
+> Statistics     | 66/500 took 1931093ms - remaining ~838094sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18041, 'maxInlineSize': 15, 'freqInlineSize': 4392, 'counterDecayEnabled': 0}
+> Statistics     | 67/500 took 1935750ms - remaining ~838179sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18688, 'maxInlineSize': 45, 'freqInlineSize': 1048, 'counterDecayEnabled': 0}
+> Statistics     | 68/500 took 1953640ms - remaining ~843972sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17768, 'maxInlineSize': 12, 'freqInlineSize': 4505, 'counterDecayEnabled': 0}
+> Statistics     | 69/500 took 1912518ms - remaining ~824295sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17588, 'maxInlineSize': 15, 'freqInlineSize': 4364, 'counterDecayEnabled': 0}
+> Statistics     | 70/500 took 1950665ms - remaining ~838785sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17779, 'maxInlineSize': 44, 'freqInlineSize': 4402, 'counterDecayEnabled': 0}
+> Statistics     | 71/500 took 1909393ms - remaining ~819129sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18204, 'maxInlineSize': 11, 'freqInlineSize': 118, 'counterDecayEnabled': 0}
+> Statistics     | 72/500 took 1942746ms - remaining ~831495sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17852, 'maxInlineSize': 12, 'freqInlineSize': 1405, 'counterDecayEnabled': 0}
+> Statistics     | 73/500 took 1935977ms - remaining ~826662sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17478, 'maxInlineSize': 10, 'freqInlineSize': 4038, 'counterDecayEnabled': 0}
+> Statistics     | 74/500 took 1941739ms - remaining ~827180sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17557, 'maxInlineSize': 16, 'freqInlineSize': 2585, 'counterDecayEnabled': 0}
+> Statistics     | 75/500 took 1922721ms - remaining ~817156sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17473, 'maxInlineSize': 25, 'freqInlineSize': 2887, 'counterDecayEnabled': 0}
+> Statistics     | 76/500 took 1926965ms - remaining ~817033sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16360, 'maxInlineSize': 24, 'freqInlineSize': 3818, 'counterDecayEnabled': 0}
+> Statistics     | 77/500 took 1968910ms - remaining ~832848sec
+> FullState      | {'minimumWarmupTime': 1532}
+> ResultValue    | 1532
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17463, 'maxInlineSize': 11, 'freqInlineSize': 4688, 'counterDecayEnabled': 0}
+> Statistics     | 78/500 took 1933673ms - remaining ~816010sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17796, 'maxInlineSize': 16, 'freqInlineSize': 119, 'counterDecayEnabled': 0}
+> Statistics     | 79/500 took 1948520ms - remaining ~820326sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17626, 'maxInlineSize': 27, 'freqInlineSize': 973, 'counterDecayEnabled': 0}
+> Statistics     | 80/500 took 1954908ms - remaining ~821061sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17513, 'maxInlineSize': 10, 'freqInlineSize': 3636, 'counterDecayEnabled': 0}
+> Statistics     | 81/500 took 1972908ms - remaining ~826648sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17147, 'maxInlineSize': 12, 'freqInlineSize': 4483, 'counterDecayEnabled': 0}
+> Statistics     | 82/500 took 1955505ms - remaining ~817401sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17494, 'maxInlineSize': 12, 'freqInlineSize': 2603, 'counterDecayEnabled': 0}
+> Statistics     | 83/500 took 1948478ms - remaining ~812515sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16943, 'maxInlineSize': 12, 'freqInlineSize': 2520, 'counterDecayEnabled': 0}
+> Statistics     | 84/500 took 1972762ms - remaining ~820668sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16967, 'maxInlineSize': 10, 'freqInlineSize': 4133, 'counterDecayEnabled': 0}
+> Statistics     | 85/500 took 1967807ms - remaining ~816639sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18995, 'maxInlineSize': 23, 'freqInlineSize': 364, 'counterDecayEnabled': 0}
+> Statistics     | 86/500 took 1945199ms - remaining ~805312sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18150, 'maxInlineSize': 23, 'freqInlineSize': 2011, 'counterDecayEnabled': 0}
+> Statistics     | 87/500 took 1947069ms - remaining ~804139sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 20043, 'maxInlineSize': 66, 'freqInlineSize': 3775, 'counterDecayEnabled': 0}
+> Statistics     | 88/500 took 1925273ms - remaining ~793212sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17667, 'maxInlineSize': 10, 'freqInlineSize': 585, 'counterDecayEnabled': 0}
+> Statistics     | 89/500 took 1933662ms - remaining ~794735sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17122, 'maxInlineSize': 10, 'freqInlineSize': 4021, 'counterDecayEnabled': 0}
+> Statistics     | 90/500 took 1959938ms - remaining ~803574sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17812, 'maxInlineSize': 11, 'freqInlineSize': 1244, 'counterDecayEnabled': 0}
+> Statistics     | 91/500 took 1951491ms - remaining ~798159sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21245, 'maxInlineSize': 99, 'freqInlineSize': 1289, 'counterDecayEnabled': 0}
+> Statistics     | 92/500 took 1896968ms - remaining ~773962sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18676, 'maxInlineSize': 28, 'freqInlineSize': 1081, 'counterDecayEnabled': 0}
+> Statistics     | 93/500 took 1944246ms - remaining ~791308sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17643, 'maxInlineSize': 10, 'freqInlineSize': 1718, 'counterDecayEnabled': 0}
+> Statistics     | 94/500 took 1910668ms - remaining ~775731sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17386, 'maxInlineSize': 18, 'freqInlineSize': 2557, 'counterDecayEnabled': 0}
+> Statistics     | 95/500 took 1954403ms - remaining ~791533sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17513, 'maxInlineSize': 11, 'freqInlineSize': 4145, 'counterDecayEnabled': 0}
+> Statistics     | 96/500 took 1948452ms - remaining ~787174sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17328, 'maxInlineSize': 10, 'freqInlineSize': 1570, 'counterDecayEnabled': 0}
+> Statistics     | 97/500 took 1952416ms - remaining ~786823sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17863, 'maxInlineSize': 23, 'freqInlineSize': 794, 'counterDecayEnabled': 0}
+> Statistics     | 98/500 took 1918924ms - remaining ~771407sec
+> FullState      | {'minimumWarmupTime': 891}
+> ResultValue    | 891
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18923, 'maxInlineSize': 64, 'freqInlineSize': 4096, 'counterDecayEnabled': 1}
+> Statistics     | 99/500 took 1845299ms - remaining ~739964sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19149, 'maxInlineSize': 75, 'freqInlineSize': 1953, 'counterDecayEnabled': 0}
+> Statistics     | 100/500 took 1926544ms - remaining ~770617sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17511, 'maxInlineSize': 101, 'freqInlineSize': 167, 'counterDecayEnabled': 1}
+> Statistics     | 101/500 took 1888493ms - remaining ~753508sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17099, 'maxInlineSize': 104, 'freqInlineSize': 508, 'counterDecayEnabled': 1}
+> Statistics     | 102/500 took 1914778ms - remaining ~762081sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18535, 'maxInlineSize': 65, 'freqInlineSize': 4139, 'counterDecayEnabled': 0}
+> Statistics     | 103/500 took 1939186ms - remaining ~769856sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17309, 'maxInlineSize': 12, 'freqInlineSize': 2523, 'counterDecayEnabled': 1}
+> Statistics     | 104/500 took 1997466ms - remaining ~790996sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18079, 'maxInlineSize': 68, 'freqInlineSize': 4836, 'counterDecayEnabled': 0}
+> Statistics     | 105/500 took 1941070ms - remaining ~766722sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17185, 'maxInlineSize': 10, 'freqInlineSize': 1911, 'counterDecayEnabled': 0}
+> Statistics     | 106/500 took 1947841ms - remaining ~767449sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17565, 'maxInlineSize': 73, 'freqInlineSize': 4043, 'counterDecayEnabled': 1}
+> Statistics     | 107/500 took 1846053ms - remaining ~725498sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17336, 'maxInlineSize': 60, 'freqInlineSize': 4074, 'counterDecayEnabled': 1}
+> Statistics     | 108/500 took 1899369ms - remaining ~744552sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16807, 'maxInlineSize': 63, 'freqInlineSize': 3298, 'counterDecayEnabled': 1}
+> Statistics     | 109/500 took 1928437ms - remaining ~754018sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16638, 'maxInlineSize': 90, 'freqInlineSize': 331, 'counterDecayEnabled': 1}
+> Statistics     | 110/500 took 1923597ms - remaining ~750202sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17654, 'maxInlineSize': 69, 'freqInlineSize': 3523, 'counterDecayEnabled': 0}
+> Statistics     | 111/500 took 1939992ms - remaining ~754656sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17398, 'maxInlineSize': 20, 'freqInlineSize': 4367, 'counterDecayEnabled': 0}
+> Statistics     | 112/500 took 1947918ms - remaining ~755792sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19450, 'maxInlineSize': 94, 'freqInlineSize': 4429, 'counterDecayEnabled': 0}
+> Statistics     | 113/500 took 1917513ms - remaining ~742077sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18380, 'maxInlineSize': 83, 'freqInlineSize': 3831, 'counterDecayEnabled': 0}
+> Statistics     | 114/500 took 1920678ms - remaining ~741381sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17561, 'maxInlineSize': 16, 'freqInlineSize': 4882, 'counterDecayEnabled': 0}
+> Statistics     | 115/500 took 1908942ms - remaining ~734942sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17455, 'maxInlineSize': 74, 'freqInlineSize': 2913, 'counterDecayEnabled': 0}
+> Statistics     | 116/500 took 1930244ms - remaining ~741213sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17386, 'maxInlineSize': 58, 'freqInlineSize': 2939, 'counterDecayEnabled': 0}
+> Statistics     | 117/500 took 1946662ms - remaining ~745571sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17427, 'maxInlineSize': 14, 'freqInlineSize': 4780, 'counterDecayEnabled': 1}
+> Statistics     | 118/500 took 1894702ms - remaining ~723776sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17144, 'maxInlineSize': 63, 'freqInlineSize': 2501, 'counterDecayEnabled': 0}
+> Statistics     | 119/500 took 1952063ms - remaining ~743736sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16938, 'maxInlineSize': 58, 'freqInlineSize': 4864, 'counterDecayEnabled': 1}
+> Statistics     | 120/500 took 1926625ms - remaining ~732117sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18026, 'maxInlineSize': 26, 'freqInlineSize': 4316, 'counterDecayEnabled': 0}
+> Statistics     | 121/500 took 1931193ms - remaining ~731922sec
+> FullState      | {'minimumWarmupTime': 1524}
+> ResultValue    | 1524
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18053, 'maxInlineSize': 59, 'freqInlineSize': 4340, 'counterDecayEnabled': 0}
+> Statistics     | 122/500 took 1954106ms - remaining ~738652sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17056, 'maxInlineSize': 71, 'freqInlineSize': 2553, 'counterDecayEnabled': 0}
+> Statistics     | 123/500 took 1962272ms - remaining ~739776sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18570, 'maxInlineSize': 46, 'freqInlineSize': 3923, 'counterDecayEnabled': 0}
+> Statistics     | 124/500 took 1932124ms - remaining ~726478sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18563, 'maxInlineSize': 34, 'freqInlineSize': 3899, 'counterDecayEnabled': 0}
+> Statistics     | 125/500 took 1938011ms - remaining ~726754sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18176, 'maxInlineSize': 59, 'freqInlineSize': 3898, 'counterDecayEnabled': 0}
+> Statistics     | 126/500 took 1929319ms - remaining ~721565sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18516, 'maxInlineSize': 61, 'freqInlineSize': 4956, 'counterDecayEnabled': 0}
+> Statistics     | 127/500 took 1947245ms - remaining ~726322sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19095, 'maxInlineSize': 76, 'freqInlineSize': 4326, 'counterDecayEnabled': 0}
+> Statistics     | 128/500 took 1935585ms - remaining ~720037sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17586, 'maxInlineSize': 54, 'freqInlineSize': 3925, 'counterDecayEnabled': 0}
+> Statistics     | 129/500 took 1938164ms - remaining ~719058sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18096, 'maxInlineSize': 10, 'freqInlineSize': 4263, 'counterDecayEnabled': 0}
+> Statistics     | 130/500 took 1919910ms - remaining ~710366sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18199, 'maxInlineSize': 34, 'freqInlineSize': 4816, 'counterDecayEnabled': 0}
+> Statistics     | 131/500 took 1927171ms - remaining ~711126sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18239, 'maxInlineSize': 30, 'freqInlineSize': 4572, 'counterDecayEnabled': 0}
+> Statistics     | 132/500 took 1938393ms - remaining ~713328sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19148, 'maxInlineSize': 32, 'freqInlineSize': 4301, 'counterDecayEnabled': 0}
+> Statistics     | 133/500 took 1911915ms - remaining ~701672sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17148, 'maxInlineSize': 73, 'freqInlineSize': 4331, 'counterDecayEnabled': 1}
+> Statistics     | 134/500 took 1889903ms - remaining ~691704sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17625, 'maxInlineSize': 14, 'freqInlineSize': 4298, 'counterDecayEnabled': 0}
+> Statistics     | 135/500 took 1931369ms - remaining ~704949sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17381, 'maxInlineSize': 15, 'freqInlineSize': 3386, 'counterDecayEnabled': 0}
+> Statistics     | 136/500 took 1930714ms - remaining ~702779sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17409, 'maxInlineSize': 11, 'freqInlineSize': 4455, 'counterDecayEnabled': 0}
+> Statistics     | 137/500 took 1957274ms - remaining ~710490sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17183, 'maxInlineSize': 36, 'freqInlineSize': 2919, 'counterDecayEnabled': 0}
+> Statistics     | 138/500 took 1943306ms - remaining ~703476sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18404, 'maxInlineSize': 57, 'freqInlineSize': 4540, 'counterDecayEnabled': 0}
+> Statistics     | 139/500 took 1944936ms - remaining ~702121sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17380, 'maxInlineSize': 39, 'freqInlineSize': 3992, 'counterDecayEnabled': 0}
+> Statistics     | 140/500 took 1940770ms - remaining ~698677sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18296, 'maxInlineSize': 88, 'freqInlineSize': 4236, 'counterDecayEnabled': 0}
+> Statistics     | 141/500 took 1931620ms - remaining ~693451sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18133, 'maxInlineSize': 38, 'freqInlineSize': 3870, 'counterDecayEnabled': 0}
+> Statistics     | 142/500 took 1920899ms - remaining ~687681sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18202, 'maxInlineSize': 57, 'freqInlineSize': 4545, 'counterDecayEnabled': 0}
+> Statistics     | 143/500 took 1924587ms - remaining ~687077sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18100, 'maxInlineSize': 88, 'freqInlineSize': 3880, 'counterDecayEnabled': 0}
+> Statistics     | 144/500 took 1939307ms - remaining ~690393sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17994, 'maxInlineSize': 20, 'freqInlineSize': 4840, 'counterDecayEnabled': 0}
+> Statistics     | 145/500 took 1933124ms - remaining ~686259sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18017, 'maxInlineSize': 33, 'freqInlineSize': 4938, 'counterDecayEnabled': 0}
+> Statistics     | 146/500 took 1940362ms - remaining ~686888sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18516, 'maxInlineSize': 39, 'freqInlineSize': 4252, 'counterDecayEnabled': 0}
+> Statistics     | 147/500 took 1945777ms - remaining ~686859sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17544, 'maxInlineSize': 24, 'freqInlineSize': 4986, 'counterDecayEnabled': 0}
+> Statistics     | 148/500 took 1910706ms - remaining ~672568sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17050, 'maxInlineSize': 31, 'freqInlineSize': 2507, 'counterDecayEnabled': 0}
+> Statistics     | 149/500 took 1952891ms - remaining ~685464sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18049, 'maxInlineSize': 58, 'freqInlineSize': 4642, 'counterDecayEnabled': 0}
+> Statistics     | 150/500 took 1924023ms - remaining ~673408sec
+> FullState      | {'minimumWarmupTime': 1519}
+> ResultValue    | 1519
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17435, 'maxInlineSize': 11, 'freqInlineSize': 4933, 'counterDecayEnabled': 0}
+> Statistics     | 151/500 took 1935179ms - remaining ~675377sec
+> FullState      | {'minimumWarmupTime': 1527}
+> ResultValue    | 1527
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17332, 'maxInlineSize': 35, 'freqInlineSize': 3321, 'counterDecayEnabled': 0}
+> Statistics     | 152/500 took 1946120ms - remaining ~677249sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18363, 'maxInlineSize': 82, 'freqInlineSize': 3440, 'counterDecayEnabled': 0}
+> Statistics     | 153/500 took 1919393ms - remaining ~666029sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17994, 'maxInlineSize': 10, 'freqInlineSize': 4099, 'counterDecayEnabled': 0}
+> Statistics     | 154/500 took 1948271ms - remaining ~674101sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17984, 'maxInlineSize': 26, 'freqInlineSize': 4893, 'counterDecayEnabled': 0}
+> Statistics     | 155/500 took 1945729ms - remaining ~671276sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17209, 'maxInlineSize': 53, 'freqInlineSize': 3416, 'counterDecayEnabled': 0}
+> Statistics     | 156/500 took 1943064ms - remaining ~668414sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17001, 'maxInlineSize': 12, 'freqInlineSize': 3270, 'counterDecayEnabled': 0}
+> Statistics     | 157/500 took 1960457ms - remaining ~672436sec
+> FullState      | {'minimumWarmupTime': 1527}
+> ResultValue    | 1527
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18290, 'maxInlineSize': 55, 'freqInlineSize': 4081, 'counterDecayEnabled': 0}
+> Statistics     | 158/500 took 1933495ms - remaining ~661255sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17506, 'maxInlineSize': 91, 'freqInlineSize': 2816, 'counterDecayEnabled': 0}
+> Statistics     | 159/500 took 1958124ms - remaining ~667720sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18299, 'maxInlineSize': 34, 'freqInlineSize': 3785, 'counterDecayEnabled': 0}
+> Statistics     | 160/500 took 1922776ms - remaining ~653743sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18294, 'maxInlineSize': 43, 'freqInlineSize': 3965, 'counterDecayEnabled': 0}
+> Statistics     | 161/500 took 1927822ms - remaining ~653531sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18207, 'maxInlineSize': 78, 'freqInlineSize': 3811, 'counterDecayEnabled': 0}
+> Statistics     | 162/500 took 1934962ms - remaining ~654017sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18296, 'maxInlineSize': 89, 'freqInlineSize': 4871, 'counterDecayEnabled': 0}
+> Statistics     | 163/500 took 1928148ms - remaining ~649785sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17250, 'maxInlineSize': 30, 'freqInlineSize': 3188, 'counterDecayEnabled': 0}
+> Statistics     | 164/500 took 1948564ms - remaining ~654717sec
+> FullState      | {'minimumWarmupTime': 845}
+> ResultValue    | 845
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17549, 'maxInlineSize': 69, 'freqInlineSize': 3822, 'counterDecayEnabled': 0}
+> Statistics     | 165/500 took 1906370ms - remaining ~638633sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18225, 'maxInlineSize': 41, 'freqInlineSize': 4551, 'counterDecayEnabled': 0}
+> Statistics     | 166/500 took 1928053ms - remaining ~643969sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18237, 'maxInlineSize': 52, 'freqInlineSize': 3971, 'counterDecayEnabled': 0}
+> Statistics     | 167/500 took 1944530ms - remaining ~647528sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18216, 'maxInlineSize': 30, 'freqInlineSize': 4404, 'counterDecayEnabled': 0}
+> Statistics     | 168/500 took 1933011ms - remaining ~641759sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18170, 'maxInlineSize': 72, 'freqInlineSize': 4060, 'counterDecayEnabled': 0}
+> Statistics     | 169/500 took 1936861ms - remaining ~641100sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18230, 'maxInlineSize': 92, 'freqInlineSize': 4502, 'counterDecayEnabled': 0}
+> Statistics     | 170/500 took 1946278ms - remaining ~642271sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18120, 'maxInlineSize': 27, 'freqInlineSize': 4806, 'counterDecayEnabled': 0}
+> Statistics     | 171/500 took 1925060ms - remaining ~633344sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17769, 'maxInlineSize': 49, 'freqInlineSize': 4791, 'counterDecayEnabled': 0}
+> Statistics     | 172/500 took 1908902ms - remaining ~626119sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18259, 'maxInlineSize': 111, 'freqInlineSize': 3962, 'counterDecayEnabled': 0}
+> Statistics     | 173/500 took 1937355ms - remaining ~633515sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17968, 'maxInlineSize': 39, 'freqInlineSize': 4839, 'counterDecayEnabled': 0}
+> Statistics     | 174/500 took 1959416ms - remaining ~638769sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18162, 'maxInlineSize': 97, 'freqInlineSize': 4756, 'counterDecayEnabled': 0}
+> Statistics     | 175/500 took 1912392ms - remaining ~621527sec
+> FullState      | {'minimumWarmupTime': 1524}
+> ResultValue    | 1524
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17493, 'maxInlineSize': 100, 'freqInlineSize': 2863, 'counterDecayEnabled': 0}
+> Statistics     | 176/500 took 1944355ms - remaining ~629971sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18959, 'maxInlineSize': 86, 'freqInlineSize': 4996, 'counterDecayEnabled': 0}
+> Statistics     | 177/500 took 1959395ms - remaining ~632884sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18724, 'maxInlineSize': 92, 'freqInlineSize': 4764, 'counterDecayEnabled': 0}
+> Statistics     | 178/500 took 1927371ms - remaining ~620613sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17522, 'maxInlineSize': 14, 'freqInlineSize': 1906, 'counterDecayEnabled': 0}
+> Statistics     | 179/500 took 1941609ms - remaining ~623256sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18129, 'maxInlineSize': 68, 'freqInlineSize': 3821, 'counterDecayEnabled': 0}
+> Statistics     | 180/500 took 1936717ms - remaining ~619749sec
+> FullState      | {'minimumWarmupTime': 754}
+> ResultValue    | 754
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16701, 'maxInlineSize': 74, 'freqInlineSize': 2842, 'counterDecayEnabled': 0}
+> Statistics     | 181/500 took 1978533ms - remaining ~631152sec
+> FullState      | {'minimumWarmupTime': 1532}
+> ResultValue    | 1532
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17476, 'maxInlineSize': 11, 'freqInlineSize': 1585, 'counterDecayEnabled': 0}
+> Statistics     | 182/500 took 1941918ms - remaining ~617529sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17554, 'maxInlineSize': 98, 'freqInlineSize': 1893, 'counterDecayEnabled': 0}
+> Statistics     | 183/500 took 1901395ms - remaining ~602742sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17759, 'maxInlineSize': 84, 'freqInlineSize': 2861, 'counterDecayEnabled': 0}
+> Statistics     | 184/500 took 1921754ms - remaining ~607274sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17899, 'maxInlineSize': 35, 'freqInlineSize': 4915, 'counterDecayEnabled': 0}
+> Statistics     | 185/500 took 1937414ms - remaining ~610285sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17880, 'maxInlineSize': 13, 'freqInlineSize': 4331, 'counterDecayEnabled': 0}
+> Statistics     | 186/500 took 1922272ms - remaining ~603593sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17598, 'maxInlineSize': 27, 'freqInlineSize': 4581, 'counterDecayEnabled': 0}
+> Statistics     | 187/500 took 1930352ms - remaining ~604200sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17620, 'maxInlineSize': 63, 'freqInlineSize': 4223, 'counterDecayEnabled': 0}
+> Statistics     | 188/500 took 1940358ms - remaining ~605391sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17804, 'maxInlineSize': 103, 'freqInlineSize': 4086, 'counterDecayEnabled': 0}
+> Statistics     | 189/500 took 1950244ms - remaining ~606525sec
+> FullState      | {'minimumWarmupTime': 1534}
+> ResultValue    | 1534
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17483, 'maxInlineSize': 100, 'freqInlineSize': 1302, 'counterDecayEnabled': 0}
+> Statistics     | 190/500 took 1977289ms - remaining ~612959sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18001, 'maxInlineSize': 72, 'freqInlineSize': 3331, 'counterDecayEnabled': 0}
+> Statistics     | 191/500 took 1955042ms - remaining ~604107sec
+> FullState      | {'minimumWarmupTime': 1125}
+> ResultValue    | 1125
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 20192, 'maxInlineSize': 103, 'freqInlineSize': 4296, 'counterDecayEnabled': 0}
+> Statistics     | 192/500 took 1923405ms - remaining ~592408sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17706, 'maxInlineSize': 46, 'freqInlineSize': 4866, 'counterDecayEnabled': 0}
+> Statistics     | 193/500 took 1926630ms - remaining ~591475sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18968, 'maxInlineSize': 103, 'freqInlineSize': 4895, 'counterDecayEnabled': 0}
+> Statistics     | 194/500 took 1956897ms - remaining ~598810sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18371, 'maxInlineSize': 97, 'freqInlineSize': 4942, 'counterDecayEnabled': 0}
+> Statistics     | 195/500 took 1921463ms - remaining ~586046sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17568, 'maxInlineSize': 24, 'freqInlineSize': 4695, 'counterDecayEnabled': 0}
+> Statistics     | 196/500 took 1907079ms - remaining ~579752sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18126, 'maxInlineSize': 34, 'freqInlineSize': 4808, 'counterDecayEnabled': 0}
+> Statistics     | 197/500 took 1939263ms - remaining ~587596sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19130, 'maxInlineSize': 134, 'freqInlineSize': 4825, 'counterDecayEnabled': 0}
+> Statistics     | 198/500 took 1926210ms - remaining ~581715sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17399, 'maxInlineSize': 85, 'freqInlineSize': 2019, 'counterDecayEnabled': 0}
+> Statistics     | 199/500 took 1950534ms - remaining ~587110sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17705, 'maxInlineSize': 96, 'freqInlineSize': 1807, 'counterDecayEnabled': 0}
+> Statistics     | 200/500 took 1927308ms - remaining ~578192sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16749, 'maxInlineSize': 67, 'freqInlineSize': 4919, 'counterDecayEnabled': 1}
+> Statistics     | 201/500 took 1918813ms - remaining ~573725sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17620, 'maxInlineSize': 35, 'freqInlineSize': 4223, 'counterDecayEnabled': 0}
+> Statistics     | 202/500 took 1943479ms - remaining ~579156sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17581, 'maxInlineSize': 57, 'freqInlineSize': 4196, 'counterDecayEnabled': 0}
+> Statistics     | 203/500 took 1904889ms - remaining ~565752sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18205, 'maxInlineSize': 57, 'freqInlineSize': 4754, 'counterDecayEnabled': 0}
+> Statistics     | 204/500 took 1935238ms - remaining ~572830sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16894, 'maxInlineSize': 66, 'freqInlineSize': 4363, 'counterDecayEnabled': 1}
+> Statistics     | 205/500 took 1886310ms - remaining ~556461sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17775, 'maxInlineSize': 35, 'freqInlineSize': 4272, 'counterDecayEnabled': 0}
+> Statistics     | 206/500 took 1919582ms - remaining ~564357sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17536, 'maxInlineSize': 11, 'freqInlineSize': 4855, 'counterDecayEnabled': 0}
+> Statistics     | 207/500 took 1931801ms - remaining ~566017sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17716, 'maxInlineSize': 97, 'freqInlineSize': 122, 'counterDecayEnabled': 1}
+> Statistics     | 208/500 took 1863322ms - remaining ~544090sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17007, 'maxInlineSize': 96, 'freqInlineSize': 1381, 'counterDecayEnabled': 1}
+> Statistics     | 209/500 took 1920571ms - remaining ~558886sec
+> FullState      | {'minimumWarmupTime': 767}
+> ResultValue    | 767
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17528, 'maxInlineSize': 59, 'freqInlineSize': 4912, 'counterDecayEnabled': 0}
+> Statistics     | 210/500 took 1941124ms - remaining ~562925sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17634, 'maxInlineSize': 41, 'freqInlineSize': 4809, 'counterDecayEnabled': 0}
+> Statistics     | 211/500 took 1915405ms - remaining ~553552sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18093, 'maxInlineSize': 24, 'freqInlineSize': 4933, 'counterDecayEnabled': 0}
+> Statistics     | 212/500 took 1943342ms - remaining ~559682sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19080, 'maxInlineSize': 149, 'freqInlineSize': 4155, 'counterDecayEnabled': 0}
+> Statistics     | 213/500 took 1925687ms - remaining ~552672sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17512, 'maxInlineSize': 29, 'freqInlineSize': 4224, 'counterDecayEnabled': 0}
+> Statistics     | 214/500 took 1945360ms - remaining ~556372sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18325, 'maxInlineSize': 104, 'freqInlineSize': 4280, 'counterDecayEnabled': 0}
+> Statistics     | 215/500 took 1922102ms - remaining ~547799sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17513, 'maxInlineSize': 75, 'freqInlineSize': 4980, 'counterDecayEnabled': 0}
+> Statistics     | 216/500 took 1952503ms - remaining ~554510sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18421, 'maxInlineSize': 95, 'freqInlineSize': 4756, 'counterDecayEnabled': 0}
+> Statistics     | 217/500 took 1925093ms - remaining ~544801sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18328, 'maxInlineSize': 105, 'freqInlineSize': 4238, 'counterDecayEnabled': 0}
+> Statistics     | 218/500 took 1943611ms - remaining ~548098sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17593, 'maxInlineSize': 29, 'freqInlineSize': 3997, 'counterDecayEnabled': 0}
+> Statistics     | 219/500 took 1916733ms - remaining ~538601sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17530, 'maxInlineSize': 39, 'freqInlineSize': 4760, 'counterDecayEnabled': 0}
+> Statistics     | 220/500 took 1942953ms - remaining ~544026sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17691, 'maxInlineSize': 26, 'freqInlineSize': 4272, 'counterDecayEnabled': 0}
+> Statistics     | 221/500 took 1926468ms - remaining ~537484sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18223, 'maxInlineSize': 113, 'freqInlineSize': 4294, 'counterDecayEnabled': 0}
+> Statistics     | 222/500 took 1919599ms - remaining ~533648sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18234, 'maxInlineSize': 118, 'freqInlineSize': 4762, 'counterDecayEnabled': 0}
+> Statistics     | 223/500 took 1933389ms - remaining ~535548sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17552, 'maxInlineSize': 28, 'freqInlineSize': 4371, 'counterDecayEnabled': 0}
+> Statistics     | 224/500 took 1891595ms - remaining ~522080sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18184, 'maxInlineSize': 143, 'freqInlineSize': 4922, 'counterDecayEnabled': 0}
+> Statistics     | 225/500 took 1916337ms - remaining ~526992sec
+> FullState      | {'minimumWarmupTime': 754}
+> ResultValue    | 754
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18176, 'maxInlineSize': 115, 'freqInlineSize': 4564, 'counterDecayEnabled': 0}
+> Statistics     | 226/500 took 1932883ms - remaining ~529609sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17475, 'maxInlineSize': 45, 'freqInlineSize': 4841, 'counterDecayEnabled': 0}
+> Statistics     | 227/500 took 1940222ms - remaining ~529680sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17578, 'maxInlineSize': 94, 'freqInlineSize': 4160, 'counterDecayEnabled': 0}
+> Statistics     | 228/500 took 1906088ms - remaining ~518455sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17623, 'maxInlineSize': 94, 'freqInlineSize': 4207, 'counterDecayEnabled': 0}
+> Statistics     | 229/500 took 1930510ms - remaining ~523168sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18452, 'maxInlineSize': 149, 'freqInlineSize': 4624, 'counterDecayEnabled': 0}
+> Statistics     | 230/500 took 1944145ms - remaining ~524919sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18237, 'maxInlineSize': 93, 'freqInlineSize': 4647, 'counterDecayEnabled': 0}
+> Statistics     | 231/500 took 1920909ms - remaining ~516724sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18185, 'maxInlineSize': 135, 'freqInlineSize': 4177, 'counterDecayEnabled': 0}
+> Statistics     | 232/500 took 1938242ms - remaining ~519448sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18232, 'maxInlineSize': 99, 'freqInlineSize': 4037, 'counterDecayEnabled': 0}
+> Statistics     | 233/500 took 1919696ms - remaining ~512558sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17633, 'maxInlineSize': 39, 'freqInlineSize': 4331, 'counterDecayEnabled': 0}
+> Statistics     | 234/500 took 1920676ms - remaining ~510899sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19651, 'maxInlineSize': 119, 'freqInlineSize': 3907, 'counterDecayEnabled': 0}
+> Statistics     | 235/500 took 1918451ms - remaining ~508389sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18290, 'maxInlineSize': 103, 'freqInlineSize': 4866, 'counterDecayEnabled': 0}
+> Statistics     | 236/500 took 1931947ms - remaining ~510034sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18560, 'maxInlineSize': 97, 'freqInlineSize': 3946, 'counterDecayEnabled': 0}
+> Statistics     | 237/500 took 1940645ms - remaining ~510389sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17725, 'maxInlineSize': 39, 'freqInlineSize': 3843, 'counterDecayEnabled': 0}
+> Statistics     | 238/500 took 1943213ms - remaining ~509121sec
+> FullState      | {'minimumWarmupTime': 774}
+> ResultValue    | 774
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17006, 'maxInlineSize': 97, 'freqInlineSize': 2114, 'counterDecayEnabled': 0}
+> Statistics     | 239/500 took 1965372ms - remaining ~512962sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18754, 'maxInlineSize': 143, 'freqInlineSize': 4161, 'counterDecayEnabled': 0}
+> Statistics     | 240/500 took 1948608ms - remaining ~506638sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18677, 'maxInlineSize': 132, 'freqInlineSize': 4704, 'counterDecayEnabled': 0}
+> Statistics     | 241/500 took 1928241ms - remaining ~499414sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18390, 'maxInlineSize': 148, 'freqInlineSize': 4288, 'counterDecayEnabled': 0}
+> Statistics     | 242/500 took 1921772ms - remaining ~495817sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18431, 'maxInlineSize': 112, 'freqInlineSize': 2950, 'counterDecayEnabled': 0}
+> Statistics     | 243/500 took 1929753ms - remaining ~495946sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17646, 'maxInlineSize': 89, 'freqInlineSize': 4331, 'counterDecayEnabled': 0}
+> Statistics     | 244/500 took 1934769ms - remaining ~495300sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17411, 'maxInlineSize': 115, 'freqInlineSize': 2590, 'counterDecayEnabled': 0}
+> Statistics     | 245/500 took 1948553ms - remaining ~496881sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17644, 'maxInlineSize': 102, 'freqInlineSize': 4902, 'counterDecayEnabled': 0}
+> Statistics     | 246/500 took 1936184ms - remaining ~491790sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18325, 'maxInlineSize': 141, 'freqInlineSize': 3813, 'counterDecayEnabled': 0}
+> Statistics     | 247/500 took 1929689ms - remaining ~488211sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18301, 'maxInlineSize': 96, 'freqInlineSize': 4698, 'counterDecayEnabled': 0}
+> Statistics     | 248/500 took 1927832ms - remaining ~485813sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17604, 'maxInlineSize': 99, 'freqInlineSize': 4372, 'counterDecayEnabled': 0}
+> Statistics     | 249/500 took 1945843ms - remaining ~488406sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17713, 'maxInlineSize': 141, 'freqInlineSize': 4768, 'counterDecayEnabled': 0}
+> Statistics     | 250/500 took 1920212ms - remaining ~480053sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18259, 'maxInlineSize': 109, 'freqInlineSize': 4734, 'counterDecayEnabled': 0}
+> Statistics     | 251/500 took 1931238ms - remaining ~480878sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17575, 'maxInlineSize': 118, 'freqInlineSize': 4701, 'counterDecayEnabled': 0}
+> Statistics     | 252/500 took 1899589ms - remaining ~471098sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18658, 'maxInlineSize': 135, 'freqInlineSize': 4159, 'counterDecayEnabled': 0}
+> Statistics     | 253/500 took 1935509ms - remaining ~478070sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18140, 'maxInlineSize': 11, 'freqInlineSize': 3873, 'counterDecayEnabled': 0}
+> Statistics     | 254/500 took 1923645ms - remaining ~473216sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17591, 'maxInlineSize': 140, 'freqInlineSize': 4271, 'counterDecayEnabled': 0}
+> Statistics     | 255/500 took 1959808ms - remaining ~480152sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17811, 'maxInlineSize': 143, 'freqInlineSize': 4742, 'counterDecayEnabled': 0}
+> Statistics     | 256/500 took 1947284ms - remaining ~475137sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18133, 'maxInlineSize': 146, 'freqInlineSize': 4963, 'counterDecayEnabled': 0}
+> Statistics     | 257/500 took 1934956ms - remaining ~470194sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17698, 'maxInlineSize': 98, 'freqInlineSize': 4664, 'counterDecayEnabled': 0}
+> Statistics     | 258/500 took 1936699ms - remaining ~468681sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18088, 'maxInlineSize': 13, 'freqInlineSize': 4738, 'counterDecayEnabled': 0}
+> Statistics     | 259/500 took 1935157ms - remaining ~466372sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17578, 'maxInlineSize': 137, 'freqInlineSize': 4148, 'counterDecayEnabled': 0}
+> Statistics     | 260/500 took 1916407ms - remaining ~459937sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19125, 'maxInlineSize': 118, 'freqInlineSize': 2090, 'counterDecayEnabled': 0}
+> Statistics     | 261/500 took 1919372ms - remaining ~458729sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17561, 'maxInlineSize': 106, 'freqInlineSize': 3847, 'counterDecayEnabled': 0}
+> Statistics     | 262/500 took 1911680ms - remaining ~454979sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17038, 'maxInlineSize': 147, 'freqInlineSize': 4794, 'counterDecayEnabled': 0}
+> Statistics     | 263/500 took 1946405ms - remaining ~461297sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17478, 'maxInlineSize': 132, 'freqInlineSize': 4186, 'counterDecayEnabled': 0}
+> Statistics     | 264/500 took 1941518ms - remaining ~458198sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16423, 'maxInlineSize': 60, 'freqInlineSize': 4559, 'counterDecayEnabled': 1}
+> Statistics     | 265/500 took 1936213ms - remaining ~455010sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18287, 'maxInlineSize': 97, 'freqInlineSize': 3827, 'counterDecayEnabled': 0}
+> Statistics     | 266/500 took 1935773ms - remaining ~452970sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18179, 'maxInlineSize': 138, 'freqInlineSize': 4958, 'counterDecayEnabled': 0}
+> Statistics     | 267/500 took 1919300ms - remaining ~447196sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18758, 'maxInlineSize': 126, 'freqInlineSize': 2034, 'counterDecayEnabled': 0}
+> Statistics     | 268/500 took 1935689ms - remaining ~449079sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17758, 'maxInlineSize': 10, 'freqInlineSize': 4346, 'counterDecayEnabled': 0}
+> Statistics     | 269/500 took 1936626ms - remaining ~447360sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18408, 'maxInlineSize': 134, 'freqInlineSize': 4879, 'counterDecayEnabled': 0}
+> Statistics     | 270/500 took 1925081ms - remaining ~442768sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17785, 'maxInlineSize': 139, 'freqInlineSize': 4414, 'counterDecayEnabled': 0}
+> Statistics     | 271/500 took 1941274ms - remaining ~444551sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18265, 'maxInlineSize': 128, 'freqInlineSize': 4528, 'counterDecayEnabled': 0}
+> Statistics     | 272/500 took 1923229ms - remaining ~438496sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17465, 'maxInlineSize': 91, 'freqInlineSize': 4677, 'counterDecayEnabled': 0}
+> Statistics     | 273/500 took 1929431ms - remaining ~437980sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18294, 'maxInlineSize': 14, 'freqInlineSize': 3889, 'counterDecayEnabled': 0}
+> Statistics     | 274/500 took 1932749ms - remaining ~436801sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 16979, 'maxInlineSize': 147, 'freqInlineSize': 4673, 'counterDecayEnabled': 0}
+> Statistics     | 275/500 took 1959307ms - remaining ~440844sec
+> FullState      | {'minimumWarmupTime': 1537}
+> ResultValue    | 1537
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17443, 'maxInlineSize': 87, 'freqInlineSize': 1707, 'counterDecayEnabled': 0}
+> Statistics     | 276/500 took 1944406ms - remaining ~435546sec
+> FullState      | {'minimumWarmupTime': 775}
+> ResultValue    | 775
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17543, 'maxInlineSize': 130, 'freqInlineSize': 2154, 'counterDecayEnabled': 0}
+> Statistics     | 277/500 took 1919231ms - remaining ~427988sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17798, 'maxInlineSize': 116, 'freqInlineSize': 4895, 'counterDecayEnabled': 0}
+> Statistics     | 278/500 took 1945270ms - remaining ~431849sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18225, 'maxInlineSize': 150, 'freqInlineSize': 3693, 'counterDecayEnabled': 0}
+> Statistics     | 279/500 took 1921147ms - remaining ~424573sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17588, 'maxInlineSize': 114, 'freqInlineSize': 2612, 'counterDecayEnabled': 0}
+> Statistics     | 280/500 took 1935003ms - remaining ~425700sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18181, 'maxInlineSize': 16, 'freqInlineSize': 3900, 'counterDecayEnabled': 0}
+> Statistics     | 281/500 took 1936753ms - remaining ~424148sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17724, 'maxInlineSize': 106, 'freqInlineSize': 2707, 'counterDecayEnabled': 0}
+> Statistics     | 282/500 took 1919529ms - remaining ~418457sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17583, 'maxInlineSize': 47, 'freqInlineSize': 4412, 'counterDecayEnabled': 1}
+> Statistics     | 283/500 took 1849693ms - remaining ~401383sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17828, 'maxInlineSize': 116, 'freqInlineSize': 4311, 'counterDecayEnabled': 0}
+> Statistics     | 284/500 took 1920143ms - remaining ~414750sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17478, 'maxInlineSize': 147, 'freqInlineSize': 4565, 'counterDecayEnabled': 0}
+> Statistics     | 285/500 took 1940736ms - remaining ~417258sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17468, 'maxInlineSize': 100, 'freqInlineSize': 2481, 'counterDecayEnabled': 0}
+> Statistics     | 286/500 took 1923762ms - remaining ~411685sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17493, 'maxInlineSize': 10, 'freqInlineSize': 4877, 'counterDecayEnabled': 0}
+> Statistics     | 287/500 took 1942756ms - remaining ~413807sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18192, 'maxInlineSize': 41, 'freqInlineSize': 4863, 'counterDecayEnabled': 0}
+> Statistics     | 288/500 took 1924323ms - remaining ~407956sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18233, 'maxInlineSize': 144, 'freqInlineSize': 2341, 'counterDecayEnabled': 0}
+> Statistics     | 289/500 took 1933364ms - remaining ~407939sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18224, 'maxInlineSize': 10, 'freqInlineSize': 3790, 'counterDecayEnabled': 0}
+> Statistics     | 290/500 took 1926731ms - remaining ~404613sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17372, 'maxInlineSize': 10, 'freqInlineSize': 2810, 'counterDecayEnabled': 0}
+> Statistics     | 291/500 took 1940384ms - remaining ~405540sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17428, 'maxInlineSize': 107, 'freqInlineSize': 2847, 'counterDecayEnabled': 0}
+> Statistics     | 292/500 took 1978902ms - remaining ~411611sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18342, 'maxInlineSize': 103, 'freqInlineSize': 3975, 'counterDecayEnabled': 0}
+> Statistics     | 293/500 took 1944948ms - remaining ~402604sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17805, 'maxInlineSize': 113, 'freqInlineSize': 4336, 'counterDecayEnabled': 0}
+> Statistics     | 294/500 took 1932897ms - remaining ~398176sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17670, 'maxInlineSize': 117, 'freqInlineSize': 2619, 'counterDecayEnabled': 0}
+> Statistics     | 295/500 took 1922127ms - remaining ~394036sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17609, 'maxInlineSize': 11, 'freqInlineSize': 3736, 'counterDecayEnabled': 0}
+> Statistics     | 296/500 took 1920832ms - remaining ~391849sec
+> FullState      | {'minimumWarmupTime': 754}
+> ResultValue    | 754
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17470, 'maxInlineSize': 100, 'freqInlineSize': 2580, 'counterDecayEnabled': 0}
+> Statistics     | 297/500 took 1928270ms - remaining ~391438sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17452, 'maxInlineSize': 135, 'freqInlineSize': 4378, 'counterDecayEnabled': 0}
+> Statistics     | 298/500 took 1939530ms - remaining ~391785sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17450, 'maxInlineSize': 133, 'freqInlineSize': 3352, 'counterDecayEnabled': 0}
+> Statistics     | 299/500 took 1948681ms - remaining ~391684sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17806, 'maxInlineSize': 138, 'freqInlineSize': 4957, 'counterDecayEnabled': 0}
+> Statistics     | 300/500 took 1934032ms - remaining ~386806sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17445, 'maxInlineSize': 137, 'freqInlineSize': 3630, 'counterDecayEnabled': 0}
+> Statistics     | 301/500 took 1943937ms - remaining ~386843sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18307, 'maxInlineSize': 136, 'freqInlineSize': 4223, 'counterDecayEnabled': 0}
+> Statistics     | 302/500 took 1925585ms - remaining ~381265sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18174, 'maxInlineSize': 28, 'freqInlineSize': 4583, 'counterDecayEnabled': 0}
+> Statistics     | 303/500 took 1920511ms - remaining ~378340sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17413, 'maxInlineSize': 134, 'freqInlineSize': 3581, 'counterDecayEnabled': 0}
+> Statistics     | 304/500 took 1954166ms - remaining ~383016sec
+> FullState      | {'minimumWarmupTime': 1520}
+> ResultValue    | 1520
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17792, 'maxInlineSize': 113, 'freqInlineSize': 4212, 'counterDecayEnabled': 0}
+> Statistics     | 305/500 took 1947340ms - remaining ~379731sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18188, 'maxInlineSize': 11, 'freqInlineSize': 4262, 'counterDecayEnabled': 0}
+> Statistics     | 306/500 took 1918483ms - remaining ~372185sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17340, 'maxInlineSize': 13, 'freqInlineSize': 2184, 'counterDecayEnabled': 0}
+> Statistics     | 307/500 took 1924530ms - remaining ~371434sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17483, 'maxInlineSize': 97, 'freqInlineSize': 4082, 'counterDecayEnabled': 0}
+> Statistics     | 308/500 took 1945792ms - remaining ~373592sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17667, 'maxInlineSize': 137, 'freqInlineSize': 2459, 'counterDecayEnabled': 0}
+> Statistics     | 309/500 took 1937738ms - remaining ~370107sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17579, 'maxInlineSize': 114, 'freqInlineSize': 3859, 'counterDecayEnabled': 0}
+> Statistics     | 310/500 took 1907907ms - remaining ~362502sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 28013, 'maxInlineSize': 150, 'freqInlineSize': 3798, 'counterDecayEnabled': 1}
+> Statistics     | 311/500 took 1625882ms - remaining ~307291sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17494, 'maxInlineSize': 140, 'freqInlineSize': 2603, 'counterDecayEnabled': 0}
+> Statistics     | 312/500 took 1947916ms - remaining ~366208sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17516, 'maxInlineSize': 20, 'freqInlineSize': 4085, 'counterDecayEnabled': 0}
+> Statistics     | 313/500 took 1935083ms - remaining ~361860sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17472, 'maxInlineSize': 139, 'freqInlineSize': 2269, 'counterDecayEnabled': 0}
+> Statistics     | 314/500 took 1926422ms - remaining ~358314sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17452, 'maxInlineSize': 119, 'freqInlineSize': 4760, 'counterDecayEnabled': 0}
+> Statistics     | 315/500 took 1944006ms - remaining ~359641sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17450, 'maxInlineSize': 95, 'freqInlineSize': 3059, 'counterDecayEnabled': 0}
+> Statistics     | 316/500 took 1948039ms - remaining ~358439sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17466, 'maxInlineSize': 133, 'freqInlineSize': 3148, 'counterDecayEnabled': 0}
+> Statistics     | 317/500 took 1925539ms - remaining ~352373sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17434, 'maxInlineSize': 140, 'freqInlineSize': 1451, 'counterDecayEnabled': 0}
+> Statistics     | 318/500 took 1934772ms - remaining ~352128sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17819, 'maxInlineSize': 38, 'freqInlineSize': 4730, 'counterDecayEnabled': 0}
+> Statistics     | 319/500 took 1954200ms - remaining ~353710sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17482, 'maxInlineSize': 120, 'freqInlineSize': 2423, 'counterDecayEnabled': 0}
+> Statistics     | 320/500 took 1945032ms - remaining ~350105sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17678, 'maxInlineSize': 111, 'freqInlineSize': 4141, 'counterDecayEnabled': 0}
+> Statistics     | 321/500 took 1940792ms - remaining ~347401sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18176, 'maxInlineSize': 35, 'freqInlineSize': 3992, 'counterDecayEnabled': 0}
+> Statistics     | 322/500 took 1924867ms - remaining ~342626sec
+> FullState      | {'minimumWarmupTime': 1524}
+> ResultValue    | 1524
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17473, 'maxInlineSize': 117, 'freqInlineSize': 1590, 'counterDecayEnabled': 0}
+> Statistics     | 323/500 took 1926436ms - remaining ~340979sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17521, 'maxInlineSize': 143, 'freqInlineSize': 1755, 'counterDecayEnabled': 0}
+> Statistics     | 324/500 took 1961968ms - remaining ~345306sec
+> FullState      | {'minimumWarmupTime': 1533}
+> ResultValue    | 1533
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 21217, 'maxInlineSize': 142, 'freqInlineSize': 1340, 'counterDecayEnabled': 0}
+> Statistics     | 325/500 took 1919910ms - remaining ~335984sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 19547, 'maxInlineSize': 141, 'freqInlineSize': 1173, 'counterDecayEnabled': 0}
+> Statistics     | 326/500 took 1919437ms - remaining ~333982sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18722, 'maxInlineSize': 146, 'freqInlineSize': 1205, 'counterDecayEnabled': 0}
+> Statistics     | 327/500 took 1934356ms - remaining ~334643sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18386, 'maxInlineSize': 138, 'freqInlineSize': 2007, 'counterDecayEnabled': 0}
+> Statistics     | 328/500 took 1917591ms - remaining ~329825sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17906, 'maxInlineSize': 22, 'freqInlineSize': 4818, 'counterDecayEnabled': 0}
+> Statistics     | 329/500 took 1936195ms - remaining ~331089sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17462, 'maxInlineSize': 107, 'freqInlineSize': 3111, 'counterDecayEnabled': 0}
+> Statistics     | 330/500 took 1941233ms - remaining ~330009sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17716, 'maxInlineSize': 10, 'freqInlineSize': 4009, 'counterDecayEnabled': 0}
+> Statistics     | 331/500 took 1919617ms - remaining ~324415sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18200, 'maxInlineSize': 118, 'freqInlineSize': 2361, 'counterDecayEnabled': 0}
+> Statistics     | 332/500 took 1926220ms - remaining ~323604sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18164, 'maxInlineSize': 117, 'freqInlineSize': 1755, 'counterDecayEnabled': 0}
+> Statistics     | 333/500 took 1923819ms - remaining ~321277sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17506, 'maxInlineSize': 131, 'freqInlineSize': 2388, 'counterDecayEnabled': 0}
+> Statistics     | 334/500 took 1950127ms - remaining ~323721sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17940, 'maxInlineSize': 19, 'freqInlineSize': 4305, 'counterDecayEnabled': 0}
+> Statistics     | 335/500 took 1938160ms - remaining ~319796sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17458, 'maxInlineSize': 59, 'freqInlineSize': 4310, 'counterDecayEnabled': 0}
+> Statistics     | 336/500 took 1939386ms - remaining ~318059sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17446, 'maxInlineSize': 142, 'freqInlineSize': 3283, 'counterDecayEnabled': 0}
+> Statistics     | 337/500 took 1950393ms - remaining ~317914sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 26928, 'maxInlineSize': 127, 'freqInlineSize': 4010, 'counterDecayEnabled': 1}
+> Statistics     | 338/500 took 1632652ms - remaining ~264489sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17474, 'maxInlineSize': 144, 'freqInlineSize': 2634, 'counterDecayEnabled': 0}
+> Statistics     | 339/500 took 1929639ms - remaining ~310671sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18244, 'maxInlineSize': 36, 'freqInlineSize': 3928, 'counterDecayEnabled': 0}
+> Statistics     | 340/500 took 1937465ms - remaining ~309994sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17470, 'maxInlineSize': 142, 'freqInlineSize': 4042, 'counterDecayEnabled': 0}
+> Statistics     | 341/500 took 1952819ms - remaining ~310498sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18718, 'maxInlineSize': 143, 'freqInlineSize': 1726, 'counterDecayEnabled': 0}
+> Statistics     | 342/500 took 1927142ms - remaining ~304488sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17472, 'maxInlineSize': 49, 'freqInlineSize': 4129, 'counterDecayEnabled': 0}
+> Statistics     | 343/500 took 1920037ms - remaining ~301445sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17733, 'maxInlineSize': 136, 'freqInlineSize': 1996, 'counterDecayEnabled': 0}
+> Statistics     | 344/500 took 1945127ms - remaining ~303439sec
+> FullState      | {'minimumWarmupTime': 774}
+> ResultValue    | 774
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 24928, 'maxInlineSize': 143, 'freqInlineSize': 4108, 'counterDecayEnabled': 1}
+> Statistics     | 345/500 took 1709055ms - remaining ~264903sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18202, 'maxInlineSize': 106, 'freqInlineSize': 4936, 'counterDecayEnabled': 0}
+> Statistics     | 346/500 took 1920693ms - remaining ~295786sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17612, 'maxInlineSize': 12, 'freqInlineSize': 1442, 'counterDecayEnabled': 0}
+> Statistics     | 347/500 took 1952871ms - remaining ~298789sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18232, 'maxInlineSize': 150, 'freqInlineSize': 4207, 'counterDecayEnabled': 0}
+> Statistics     | 348/500 took 1923576ms - remaining ~292383sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17492, 'maxInlineSize': 115, 'freqInlineSize': 4020, 'counterDecayEnabled': 0}
+> Statistics     | 349/500 took 1963799ms - remaining ~296533sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17469, 'maxInlineSize': 111, 'freqInlineSize': 2119, 'counterDecayEnabled': 0}
+> Statistics     | 350/500 took 1932605ms - remaining ~289890sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18186, 'maxInlineSize': 54, 'freqInlineSize': 3932, 'counterDecayEnabled': 0}
+> Statistics     | 351/500 took 1935952ms - remaining ~288456sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17458, 'maxInlineSize': 117, 'freqInlineSize': 4550, 'counterDecayEnabled': 0}
+> Statistics     | 352/500 took 1941968ms - remaining ~287411sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17506, 'maxInlineSize': 68, 'freqInlineSize': 4327, 'counterDecayEnabled': 0}
+> Statistics     | 353/500 took 1942972ms - remaining ~285616sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 24169, 'maxInlineSize': 125, 'freqInlineSize': 4964, 'counterDecayEnabled': 1}
+> Statistics     | 354/500 took 1720810ms - remaining ~251238sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18035, 'maxInlineSize': 31, 'freqInlineSize': 4875, 'counterDecayEnabled': 0}
+> Statistics     | 355/500 took 1935044ms - remaining ~280581sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18181, 'maxInlineSize': 53, 'freqInlineSize': 4100, 'counterDecayEnabled': 0}
+> Statistics     | 356/500 took 1939389ms - remaining ~279272sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17773, 'maxInlineSize': 132, 'freqInlineSize': 3892, 'counterDecayEnabled': 0}
+> Statistics     | 357/500 took 1904460ms - remaining ~272337sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 22624, 'maxInlineSize': 137, 'freqInlineSize': 4772, 'counterDecayEnabled': 1}
+> Statistics     | 358/500 took 1717887ms - remaining ~243939sec
+> FullState      | {'minimumWarmupTime': 1537}
+> ResultValue    | 1537
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18042, 'maxInlineSize': 11, 'freqInlineSize': 4903, 'counterDecayEnabled': 0}
+> Statistics     | 359/500 took 1943423ms - remaining ~274022sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17438, 'maxInlineSize': 86, 'freqInlineSize': 2965, 'counterDecayEnabled': 0}
+> Statistics     | 360/500 took 1941020ms - remaining ~271742sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17815, 'maxInlineSize': 83, 'freqInlineSize': 4686, 'counterDecayEnabled': 0}
+> Statistics     | 361/500 took 1943677ms - remaining ~270171sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17830, 'maxInlineSize': 108, 'freqInlineSize': 4400, 'counterDecayEnabled': 0}
+> Statistics     | 362/500 took 1934332ms - remaining ~266937sec
+> FullState      | {'minimumWarmupTime': 1527}
+> ResultValue    | 1527
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 26031, 'maxInlineSize': 136, 'freqInlineSize': 3649, 'counterDecayEnabled': 1}
+> Statistics     | 363/500 took 1644872ms - remaining ~225347sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18661, 'maxInlineSize': 87, 'freqInlineSize': 427, 'counterDecayEnabled': 1}
+> Statistics     | 364/500 took 1855320ms - remaining ~252323sec
+> FullState      | {'minimumWarmupTime': 766}
+> ResultValue    | 766
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17580, 'maxInlineSize': 111, 'freqInlineSize': 4607, 'counterDecayEnabled': 0}
+> Statistics     | 365/500 took 1904557ms - remaining ~257115sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17476, 'maxInlineSize': 81, 'freqInlineSize': 4947, 'counterDecayEnabled': 0}
+> Statistics     | 366/500 took 1950234ms - remaining ~261331sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17539, 'maxInlineSize': 116, 'freqInlineSize': 4525, 'counterDecayEnabled': 0}
+> Statistics     | 367/500 took 1938024ms - remaining ~257757sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17511, 'maxInlineSize': 25, 'freqInlineSize': 4359, 'counterDecayEnabled': 0}
+> Statistics     | 368/500 took 1942411ms - remaining ~256398sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18178, 'maxInlineSize': 28, 'freqInlineSize': 4690, 'counterDecayEnabled': 0}
+> Statistics     | 369/500 took 1926071ms - remaining ~252315sec
+> FullState      | {'minimumWarmupTime': 1526}
+> ResultValue    | 1526
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17649, 'maxInlineSize': 128, 'freqInlineSize': 1306, 'counterDecayEnabled': 0}
+> Statistics     | 370/500 took 1945704ms - remaining ~252941sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18180, 'maxInlineSize': 14, 'freqInlineSize': 4891, 'counterDecayEnabled': 0}
+> Statistics     | 371/500 took 1923020ms - remaining ~248069sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 25827, 'maxInlineSize': 132, 'freqInlineSize': 4641, 'counterDecayEnabled': 1}
+> Statistics     | 372/500 took 1635460ms - remaining ~209338sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17823, 'maxInlineSize': 148, 'freqInlineSize': 4199, 'counterDecayEnabled': 0}
+> Statistics     | 373/500 took 1927725ms - remaining ~244821sec
+> FullState      | {'minimumWarmupTime': 1527}
+> ResultValue    | 1527
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18136, 'maxInlineSize': 81, 'freqInlineSize': 4905, 'counterDecayEnabled': 0}
+> Statistics     | 374/500 took 1932117ms - remaining ~243446sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17808, 'maxInlineSize': 10, 'freqInlineSize': 4100, 'counterDecayEnabled': 0}
+> Statistics     | 375/500 took 1936269ms - remaining ~242033sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18234, 'maxInlineSize': 50, 'freqInlineSize': 4060, 'counterDecayEnabled': 0}
+> Statistics     | 376/500 took 1927729ms - remaining ~239038sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18192, 'maxInlineSize': 88, 'freqInlineSize': 4857, 'counterDecayEnabled': 0}
+> Statistics     | 377/500 took 1924989ms - remaining ~236773sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18207, 'maxInlineSize': 50, 'freqInlineSize': 4721, 'counterDecayEnabled': 0}
+> Statistics     | 378/500 took 1927013ms - remaining ~235095sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17912, 'maxInlineSize': 44, 'freqInlineSize': 4862, 'counterDecayEnabled': 0}
+> Statistics     | 379/500 took 1938112ms - remaining ~234511sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17790, 'maxInlineSize': 146, 'freqInlineSize': 4685, 'counterDecayEnabled': 0}
+> Statistics     | 380/500 took 1962917ms - remaining ~235550sec
+> FullState      | {'minimumWarmupTime': 774}
+> ResultValue    | 774
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18200, 'maxInlineSize': 140, 'freqInlineSize': 3590, 'counterDecayEnabled': 0}
+> Statistics     | 381/500 took 1921590ms - remaining ~228669sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17456, 'maxInlineSize': 138, 'freqInlineSize': 3829, 'counterDecayEnabled': 0}
+> Statistics     | 382/500 took 1939721ms - remaining ~228887sec
+> FullState      | {'minimumWarmupTime': 1528}
+> ResultValue    | 1528
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 25413, 'maxInlineSize': 141, 'freqInlineSize': 4446, 'counterDecayEnabled': 1}
+> Statistics     | 383/500 took 1680626ms - remaining ~196633sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17465, 'maxInlineSize': 27, 'freqInlineSize': 4810, 'counterDecayEnabled': 0}
+> Statistics     | 384/500 took 1925014ms - remaining ~223301sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18204, 'maxInlineSize': 81, 'freqInlineSize': 4339, 'counterDecayEnabled': 0}
+> Statistics     | 385/500 took 1933248ms - remaining ~222323sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18249, 'maxInlineSize': 139, 'freqInlineSize': 3922, 'counterDecayEnabled': 0}
+> Statistics     | 386/500 took 1934335ms - remaining ~220514sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 24671, 'maxInlineSize': 133, 'freqInlineSize': 3812, 'counterDecayEnabled': 1}
+> Statistics     | 387/500 took 1719438ms - remaining ~194296sec
+> FullState      | {'minimumWarmupTime': 765}
+> ResultValue    | 765
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18226, 'maxInlineSize': 24, 'freqInlineSize': 4339, 'counterDecayEnabled': 0}
+> Statistics     | 388/500 took 1925749ms - remaining ~215683sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18271, 'maxInlineSize': 27, 'freqInlineSize': 4669, 'counterDecayEnabled': 0}
+> Statistics     | 389/500 took 1927065ms - remaining ~213904sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18089, 'maxInlineSize': 32, 'freqInlineSize': 4987, 'counterDecayEnabled': 0}
+> Statistics     | 390/500 took 1917778ms - remaining ~210955sec
+> FullState      | {'minimumWarmupTime': 1524}
+> ResultValue    | 1524
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18189, 'maxInlineSize': 52, 'freqInlineSize': 3954, 'counterDecayEnabled': 0}
+> Statistics     | 391/500 took 1924268ms - remaining ~209745sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18288, 'maxInlineSize': 138, 'freqInlineSize': 4389, 'counterDecayEnabled': 0}
+> Statistics     | 392/500 took 1941743ms - remaining ~209708sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17623, 'maxInlineSize': 132, 'freqInlineSize': 1180, 'counterDecayEnabled': 0}
+> Statistics     | 393/500 took 1955968ms - remaining ~209288sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 25055, 'maxInlineSize': 113, 'freqInlineSize': 4857, 'counterDecayEnabled': 1}
+> Statistics     | 394/500 took 1713511ms - remaining ~181632sec
+> FullState      | {'minimumWarmupTime': 770}
+> ResultValue    | 770
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18295, 'maxInlineSize': 141, 'freqInlineSize': 3963, 'counterDecayEnabled': 0}
+> Statistics     | 395/500 took 1935672ms - remaining ~203245sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18201, 'maxInlineSize': 12, 'freqInlineSize': 3800, 'counterDecayEnabled': 0}
+> Statistics     | 396/500 took 1928890ms - remaining ~200604sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18289, 'maxInlineSize': 139, 'freqInlineSize': 3762, 'counterDecayEnabled': 0}
+> Statistics     | 397/500 took 1938473ms - remaining ~199662sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17458, 'maxInlineSize': 119, 'freqInlineSize': 2531, 'counterDecayEnabled': 0}
+> Statistics     | 398/500 took 1944534ms - remaining ~198342sec
+> FullState      | {'minimumWarmupTime': 1536}
+> ResultValue    | 1536
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17610, 'maxInlineSize': 139, 'freqInlineSize': 3839, 'counterDecayEnabled': 0}
+> Statistics     | 399/500 took 1946099ms - remaining ~196555sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17489, 'maxInlineSize': 137, 'freqInlineSize': 2756, 'counterDecayEnabled': 0}
+> Statistics     | 400/500 took 1961374ms - remaining ~196137sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17958, 'maxInlineSize': 32, 'freqInlineSize': 4907, 'counterDecayEnabled': 0}
+> Statistics     | 401/500 took 1957497ms - remaining ~193792sec
+> FullState      | {'minimumWarmupTime': 1536}
+> ResultValue    | 1536
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18242, 'maxInlineSize': 102, 'freqInlineSize': 3837, 'counterDecayEnabled': 0}
+> Statistics     | 402/500 took 1930215ms - remaining ~189161sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18192, 'maxInlineSize': 108, 'freqInlineSize': 4954, 'counterDecayEnabled': 0}
+> Statistics     | 403/500 took 1939691ms - remaining ~188150sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17509, 'maxInlineSize': 116, 'freqInlineSize': 4565, 'counterDecayEnabled': 0}
+> Statistics     | 404/500 took 1946011ms - remaining ~186817sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17467, 'maxInlineSize': 101, 'freqInlineSize': 3908, 'counterDecayEnabled': 0}
+> Statistics     | 405/500 took 1930197ms - remaining ~183368sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17685, 'maxInlineSize': 59, 'freqInlineSize': 4335, 'counterDecayEnabled': 0}
+> Statistics     | 406/500 took 1932892ms - remaining ~181691sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 23768, 'maxInlineSize': 137, 'freqInlineSize': 3815, 'counterDecayEnabled': 1}
+> Statistics     | 407/500 took 1706731ms - remaining ~158725sec
+> FullState      | {'minimumWarmupTime': 768}
+> ResultValue    | 768
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17406, 'maxInlineSize': 10, 'freqInlineSize': 2095, 'counterDecayEnabled': 0}
+> Statistics     | 408/500 took 1952954ms - remaining ~179671sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17548, 'maxInlineSize': 138, 'freqInlineSize': 3167, 'counterDecayEnabled': 0}
+> Statistics     | 409/500 took 1904582ms - remaining ~173316sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17767, 'maxInlineSize': 148, 'freqInlineSize': 2421, 'counterDecayEnabled': 0}
+> Statistics     | 410/500 took 1908773ms - remaining ~171789sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17730, 'maxInlineSize': 109, 'freqInlineSize': 4338, 'counterDecayEnabled': 0}
+> Statistics     | 411/500 took 1936238ms - remaining ~172325sec
+> FullState      | {'minimumWarmupTime': 773}
+> ResultValue    | 773
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17398, 'maxInlineSize': 45, 'freqInlineSize': 1863, 'counterDecayEnabled': 0}
+> Statistics     | 412/500 took 1947134ms - remaining ~171347sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18218, 'maxInlineSize': 41, 'freqInlineSize': 3961, 'counterDecayEnabled': 0}
+> Statistics     | 413/500 took 1933204ms - remaining ~168188sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17451, 'maxInlineSize': 149, 'freqInlineSize': 3117, 'counterDecayEnabled': 0}
+> Statistics     | 414/500 took 1963090ms - remaining ~168825sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17555, 'maxInlineSize': 34, 'freqInlineSize': 4036, 'counterDecayEnabled': 0}
+> Statistics     | 415/500 took 1919860ms - remaining ~163188sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18165, 'maxInlineSize': 12, 'freqInlineSize': 4197, 'counterDecayEnabled': 0}
+> Statistics     | 416/500 took 1921369ms - remaining ~161394sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17482, 'maxInlineSize': 120, 'freqInlineSize': 2425, 'counterDecayEnabled': 0}
+> Statistics     | 417/500 took 1942756ms - remaining ~161248sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17888, 'maxInlineSize': 101, 'freqInlineSize': 4930, 'counterDecayEnabled': 0}
+> Statistics     | 418/500 took 1927581ms - remaining ~158061sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18167, 'maxInlineSize': 117, 'freqInlineSize': 2629, 'counterDecayEnabled': 0}
+> Statistics     | 419/500 took 1926766ms - remaining ~156068sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17615, 'maxInlineSize': 120, 'freqInlineSize': 2746, 'counterDecayEnabled': 0}
+> Statistics     | 420/500 took 1928801ms - remaining ~154304sec
+> FullState      | {'minimumWarmupTime': 754}
+> ResultValue    | 754
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17475, 'maxInlineSize': 144, 'freqInlineSize': 2146, 'counterDecayEnabled': 0}
+> Statistics     | 421/500 took 1943163ms - remaining ~153509sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17459, 'maxInlineSize': 103, 'freqInlineSize': 1533, 'counterDecayEnabled': 0}
+> Statistics     | 422/500 took 1939668ms - remaining ~151294sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18249, 'maxInlineSize': 110, 'freqInlineSize': 3947, 'counterDecayEnabled': 0}
+> Statistics     | 423/500 took 1925944ms - remaining ~148297sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17472, 'maxInlineSize': 58, 'freqInlineSize': 4508, 'counterDecayEnabled': 0}
+> Statistics     | 424/500 took 1918973ms - remaining ~145841sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18187, 'maxInlineSize': 126, 'freqInlineSize': 1788, 'counterDecayEnabled': 0}
+> Statistics     | 425/500 took 1918969ms - remaining ~143922sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18169, 'maxInlineSize': 147, 'freqInlineSize': 2421, 'counterDecayEnabled': 0}
+> Statistics     | 426/500 took 1918941ms - remaining ~142001sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17773, 'maxInlineSize': 133, 'freqInlineSize': 4277, 'counterDecayEnabled': 0}
+> Statistics     | 427/500 took 1931290ms - remaining ~140984sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17336, 'maxInlineSize': 17, 'freqInlineSize': 1846, 'counterDecayEnabled': 0}
+> Statistics     | 428/500 took 1939231ms - remaining ~139624sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18327, 'maxInlineSize': 141, 'freqInlineSize': 1773, 'counterDecayEnabled': 0}
+> Statistics     | 429/500 took 1923770ms - remaining ~136587sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18074, 'maxInlineSize': 91, 'freqInlineSize': 4873, 'counterDecayEnabled': 0}
+> Statistics     | 430/500 took 1915398ms - remaining ~134077sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18195, 'maxInlineSize': 92, 'freqInlineSize': 4207, 'counterDecayEnabled': 0}
+> Statistics     | 431/500 took 1922977ms - remaining ~132685sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18212, 'maxInlineSize': 112, 'freqInlineSize': 2885, 'counterDecayEnabled': 0}
+> Statistics     | 432/500 took 1926675ms - remaining ~131013sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17685, 'maxInlineSize': 115, 'freqInlineSize': 2540, 'counterDecayEnabled': 0}
+> Statistics     | 433/500 took 1941509ms - remaining ~130081sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17344, 'maxInlineSize': 150, 'freqInlineSize': 3190, 'counterDecayEnabled': 0}
+> Statistics     | 434/500 took 1926383ms - remaining ~127141sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17471, 'maxInlineSize': 14, 'freqInlineSize': 4408, 'counterDecayEnabled': 0}
+> Statistics     | 435/500 took 1936228ms - remaining ~125854sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17827, 'maxInlineSize': 148, 'freqInlineSize': 4838, 'counterDecayEnabled': 0}
+> Statistics     | 436/500 took 1923768ms - remaining ~123121sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18254, 'maxInlineSize': 119, 'freqInlineSize': 3837, 'counterDecayEnabled': 0}
+> Statistics     | 437/500 took 1932844ms - remaining ~121769sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17479, 'maxInlineSize': 120, 'freqInlineSize': 1804, 'counterDecayEnabled': 0}
+> Statistics     | 438/500 took 1947512ms - remaining ~120745sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17388, 'maxInlineSize': 89, 'freqInlineSize': 2648, 'counterDecayEnabled': 0}
+> Statistics     | 439/500 took 1951669ms - remaining ~119051sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18073, 'maxInlineSize': 86, 'freqInlineSize': 4874, 'counterDecayEnabled': 0}
+> Statistics     | 440/500 took 1934387ms - remaining ~116063sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17395, 'maxInlineSize': 11, 'freqInlineSize': 1432, 'counterDecayEnabled': 0}
+> Statistics     | 441/500 took 1940122ms - remaining ~114467sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17397, 'maxInlineSize': 144, 'freqInlineSize': 2377, 'counterDecayEnabled': 0}
+> Statistics     | 442/500 took 1949732ms - remaining ~113084sec
+> FullState      | {'minimumWarmupTime': 977}
+> ResultValue    | 977
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17998, 'maxInlineSize': 13, 'freqInlineSize': 4997, 'counterDecayEnabled': 0}
+> Statistics     | 443/500 took 1942656ms - remaining ~110731sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18197, 'maxInlineSize': 94, 'freqInlineSize': 3599, 'counterDecayEnabled': 0}
+> Statistics     | 444/500 took 1937799ms - remaining ~108516sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17488, 'maxInlineSize': 114, 'freqInlineSize': 2744, 'counterDecayEnabled': 0}
+> Statistics     | 445/500 took 1949214ms - remaining ~107206sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17459, 'maxInlineSize': 46, 'freqInlineSize': 1978, 'counterDecayEnabled': 0}
+> Statistics     | 446/500 took 1940008ms - remaining ~104760sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18080, 'maxInlineSize': 17, 'freqInlineSize': 4531, 'counterDecayEnabled': 1}
+> Statistics     | 447/500 took 1885599ms - remaining ~99936sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17300, 'maxInlineSize': 13, 'freqInlineSize': 1508, 'counterDecayEnabled': 0}
+> Statistics     | 448/500 took 1958551ms - remaining ~101844sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18206, 'maxInlineSize': 142, 'freqInlineSize': 4651, 'counterDecayEnabled': 0}
+> Statistics     | 449/500 took 1922364ms - remaining ~98040sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18170, 'maxInlineSize': 93, 'freqInlineSize': 1924, 'counterDecayEnabled': 0}
+> Statistics     | 450/500 took 1932971ms - remaining ~96648sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18250, 'maxInlineSize': 138, 'freqInlineSize': 1694, 'counterDecayEnabled': 0}
+> Statistics     | 451/500 took 1929381ms - remaining ~94539sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17470, 'maxInlineSize': 116, 'freqInlineSize': 4523, 'counterDecayEnabled': 0}
+> Statistics     | 452/500 took 1931410ms - remaining ~92707sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17464, 'maxInlineSize': 14, 'freqInlineSize': 4583, 'counterDecayEnabled': 0}
+> Statistics     | 453/500 took 1941185ms - remaining ~91235sec
+> FullState      | {'minimumWarmupTime': 764}
+> ResultValue    | 764
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18486, 'maxInlineSize': 118, 'freqInlineSize': 2618, 'counterDecayEnabled': 0}
+> Statistics     | 454/500 took 1949146ms - remaining ~89660sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18223, 'maxInlineSize': 108, 'freqInlineSize': 4534, 'counterDecayEnabled': 0}
+> Statistics     | 455/500 took 1933259ms - remaining ~86996sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17545, 'maxInlineSize': 107, 'freqInlineSize': 1171, 'counterDecayEnabled': 0}
+> Statistics     | 456/500 took 1923494ms - remaining ~84633sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18238, 'maxInlineSize': 129, 'freqInlineSize': 4030, 'counterDecayEnabled': 0}
+> Statistics     | 457/500 took 1924529ms - remaining ~82754sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18204, 'maxInlineSize': 140, 'freqInlineSize': 3789, 'counterDecayEnabled': 0}
+> Statistics     | 458/500 took 1931978ms - remaining ~81143sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18222, 'maxInlineSize': 113, 'freqInlineSize': 2776, 'counterDecayEnabled': 0}
+> Statistics     | 459/500 took 1918664ms - remaining ~78665sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17833, 'maxInlineSize': 132, 'freqInlineSize': 4580, 'counterDecayEnabled': 0}
+> Statistics     | 460/500 took 1933296ms - remaining ~77331sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17507, 'maxInlineSize': 105, 'freqInlineSize': 1836, 'counterDecayEnabled': 0}
+> Statistics     | 461/500 took 1946195ms - remaining ~75901sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 22499, 'maxInlineSize': 147, 'freqInlineSize': 2983, 'counterDecayEnabled': 1}
+> Statistics     | 462/500 took 1707993ms - remaining ~64903sec
+> FullState      | {'minimumWarmupTime': 1535}
+> ResultValue    | 1535
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18169, 'maxInlineSize': 100, 'freqInlineSize': 2127, 'counterDecayEnabled': 0}
+> Statistics     | 463/500 took 1909126ms - remaining ~70637sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17463, 'maxInlineSize': 13, 'freqInlineSize': 4236, 'counterDecayEnabled': 0}
+> Statistics     | 464/500 took 1925402ms - remaining ~69314sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18180, 'maxInlineSize': 147, 'freqInlineSize': 3448, 'counterDecayEnabled': 0}
+> Statistics     | 465/500 took 1925728ms - remaining ~67400sec
+> FullState      | {'minimumWarmupTime': 1411}
+> ResultValue    | 1411
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17481, 'maxInlineSize': 130, 'freqInlineSize': 1513, 'counterDecayEnabled': 0}
+> Statistics     | 466/500 took 1948662ms - remaining ~66254sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17593, 'maxInlineSize': 43, 'freqInlineSize': 1692, 'counterDecayEnabled': 0}
+> Statistics     | 467/500 took 1927039ms - remaining ~63592sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17454, 'maxInlineSize': 11, 'freqInlineSize': 1287, 'counterDecayEnabled': 0}
+> Statistics     | 468/500 took 1931990ms - remaining ~61823sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18106, 'maxInlineSize': 133, 'freqInlineSize': 2310, 'counterDecayEnabled': 0}
+> Statistics     | 469/500 took 1913432ms - remaining ~59316sec
+> FullState      | {'minimumWarmupTime': 1529}
+> ResultValue    | 1529
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17526, 'maxInlineSize': 50, 'freqInlineSize': 2108, 'counterDecayEnabled': 0}
+> Statistics     | 470/500 took 1935059ms - remaining ~58051sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18190, 'maxInlineSize': 47, 'freqInlineSize': 4797, 'counterDecayEnabled': 0}
+> Statistics     | 471/500 took 1923918ms - remaining ~55793sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17305, 'maxInlineSize': 56, 'freqInlineSize': 1566, 'counterDecayEnabled': 0}
+> Statistics     | 472/500 took 1949957ms - remaining ~54598sec
+> FullState      | {'minimumWarmupTime': 761}
+> ResultValue    | 761
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18103, 'maxInlineSize': 106, 'freqInlineSize': 4906, 'counterDecayEnabled': 0}
+> Statistics     | 473/500 took 1937980ms - remaining ~52325sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18192, 'maxInlineSize': 49, 'freqInlineSize': 4149, 'counterDecayEnabled': 0}
+> Statistics     | 474/500 took 1911324ms - remaining ~49694sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17501, 'maxInlineSize': 133, 'freqInlineSize': 1892, 'counterDecayEnabled': 0}
+> Statistics     | 475/500 took 1951460ms - remaining ~48786sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17462, 'maxInlineSize': 13, 'freqInlineSize': 1465, 'counterDecayEnabled': 0}
+> Statistics     | 476/500 took 1936387ms - remaining ~46473sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18195, 'maxInlineSize': 109, 'freqInlineSize': 4556, 'counterDecayEnabled': 0}
+> Statistics     | 477/500 took 1918279ms - remaining ~44120sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17814, 'maxInlineSize': 29, 'freqInlineSize': 4990, 'counterDecayEnabled': 0}
+> Statistics     | 478/500 took 1939683ms - remaining ~42673sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18233, 'maxInlineSize': 86, 'freqInlineSize': 4090, 'counterDecayEnabled': 0}
+> Statistics     | 479/500 took 1925176ms - remaining ~40428sec
+> FullState      | {'minimumWarmupTime': 763}
+> ResultValue    | 763
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18134, 'maxInlineSize': 18, 'freqInlineSize': 4871, 'counterDecayEnabled': 0}
+> Statistics     | 480/500 took 1921275ms - remaining ~38425sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18163, 'maxInlineSize': 126, 'freqInlineSize': 2009, 'counterDecayEnabled': 0}
+> Statistics     | 481/500 took 1921026ms - remaining ~36499sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 25634, 'maxInlineSize': 143, 'freqInlineSize': 3008, 'counterDecayEnabled': 1}
+> Statistics     | 482/500 took 1635718ms - remaining ~29442sec
+> FullState      | {'minimumWarmupTime': 762}
+> ResultValue    | 762
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17473, 'maxInlineSize': 59, 'freqInlineSize': 3854, 'counterDecayEnabled': 0}
+> Statistics     | 483/500 took 1950170ms - remaining ~33152sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18254, 'maxInlineSize': 132, 'freqInlineSize': 4439, 'counterDecayEnabled': 0}
+> Statistics     | 484/500 took 1919063ms - remaining ~30705sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17964, 'maxInlineSize': 10, 'freqInlineSize': 4964, 'counterDecayEnabled': 0}
+> Statistics     | 485/500 took 1933745ms - remaining ~29006sec
+> FullState      | {'minimumWarmupTime': 758}
+> ResultValue    | 758
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 24833, 'maxInlineSize': 144, 'freqInlineSize': 4839, 'counterDecayEnabled': 1}
+> Statistics     | 486/500 took 1720642ms - remaining ~24088sec
+> FullState      | {'minimumWarmupTime': 917}
+> ResultValue    | 917
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17457, 'maxInlineSize': 96, 'freqInlineSize': 4869, 'counterDecayEnabled': 0}
+> Statistics     | 487/500 took 1933806ms - remaining ~25139sec
+> FullState      | {'minimumWarmupTime': 1527}
+> ResultValue    | 1527
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18176, 'maxInlineSize': 64, 'freqInlineSize': 4989, 'counterDecayEnabled': 0}
+> Statistics     | 488/500 took 1923907ms - remaining ~23086sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17838, 'maxInlineSize': 91, 'freqInlineSize': 4767, 'counterDecayEnabled': 0}
+> Statistics     | 489/500 took 1928058ms - remaining ~21208sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17789, 'maxInlineSize': 105, 'freqInlineSize': 4830, 'counterDecayEnabled': 0}
+> Statistics     | 490/500 took 1944851ms - remaining ~19448sec
+> FullState      | {'minimumWarmupTime': 755}
+> ResultValue    | 755
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17446, 'maxInlineSize': 117, 'freqInlineSize': 1838, 'counterDecayEnabled': 0}
+> Statistics     | 491/500 took 1947892ms - remaining ~17531sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18128, 'maxInlineSize': 131, 'freqInlineSize': 1422, 'counterDecayEnabled': 0}
+> Statistics     | 492/500 took 1928692ms - remaining ~15429sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18197, 'maxInlineSize': 112, 'freqInlineSize': 4309, 'counterDecayEnabled': 0}
+> Statistics     | 493/500 took 1916465ms - remaining ~13415sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17467, 'maxInlineSize': 46, 'freqInlineSize': 4289, 'counterDecayEnabled': 0}
+> Statistics     | 494/500 took 1929031ms - remaining ~11574sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18186, 'maxInlineSize': 118, 'freqInlineSize': 2113, 'counterDecayEnabled': 0}
+> Statistics     | 495/500 took 1925579ms - remaining ~9627sec
+> FullState      | {'minimumWarmupTime': 757}
+> ResultValue    | 757
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17513, 'maxInlineSize': 93, 'freqInlineSize': 1022, 'counterDecayEnabled': 0}
+> Statistics     | 496/500 took 1945535ms - remaining ~7782sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17787, 'maxInlineSize': 104, 'freqInlineSize': 4806, 'counterDecayEnabled': 0}
+> Statistics     | 497/500 took 1935442ms - remaining ~5806sec
+> FullState      | {'minimumWarmupTime': 756}
+> ResultValue    | 756
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18071, 'maxInlineSize': 13, 'freqInlineSize': 2027, 'counterDecayEnabled': 0}
+> Statistics     | 498/500 took 1923458ms - remaining ~3846sec
+> FullState      | {'minimumWarmupTime': 759}
+> ResultValue    | 759
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 17812, 'maxInlineSize': 88, 'freqInlineSize': 4538, 'counterDecayEnabled': 0}
+> Statistics     | 499/500 took 1963808ms - remaining ~1963sec
+> FullState      | {'minimumWarmupTime': 760}
+> ResultValue    | 760
+>
+> KnobValues     | {'backgroundCompilationEnabled': 0, 'compileThreshold': 18070, 'maxInlineSize': 10, 'freqInlineSize': 4346, 'counterDecayEnabled': 0}
+> Statistics     | 500/500 took 1931998ms - remaining ~0sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> OptimalResult  | Knobs:  {'backgroundCompilationEnabled': 0, 'compileThreshold': 18129, 'maxInlineSize': 68, 'freqInlineSize': 3821, 'counterDecayEnabled': 0}
+>                | Result: 754
+>
+> Finished workflow
+######################################
+> Reporting on   | Fastest-1-Human
+> Cannot plot these results (RTX can only plot experiments of one of two variables for now)

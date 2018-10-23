@@ -1,0 +1,19 @@
+
+> Do VMTouch Prepare
+           Files: 9951
+     Directories: 1533
+   Touched Pages: 257368 (1005M)
+         Elapsed: 0.85211 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Human
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 11495, 'maxInlineSize': 130, 'freqInlineSize': 944, 'counterDecayEnabled': 1}
+> Statistics     | 1/500 took 1736616ms - remaining ~866571sec
+> FullState      | {'minimumWarmupTime': 1530}
+> ResultValue    | 1530
+>
+> KnobValues     | {'backgroundCompilationEnabled': 1, 'compileThreshold': 9451, 'maxInlineSize': 137, 'freqInlineSize': 4604, 'counterDecayEnabled': 1}
