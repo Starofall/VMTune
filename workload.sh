@@ -1,1 +1,1 @@
-python start.py start scenarios/b-fastest/1-humanForest
+python start.py start scenarios/b-fastest/2-humanForestAlt
