@@ -4,10 +4,10 @@ name = "Fastest-0-Baseline"
 
 execution_strategy = {
     "ignore_first_n_results": 0,
-    "sample_size": 1,
+    "sample_size": 2,
     "type": "step_explorer",
     "knobs": {
-        "irrelevant": ([1, 100], 1)
+        "irrelevant": ([1, 40], 1)
     }
 }
 
@@ -29,7 +29,7 @@ def primary_data_reducer(state, newData, wf):
 
 currentConfiguration = {
     "scenarioIdentifier": "fastest",
-    "scenarioCommand": " -t 1 -n 300 ",
+    "scenarioCommand": " -t 1 -n 200 ",
     "scalaBenchTest": "sunflow",
     "scalaBenchSize": "small",
     "javaDir": "./graalvm/bin/java",
