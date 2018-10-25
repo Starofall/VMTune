@@ -1,0 +1,14 @@
+
+> Do VMTouch Prepare
+           Files: 9991
+     Directories: 1545
+   Touched Pages: 257458 (1005M)
+         Elapsed: 0.85684 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Human
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'minInliningThreshold': 268, 'codeFlushingEnabled': 0, 'loopMinUnroll': 35, 'loopUnrollLimit': 100, 'loopMaxUnroll': 17, 'compileHugeMethodsEnabled': 0, 'tieredCompilationEnabled': 0}

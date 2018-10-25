@@ -1,0 +1,220 @@
+
+> Do VMTouch Prepare
+           Files: 10009
+     Directories: 1549
+   Touched Pages: 257474 (1005M)
+         Elapsed: 0.85172 seconds
+
+> Starting RTX experiment...
+######################################
+> Workflow       | Fastest-1-Human
+> ExecStrategy   | SelfOptimizer
+> Optimizer      | forest
+>
+> KnobValues     | {'loopMaxUnroll': 9, 'loopMinUnroll': 9, 'freqInlineSize': 3848}
+> Statistics     | 1/40 took 421840ms - remaining ~16451sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 47, 'loopMinUnroll': 16, 'freqInlineSize': 1582}
+> Statistics     | 2/40 took 423116ms - remaining ~16078sec
+> FullState      | {'minimumWarmupTime': 746}
+> ResultValue    | 746
+>
+> KnobValues     | {'loopMaxUnroll': 36, 'loopMinUnroll': 23, 'freqInlineSize': 316}
+> Statistics     | 3/40 took 425219ms - remaining ~15733sec
+> FullState      | {'minimumWarmupTime': 748}
+> ResultValue    | 748
+>
+> KnobValues     | {'loopMaxUnroll': 8, 'loopMinUnroll': 22, 'freqInlineSize': 3582}
+> Statistics     | 4/40 took 426054ms - remaining ~15337sec
+> FullState      | {'minimumWarmupTime': 748}
+> ResultValue    | 748
+>
+> KnobValues     | {'loopMaxUnroll': 5, 'loopMinUnroll': 36, 'freqInlineSize': 687}
+> Statistics     | 5/40 took 422900ms - remaining ~14801sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 9, 'loopMinUnroll': 26, 'freqInlineSize': 1556}
+> Statistics     | 6/40 took 421712ms - remaining ~14338sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 46, 'loopMinUnroll': 29, 'freqInlineSize': 2039}
+> Statistics     | 7/40 took 421696ms - remaining ~13915sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 22, 'loopMinUnroll': 32, 'freqInlineSize': 2078}
+> Statistics     | 8/40 took 423213ms - remaining ~13542sec
+> FullState      | {'minimumWarmupTime': 743}
+> ResultValue    | 743
+>
+> KnobValues     | {'loopMaxUnroll': 45, 'loopMinUnroll': 5, 'freqInlineSize': 2807}
+> Statistics     | 9/40 took 419159ms - remaining ~12993sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 12, 'freqInlineSize': 4671}
+> Statistics     | 10/40 took 418322ms - remaining ~12549sec
+> FullState      | {'minimumWarmupTime': 741}
+> ResultValue    | 741
+>
+> KnobValues     | {'loopMaxUnroll': 39, 'loopMinUnroll': 8, 'freqInlineSize': 4032}
+> Statistics     | 11/40 took 423622ms - remaining ~12285sec
+> FullState      | {'minimumWarmupTime': 748}
+> ResultValue    | 748
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 13, 'freqInlineSize': 4749}
+> Statistics     | 12/40 took 419497ms - remaining ~11745sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 39, 'loopMinUnroll': 12, 'freqInlineSize': 4513}
+> Statistics     | 13/40 took 419521ms - remaining ~11327sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 12, 'freqInlineSize': 4435}
+> Statistics     | 14/40 took 419021ms - remaining ~10894sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 12, 'freqInlineSize': 4786}
+> Statistics     | 15/40 took 420774ms - remaining ~10519sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 38, 'loopMinUnroll': 12, 'freqInlineSize': 4705}
+> Statistics     | 16/40 took 417680ms - remaining ~10024sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 22, 'loopMinUnroll': 12, 'freqInlineSize': 4676}
+> Statistics     | 17/40 took 423500ms - remaining ~9740sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 11, 'freqInlineSize': 4656}
+> Statistics     | 18/40 took 422633ms - remaining ~9297sec
+> FullState      | {'minimumWarmupTime': 746}
+> ResultValue    | 746
+>
+> KnobValues     | {'loopMaxUnroll': 42, 'loopMinUnroll': 20, 'freqInlineSize': 4640}
+> Statistics     | 19/40 took 421510ms - remaining ~8851sec
+> FullState      | {'minimumWarmupTime': 743}
+> ResultValue    | 743
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 20, 'freqInlineSize': 4615}
+> Statistics     | 20/40 took 422180ms - remaining ~8443sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 23, 'freqInlineSize': 4665}
+> Statistics     | 21/40 took 422275ms - remaining ~8023sec
+> FullState      | {'minimumWarmupTime': 746}
+> ResultValue    | 746
+>
+> KnobValues     | {'loopMaxUnroll': 34, 'loopMinUnroll': 12, 'freqInlineSize': 4649}
+> Statistics     | 22/40 took 421069ms - remaining ~7579sec
+> FullState      | {'minimumWarmupTime': 746}
+> ResultValue    | 746
+>
+> KnobValues     | {'loopMaxUnroll': 43, 'loopMinUnroll': 12, 'freqInlineSize': 4795}
+> Statistics     | 23/40 took 420288ms - remaining ~7144sec
+> FullState      | {'minimumWarmupTime': 746}
+> ResultValue    | 746
+>
+> KnobValues     | {'loopMaxUnroll': 43, 'loopMinUnroll': 12, 'freqInlineSize': 4659}
+> Statistics     | 24/40 took 424364ms - remaining ~6789sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 22, 'loopMinUnroll': 30, 'freqInlineSize': 3618}
+> Statistics     | 25/40 took 421633ms - remaining ~6324sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 39, 'loopMinUnroll': 12, 'freqInlineSize': 4674}
+> Statistics     | 26/40 took 420207ms - remaining ~5882sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 39, 'loopMinUnroll': 13, 'freqInlineSize': 4676}
+> Statistics     | 27/40 took 422232ms - remaining ~5489sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 6, 'loopMinUnroll': 25, 'freqInlineSize': 2039}
+> Statistics     | 28/40 took 423207ms - remaining ~5078sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 41, 'loopMinUnroll': 2, 'freqInlineSize': 4664}
+> Statistics     | 29/40 took 419841ms - remaining ~4618sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 36, 'loopMinUnroll': 28, 'freqInlineSize': 2086}
+> Statistics     | 30/40 took 420560ms - remaining ~4205sec
+> FullState      | {'minimumWarmupTime': 743}
+> ResultValue    | 743
+>
+> KnobValues     | {'loopMaxUnroll': 37, 'loopMinUnroll': 27, 'freqInlineSize': 2093}
+> Statistics     | 31/40 took 422519ms - remaining ~3802sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 34, 'loopMinUnroll': 28, 'freqInlineSize': 2063}
+> Statistics     | 32/40 took 423452ms - remaining ~3387sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 36, 'loopMinUnroll': 37, 'freqInlineSize': 2135}
+> Statistics     | 33/40 took 423859ms - remaining ~2967sec
+> FullState      | {'minimumWarmupTime': 747}
+> ResultValue    | 747
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 15, 'freqInlineSize': 4678}
+> Statistics     | 34/40 took 419747ms - remaining ~2518sec
+> FullState      | {'minimumWarmupTime': 743}
+> ResultValue    | 743
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 49, 'freqInlineSize': 4672}
+> Statistics     | 35/40 took 422284ms - remaining ~2111sec
+> FullState      | {'minimumWarmupTime': 742}
+> ResultValue    | 742
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 46, 'freqInlineSize': 4630}
+> Statistics     | 36/40 took 422908ms - remaining ~1691sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 41, 'loopMinUnroll': 47, 'freqInlineSize': 4696}
+> Statistics     | 37/40 took 421421ms - remaining ~1264sec
+> FullState      | {'minimumWarmupTime': 745}
+> ResultValue    | 745
+>
+> KnobValues     | {'loopMaxUnroll': 39, 'loopMinUnroll': 45, 'freqInlineSize': 4231}
+> Statistics     | 38/40 took 423606ms - remaining ~847sec
+> FullState      | {'minimumWarmupTime': 748}
+> ResultValue    | 748
+>
+> KnobValues     | {'loopMaxUnroll': 37, 'loopMinUnroll': 50, 'freqInlineSize': 4673}
+> Statistics     | 39/40 took 421242ms - remaining ~421sec
+> FullState      | {'minimumWarmupTime': 744}
+> ResultValue    | 744
+>
+> KnobValues     | {'loopMaxUnroll': 40, 'loopMinUnroll': 50, 'freqInlineSize': 4856}
+> Statistics     | 40/40 took 421537ms - remaining ~0sec
+> FullState      | {'minimumWarmupTime': 746}
+> ResultValue    | 746
+>
+> OptimalResult  | Knobs:  {'loopMaxUnroll': 40, 'loopMinUnroll': 12, 'freqInlineSize': 4671}
+>                | Result: 741
+>
+> Finished workflow
+######################################
+> Reporting on   | Fastest-1-Human
+> Cannot plot these results (RTX can only plot experiments of one of two variables for now)
