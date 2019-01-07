@@ -23,8 +23,8 @@ def loadDefinition(folder):
         # add timestamp to execution
         ts = time.time()
         wf.timeStamp = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d_%H-%M-%S')
-        wf.outputFolder = wf.folder + "/" + wf.timeStamp
-        os.makedirs(wf.outputFolder)
+        wf.outputFolder = wf.folder 
+        #os.makedirs(wf.outputFolder)
         return wf
     except IOError:
         error("Folder is not a valid experiment folder (does not contain definition.py)")

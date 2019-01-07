@@ -46,7 +46,7 @@ def plot(wf):
         plot_file = plot_file_dir + '/heatmap.png'
         results = results_data_frame.pivot(*header)
         try:
-            ax = sns.heatmap(results, annot=True, fmt=".1f", linewidths=.5)
+            ax = sns.heatmap(results,  fmt=".1f", linewidths=.5)
             fig = ax.get_figure()
             fig.savefig(plot_file)
             fig.show()
